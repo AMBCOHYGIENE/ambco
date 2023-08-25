@@ -9,6 +9,8 @@ const postcssImportExtGlob = require('postcss-import-ext-glob');
 const tailwindcss = require('tailwindcss');
 const autoprefixer = require('autoprefixer');
 const cssnano = require('cssnano');
+const postcssJitProps = require('postcss-jit-props');
+const OpenProps = require('open-props');
 
 module.exports = eleventyConfig => {
   eleventyConfig.addTemplateFormats('css');
@@ -25,6 +27,7 @@ module.exports = eleventyConfig => {
           postcssGlobalData({
             files: ['./src/assets/css/global/media-queries.css']
           }),
+          postcssJitProps(OpenProps),
           postcssCustomMedia,
           postcssNesting,
           postcssImportExtGlob,
