@@ -1,0 +1,788 @@
+{
+  "categories": [
+    {
+      "title": "Housekeeping",
+      "productTypes": [
+        {
+          "title": "Mops",
+          "brands": [
+            {
+              "title": "Kleenal",
+              "grouping": [
+                {
+                  "title": "Dry Mops - Cotton Acrylic Blue",
+                  "usageArea": "General Area Cleaning",
+                  "advantages": "Heavy duty product used to clean public areas for dry dust sweeping. Used in malls, corporate office open lobbies, passages, hospitals and large restaurants.",
+                  "productVariants": [
+                    {
+                      "code": "FS-40 / FS-60",
+                      "description": "Metal frame 40cms / 60cms with cotton refill / acrylic blue refill"
+                    },
+                    {
+                      "code": "TPFS-40 / PFS-60",
+                      "description": "Plastic frame 40cms / 60cms with cotton refill / acrylic blue refill"
+                    }
+                  ]
+                },
+                {
+                  "title": "Wet Dry Mops System - Microfiber",
+                  "usageArea": "General Area, Pharma Labs, Production Area Cleaning",
+                  "advantages": "Damp mop used to clean public area for dry and wet dust used in malls, corporate office open lobby, passages, hospitals and large restaurants. Refills can be machine washed up to 300 times.",
+                  "productVariants": [
+                    {
+                      "code": "MWD-40",
+                      "description": "Plastic collapsible holder 40cms with Microfiber cloth clip refill"
+                    },
+                    {
+                      "code": "MEC-40",
+                      "description": "Plastic easy fixed frame 40cms with Microfiber cloth pocket refill"
+                    }
+                  ]
+                },
+                {
+                  "title": "Wet Mopping System - Kent Color Coded",
+                  "usageArea": "General Area Cleaning - [Color Coded](#)",
+                  "advantages": "Wet mop used to clean public area , wet dust in Malls, corporate office open lobby, passages, Hospitals and large restaurants.",
+                  "productVariants": [
+                    {
+                      "code": "PMH-300",
+                      "description": "Plastic holder – Blue / Red / Green / Yellow with cotton refill"
+                    },
+                    {
+                      "code": "M-300",
+                      "description": "Metal holder – with cotton refill"
+                    },
+                    {
+                      "code": "MC-300",
+                      "description": "Cotton refill 300gms (250gms / 350gms)"
+                    },
+                    {
+                      "code": "MFR-300",
+                      "description": "Microfiber strip refill 300gms (Microfiber refills can be machine washed up to 300 times)"
+                    },
+                    {
+                      "code": "YMR16",
+                      "description": "Yellow mop refill - non-woven strips. (Pharmaceutical production disposable mop refill)"
+                    }
+                  ]
+                },
+                {
+                  "title": "Wet Mops Round & Heavy Handles",
+                  "usageArea": "General Area Cleaning - [Color Coded](#)",
+                  "advantages": "All products are heavy duty and already used by all facility companies, malls, corporate offices, hospitals and restaurant outlets. Color coded grips on all handles.",
+                  "productVariants": [
+                    {
+                      "code": "MC-300P",
+                      "description": "Plastic socket – Blue / Red / Green / Yellow with cotton mops 300gms"
+                    },
+                    {
+                      "code": "H-4.5",
+                      "description": "Metal handle coated 4.5’ heavy 22mm"
+                    },
+                    {
+                      "code": "AH-4.5",
+                      "description": "Anodized aluminum handle 4.5’ 22mm"
+                    },
+                    {
+                      "code": "H-4.5SS",
+                      "description": "Stainless steel Handle 4.5’, 22mm. (All Kleenal handle are international sizes and fits to all products)"
+                    },
+                    {
+                      "code": "PH-5 / 6",
+                      "description": "Mop Hanger (for all international handles)"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "title": "Industrial Floor Squeegees & Brushes",
+          "brands": [
+            {
+              "title": "Kleenal",
+              "grouping": [
+                {
+                  "title": "Industrial Floor Squeegee",
+                  "usageArea": "General Area Cleaning - Color Coded For Washrooms",
+                  "advantages": "Kleenal metal and plastic squeezees are heavy duty used to clean public area washrooms, Malls, corporate office open lobby, passages, Hospitals and large restaurants",
+                  "productVariants": [
+                    {
+                      "code": "S-12 / S-18 / S-24",
+                      "description": "Aluminum rubber squeezee 12” / 18” / 24” heavy duty"
+                    },
+                    {
+                      "code": "PS-13 / PS-18",
+                      "description": "Hard plastic bracket rubber squeegee 13” / 18” heavy duty (Color Red / Blue)"
+                    },
+                    {
+                      "code": "PDRS45 / PDRS55",
+                      "description": "Hard plastic double rubber squeegee 45cm / 55cm heavy duty (Color Blue)"
+                    },
+                    {
+                      "code": "CB-18",
+                      "description": "Two in one hard plastic rubber squeegee with brush bristles 18” heavy duty"
+                    }
+                  ]
+                },
+                {
+                  "title": "Industrial Floor Brushes",
+                  "usageArea": "General Area Cleaning - Color Coded",
+                  "advantages": "Kleenal brushes are heavy duty used to clean public area roads, washrooms, Malls, corporate office open lobby, passages, Hospitals and small / large restaurants",
+                  "productVariants": [
+                    {
+                      "code": "FB-12 / FB-18 / FB-24",
+                      "description": "Aluminum body scrubbing brush 12” / 18” / 24” heavy duty"
+                    },
+                    {
+                      "code": "NSC-12 / NSC-18",
+                      "description": "Hard plastic scrubbing brush 12” / 18” heavy duty (Color Red / Blue)"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "title": "Glass Care Tools & Accessories",
+          "brands": [
+            {
+              "title": "Kleenal",
+              "grouping": [
+                {
+                  "usageArea": "Glass Cleaning Operation All Areas",
+                  "advantages": "General glass cleaning operations in public area , external glass, washrooms, malls, corporate office open lobby, passages, hospitals and large restaurants",
+                  "productVariants": [
+                    {
+                      "code": "K-39",
+                      "description": "Glass Cleaning Kit Bag. This includes all glass tools required to clean glass"
+                    },
+                    {
+                      "code": "K-48 / K-50",
+                      "description": "Stainless steel body with rubber blade 35cm / 45cms"
+                    },
+                    {
+                      "code": "PGS20 / PGS35",
+                      "description": "Plastic body with rubber blade 20cms / 35cms"
+                    },
+                    {
+                      "code": "K-43 / K-55",
+                      "description": "Plastic glass washer holder with micro cloth sleeve 35cm / 45cms"
+                    },
+                    {
+                      "code": "K-66 / K-68 / K-68-9",
+                      "description": "Telescopic poles 4mts / 6mts / 9mts to reach higher ceilings with tools"
+                    },
+                    {
+                      "code": "K-40",
+                      "description": "Floor scrapper with handle and blade"
+                    },
+                    {
+                      "code": "K-139",
+                      "description": "Web brush round for ceilings and fans"
+                    },
+                    {
+                      "code": "K-138",
+                      "description": "Web brush curve for ceilings and pipes"
+                    },
+                    {
+                      "code": "CB-35",
+                      "description": "Two-in-one combination glass tool set"
+                    },
+                    {
+                      "code": "K-40M",
+                      "description": "Mini pocket scrapper with blade"
+                    },
+                    {
+                      "code": "HS-10",
+                      "description": "Handy Plastic glass / platform squeegee"
+                    },
+                    {
+                      "code": "KCH",
+                      "description": "Special cone handle taking all glass tools"
+                    },
+                    {
+                      "code": "K-113",
+                      "description": "Glass cleaning utility bucket on castors"
+                    },
+                    {
+                      "code": "CHM-40",
+                      "description": "Micro fiber cleaning cloth"
+                    },
+                    {
+                      "code": "MAD-12",
+                      "description": "Micro acrylic duster set – 12”"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "title": "Cleaning Tools & Accessories",
+          "brands": [
+            {
+              "title": "Kleenal",
+              "grouping": [
+                {
+                  "usageArea": "General Area Cleaning",
+                  "advantages": "General cleaning operations in public area, hotel rooms, washrooms, malls, corporate office open lobby, passages, hospitals and large restaurants",
+                  "productVariants": [
+                    {
+                      "code": "TH17 / TH21",
+                      "description": "TKTK"
+                    },
+                    {
+                      "code": "K-6",
+                      "description": "Twin bucket with round mop press"
+                    },
+                    {
+                      "code": "K-16w",
+                      "description": "Square bucket with wringer 16lts"
+                    },
+                    {
+                      "code": "K-118A",
+                      "description": "Single bucket with wringer 20 ltrs"
+                    },
+                    {
+                      "code": "K-119A",
+                      "description": "Double bucket with wringer trolley 34 ltrs"
+                    },
+                    {
+                      "code": "K-119M",
+                      "description": "Double bucket wringer trolley 50 ltrs. with Caddy basket"
+                    },
+                    {
+                      "code": "K-34",
+                      "description": "Lobby dustpan with lid and dusting brush"
+                    },
+                    {
+                      "code": "CIP / CWF",
+                      "description": "Caution Signage – 'Cleaning in Progress' and 'Caution Wet Floors' (Blank signage with stickers arranged on request)"
+                    },
+                    {
+                      "code": "K-73",
+                      "description": "Caddy basket - Blue / Red / Green / Yellow / Grey"
+                    },
+                    {
+                      "code": "K-74",
+                      "description": "Pro multi trolley for utility service products"
+                    },
+                    {
+                      "code": "MGB-120 / MGB-240",
+                      "description": "Otto waste bin -120 ltrs / 240 ltrs, Blue / Red / Green / Yellow / Grey"
+                    },
+                    {
+                      "code": "Campus Bin",
+                      "description": "Two Slot & Three Slot, Two Slot Stainless Steel"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "title": "Floor Matting & Safety",
+      "productTypes": [
+        {
+          "title": "Floor Mats",
+          "brands": [
+            {
+              "title": "3M",
+              "grouping": [
+                {
+                  "title": "Nomad Terra Loop Matting",
+                  "usageArea": "Entrance Matting System",
+                  "productVariants": [
+                    {
+                      "code": "3200 - 9100",
+                      "description": "Terra Z-Web"
+                    },
+                    {
+                      "code": "6050 - 6850 - 7150",
+                      "description": "Terra Loop"
+                    }
+                  ]
+                },
+                {
+                  "title": "Nomad W-Web Matting",
+                  "productVariants": [
+                    {
+                      "code": "8900 – 8300",
+                      "description": "Modular"
+                    }
+                  ]
+                },
+                {
+                  "title": "Nomad Aqua Matting",
+                  "productVariants": [
+                    {
+                      "code": "3100",
+                      "description": "Aqua LDS"
+                    },
+                    {
+                      "code": "4000",
+                      "description": "Aqua LDP"
+                    },
+                    {
+                      "code": "6500",
+                      "description": "Aqua MD"
+                    },
+                    {
+                      "code": "8850",
+                      "description": "Aqua HD"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "title": "Time Technoplast",
+              "grouping": [
+                {
+                  "usageArea": "Floor",
+                  "productVariants": [
+                    {
+                      "code": "DS-Premium",
+                      "description": "Green, Red, Blue, Grey, Maroon"
+                    },
+                    {
+                      "code": "DS-Heavy Duty",
+                      "description": "Red, Grey, Maroon"
+                    },
+                    {
+                      "code": "DS-Ultra Heavy Duty",
+                      "description": "Red, Grey, Maroon"
+                    },
+                    {
+                      "code": "DW-Premium",
+                      "description": "Green, Red, Blue, Grey, Maroon"
+                    },
+                    {
+                      "code": "DW-Heavy Duty",
+                      "description": "Red, Grey, Maroon"
+                    },
+                    {
+                      "code": "DP-Aqua MD",
+                      "description": "Black / Grey aqua carpet mats"
+                    },
+                    {
+                      "code": "DA-Active",
+                      "description": "Work Area Mat for production area, factory, kitchens & bar counters"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "title": "Kleenal",
+              "grouping": [
+                {
+                  "productVariants": [
+                    {
+                      "code": "",
+                      "description": "Rubber Mats for entry, kitchen & Bars"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "title": "Safety",
+          "brands": [
+            {
+              "title": "3M",
+              "grouping": [
+                {
+                  "title": "Anti Skid / Slip Resistance Solutions",
+                  "productVariants": [
+                    {
+                      "code": "TKTK",
+                      "description": "Stair case"
+                    },
+                    {
+                      "code": "TKTK",
+                      "description": "Washrooms"
+                    },
+                    {
+                      "code": "TKTK",
+                      "description": "Bath Tubs"
+                    },
+                    {
+                      "code": "TKTK",
+                      "description": "Health Clubs"
+                    },
+                    {
+                      "code": "TKTK",
+                      "description": "Kitchen"
+                    },
+                    {
+                      "code": "TKTK",
+                      "description": "Pools"
+                    }
+                  ]
+                },
+                {
+                  "title": "Anti Fatigue Rubber Matting",
+                  "productVariants": [
+                    {
+                      "code": "TKTK",
+                      "description": "Kitchen counters"
+                    },
+                    {
+                      "code": "TKTK",
+                      "description": "Cooking Area"
+                    },
+                    {
+                      "code": "TKTK",
+                      "description": "Machine Shop"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "title": "Tissues"
+    },
+    {
+      "title": "Dispensers",
+      "productTypes": [
+        {
+          "title": "",
+          "brands": [
+            {
+              "title": "Kimberly Clark",
+              "grouping": [
+                {
+                  "title": "Hard Roll Tissue Dispenser (HRT)",
+                  "productVariants": [
+                    {
+                      "code": "69530",
+                      "description": "TKTK"
+                    },
+                    {
+                      "code": "69590",
+                      "description": "TKTK"
+                    }
+                  ]
+                },
+                {
+                  "title": "Compact Multifold Towel Dispenser",
+                  "productVariants": [
+                    {
+                      "code": "70220",
+                      "description": "TKTK"
+                    }
+                  ]
+                },
+                {
+                  "title": "Skincare Soap Dispenser",
+                  "productVariants": [
+                    {
+                      "code": "69480",
+                      "description": "TKTK"
+                    }
+                  ]
+                },
+                {
+                  "title": "Jumbo Roll Tissue Dispenser (JRT)",
+                  "productVariants": [
+                    {
+                      "code": "70260",
+                      "description": "TKTK"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "title": "Innovision",
+              "grouping": [
+                {
+                  "title": "",
+                  "productVariants": [
+                    {
+                      "code": "",
+                      "description": "Local Soap Dispensers"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "title": "Air & Surface Care",
+      "productTypes": [
+        {
+          "title": "",
+          "brands": [
+            {
+              "title": "Hygiene Fresh",
+              "grouping": [
+                {
+                  "usageArea": "Wash Room",
+                  "productVariants": [
+                    {
+                      "code": "MB-3000 / MB-3045",
+                      "description": "TKTK",
+                      "additionalInfo": {
+                        "installation": "2 screws / 2.2 mts height",
+                        "setting": [
+                          "(MB-3000) 30 / 60 / 90 days, 8 / 12 / 16 / 24 hours, 5 day /week",
+                          "(MB-3045) 30 / 45 / 60 / 90 days, 8 to 24 hours, 5 day / week"
+                        ]
+                      }
+                    },
+                    {
+                      "code": "AJ-6000 & Autokleen 6000",
+                      "description": "TKTK",
+                      "additionalInfo": {
+                        "installation": "2 screws / plumbing",
+                        "setting": "15 / 30 / 60 days, 24 hours",
+                        "refill": "Clean machine / remove old refill, new refill spray for 3 to 5 times, check batteries / replace new wick",
+                        "ftu": "Free To Use dispensers no key to be given to clients"
+                      }
+                    },
+                    {
+                      "code": "TKTK",
+                      "description": "Urinal Screens – UK made"
+                    },
+                    {
+                      "code": "TKTK",
+                      "description": "Urinal Screens – China made"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "title": "Kleenwave"
+            },
+            {
+              "title": "Innovision",
+              "grouping": [
+                {
+                  "usageArea": "Wash Room",
+                  "productVariants": [
+                    {
+                      "code": "TKTK",
+                      "description": "Stainless Steel Hand Dryers"
+                    },
+                    {
+                      "code": "TKTK",
+                      "description": "Plastic Body Hand Dryers"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "title": "Chemicals",
+      "productTypes": [
+        {
+          "title": "",
+          "brands": [
+            {
+              "title": "Kleenal",
+              "grouping": [
+                {
+                  "productVariants": [
+                    {
+                      "code": "A1",
+                      "description": "Bathroom Cleaner cum Sanitizer Concentrate"
+                    },
+                    {
+                      "code": "A2",
+                      "description": "Marbinol Hard Surface Cleaner Concentrate"
+                    },
+                    {
+                      "code": "A3",
+                      "description": "Classic Glass Cleaner Concentrate"
+                    },
+                    {
+                      "code": "A4",
+                      "description": "Woodshine Furniture Maintainer Polish"
+                    },
+                    {
+                      "code": "A5",
+                      "description": "Khushboo Liquid Room Freshner (RTU)"
+                    },
+                    {
+                      "code": "A6",
+                      "description": "Sanikliq Toilet Bowl Cleaner (RTU)"
+                    },
+                    {
+                      "code": "A7",
+                      "description": "Marbinol Extra Floor Cleaner Concentrate"
+                    },
+                    {
+                      "code": "Pearl",
+                      "description": "Liquid Hand Cleanser (RTU)"
+                    },
+                    {
+                      "code": "Pearl Plus",
+                      "description": "Liquid Hand Cleanser with QAC (RTU)"
+                    },
+                    {
+                      "code": "Amerind",
+                      "description": "Multi Surface Crème Cleaner"
+                    },
+                    {
+                      "code": "Lemonol",
+                      "description": "Utensil Liquid Concentrate"
+                    },
+                    {
+                      "code": "Klinsport",
+                      "description": "Oven Grille Cleaner"
+                    },
+                    {
+                      "code": "CLO",
+                      "description": "Crockery / Cutlery Whitener / Destainer"
+                    },
+                    {
+                      "code": "Diffuser Oil",
+                      "description": "Diffuser Oil Concentrate"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "title": "3M Cleaning & Maintenance",
+      "productTypes": [
+        {
+          "title": "",
+          "brands": [
+            {
+              "title": "3M",
+              "grouping": [
+                {
+                  "usageArea": "General Area Cleaning",
+                  "advantages": "General glass cleaning operations in public area , external glass, washrooms, malls, corporate office open lobby, passages, hospitals and large restaurants",
+                  "productVariants": [
+                    {
+                      "code": "TKTK",
+                      "description": "3M scotch-brite General purpose pad green 6”x4”"
+                    },
+                    {
+                      "code": "TKTK",
+                      "description": "3M scotch-brite Heavy duty pad brown"
+                    },
+                    {
+                      "code": "TKTK",
+                      "description": "3M Power pad blue"
+                    },
+                    {
+                      "code": "TKTK",
+                      "description": "3M white light duty pad"
+                    },
+                    {
+                      "code": "TKTK",
+                      "description": "3M scotch-brite sponge wipe –pink / yellow "
+                    },
+                    {
+                      "code": "TKTK",
+                      "description": "3M doodlebug cleaning system with handle"
+                    },
+                    {
+                      "code": "TKTK",
+                      "description": "3M scotch-brite High performance micro fiber cloth (Blue / Red / Green / Yellow)"
+                    },
+                    {
+                      "code": "TKTK",
+                      "description": "3M stainless steel cleaner-polisher"
+                    },
+                    {
+                      "code": "TKTK",
+                      "description": "3M High performance Floor Pad 17” - Blue / Red / Black / White"
+                    },
+                    {
+                      "code": "TKTK",
+                      "description": "3M Sharpshooter extra strength no-rinse mark remover"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "title": "Industrial Cleaning Machines",
+      "productTypes": [
+        {
+          "title": "Industrial Vacuum Cleaners",
+          "brands": [
+            {
+              "title": "Kleenal",
+              "grouping": [
+                {
+                  "usageArea": "General Area Cleaning",
+                  "advantages": "General cleaning operations in public area, hotel rooms, washrooms, malls, corporate office open lobby, passages, hospitals and large restaurants",
+                  "productVariants": [
+                    {
+                      "code": "K-15",
+                      "description": "Wet & Dry Vacuum cleaner, 1000w, 220v, 15ltrs SS body with std. accessories"
+                    },
+                    {
+                      "code": "K-30",
+                      "description": "Wet & Dry Vacuum cleaner, 1000w, 220v, 30ltrs SS body with std. accessories"
+                    },
+                    {
+                      "code": "K-260",
+                      "description": "Wet & Dry Vacuum cleaner, 2000w, 220v, 60ltrs SS body with std. accessories"
+                    },
+                    {
+                      "code": "K-360",
+                      "description": "Wet & Dry Vacuum cleaner, 3000w, 220v, 60ltrs SS body with std. accessories"
+                    },
+                    {
+                      "code": "K-14",
+                      "description": "Single Disc Floor machine 1100w, 220v, 17” with std. accessories"
+                    },
+                    {
+                      "code": "K-S3",
+                      "description": "Three brush floor machine 1000w, 220v, 480mm, 10 ltrs. tank"
+                    },
+                    {
+                      "code": "TKTK",
+                      "description": "Carpet extractor 35 ltrs with accessories"
+                    },
+                    {
+                      "code": "TKTK",
+                      "description": "Electric Scrubber Dryer 40/30 ltr."
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
