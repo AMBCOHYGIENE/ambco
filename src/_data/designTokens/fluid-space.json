@@ -2,7 +2,7 @@
   "title": "Fluid Space",
   "description": "Using the same base values from the fluid type calculator, this tool helps you to create a related fluid space system",
   "meta": {
-    "scaleGenerator": "https://utopia.fyi/space/calculator?c=320,18,1.2,1360,20,1.333,6,1,&s=0.75|0.5|0.25,1.5|2|3|4|6,s-l&g=s,l,xl,12"
+    "scaleGenerator": "https://utopia.fyi/space/calculator?c=320,18,1.2,1360,20,1.333,6,1,&s=0.75|0.5|0.25,1.5|2|3|4|6|11,s-l&g=s,l,xl,12"
   },
   "items": [
     {
@@ -51,6 +51,11 @@
       "max": 120
     },
     {
+      "name": "4XL",
+      "min": 198,
+      "max": 220
+    },
+    {
       "name": "3XS - 2XS",
       "min": 5,
       "max": 10
@@ -89,6 +94,11 @@
       "name": "2XL - 3XL",
       "min": 72,
       "max": 120
+    },
+    {
+      "name": "3XL - 4XL",
+      "min": 108,
+      "max": 220
     },
     {
       "name": "S - L",
