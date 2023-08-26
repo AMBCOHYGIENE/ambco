@@ -1,9 +1,9 @@
 module.exports = {
   top: [
     {
-      text: 'Link',
-      icon: 'link',
-      url: '#'
+      text: 'Products',
+      icon: 'box',
+      url: '/products/'
     },
     {
       text: 'Link',
