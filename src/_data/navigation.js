@@ -6,11 +6,6 @@ module.exports = {
       url: '/products/'
     },
     {
-      text: 'Link',
-      icon: 'link',
-      url: '#'
-    },
-    {
       text: 'Contact',
       icon: 'phone',
       url: '/contact/'
