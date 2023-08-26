@@ -9,10 +9,6 @@ const imageShortcode = async (
   sizes = '(min-width: 55rem) 820px, 100vw',
   loading = 'lazy'
 ) => {
-  if (!alt) {
-    throw new Error(`Missing \`alt\` on myImage from: ${src}`);
-  }
-
   let metadata = await Image(src, {
     widths: [320, 570, 820],
     formats: ['avif', 'webp', 'jpeg'],
