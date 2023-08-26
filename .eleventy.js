@@ -58,8 +58,8 @@ module.exports = eleventyConfig => {
   eleventyConfig.addLayoutAlias('base', 'base.njk');
   eleventyConfig.addLayoutAlias('page', 'page.njk');
   eleventyConfig.addLayoutAlias('home', 'home.njk');
-  eleventyConfig.addLayoutAlias('blog', 'blog.njk');
-  eleventyConfig.addLayoutAlias('post', 'post.njk');
+  eleventyConfig.addLayoutAlias('products', 'products.njk');
+  eleventyConfig.addLayoutAlias('product-categories', 'product-categories.njk');
 
   // 	---------------------  Custom filters -----------------------
   eleventyConfig.addFilter('limit', limit);
