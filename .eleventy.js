@@ -110,7 +110,7 @@ module.exports = eleventyConfig => {
     'width': '1.125em',
     'height': '1.125em',
     'stroke': 'currentColor',
-    'stroke-width': 2,
+    'stroke-width': 1.75,
     'aria-hidden': 'true'
   });
 
