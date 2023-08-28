@@ -1,6 +1,9 @@
 {% set activePage = page.url | url %}
 
-<footer class="site-foot | pt-l-xl text-min-1" role="contentinfo">
+<footer
+  class="site-foot | text-min-1"
+  role="contentinfo"
+>
   <div class="site-foot__inner | cluster | wrapper">
     
     <p>&copy; {% year %}</p>
@@ -10,6 +13,7 @@
       {% for item in navigation.bottom %}
         <li>
           <a
+            class="underline-on-hover"
             href="{{ item.url }}"
             {{ helpers.getLinkActiveState(item.url, page.url) | safe }}
           >
@@ -20,21 +24,15 @@
 
       {% for item in social %}
         <li>
-          {% if item.platform == "rss" %}
-            <a
-              href="{{ site.url }}/{{ locale }}{{ item.url }}"
-              rel="alternate"
-              type="application/rss+xml"
-            >
-              {% include 'icons/social-' + item.icon %}
-              {{ item.platform }}
-            </a>
-          {% else %}
-            <a class="with-icon" href="{{ item.url }}" rel="me">
-              {% include 'icons/social-' + item.icon %}
-              {{ item.platform }}
-            </a>
-          {% endif %}
+          <a
+            class="{{ "with-icon | " if item.icon }} underline-on-hover"
+            href="{{ item.url }}"
+          >
+            {% if item.icon %}
+              {% lucide item.icon %}
+            {% endif %}
+            {{ item.platform }}
+          </a>
         </li>
       {% endfor %}
       </ul>
