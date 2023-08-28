@@ -1,0 +1,19 @@
+---
+layout: base
+---
+
+<div class="wrapper | flow">
+  <h1>{{ title }}</h1>
+  
+  <ul class="grid" role="list">
+    {% for category in products.categories %}
+      <li>
+        <a href="/products/{{ category.title | slugify }}">
+          {{ category.title }}
+        </a>
+      </li>
+    {% endfor %}
+  </ul>
+  
+  {{ content | safe }}
+</div>
