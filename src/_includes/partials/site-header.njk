@@ -5,10 +5,9 @@
     {% set activePage = page.url | url %}
     <a 
       href="/"
-      class="site-head__brand | with-icon"
+      class="site-head__brand | underline-on-hover"
       {% if activePage === '/' %} aria-current="page" {% endif %}
     >
-      {% lucide "globe" %}
       {{ site.siteName }}
     </a>
     {% include "partials/menu.njk" %}
