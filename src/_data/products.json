@@ -2,6 +2,10 @@
   "categories": [
     {
       "title": "Housekeeping",
+      "featuredImg": {
+        "src": "./src/assets/images/photo-1437326300822-01d8f13c024f.avif",
+        "imgPosition": "0 70%"
+      },
       "productTypes": [
         {
           "title": "Mops",
@@ -289,6 +293,10 @@
     },
     {
       "title": "Floor Matting & Safety",
+      "featuredImg": {
+        "src": "./src/assets/images/cdc-VRpjDw3WqqI-unsplash.jpg",
+        "imgPosition": "0 33%"
+      },
       "productTypes": [
         {
           "title": "Floor Mats",
@@ -386,7 +394,7 @@
                 {
                   "productVariants": [
                     {
-                      "code": "",
+                      "code": "TKTK",
                       "description": "Rubber Mats for entry, kitchen & Bars"
                     }
                   ]
@@ -454,10 +462,18 @@
       ]
     },
     {
-      "title": "Tissues"
+      "title": "Tissues",
+      "featuredImg": {
+        "src": "./src/assets/images/cdc-VRpjDw3WqqI-unsplash.jpg",
+        "imgPosition": "0 33%"
+      }
     },
     {
       "title": "Dispensers",
+      "featuredImg": {
+        "src": "./src/assets/images/cdc-VRpjDw3WqqI-unsplash.jpg",
+        "imgPosition": "0 33%"
+      },
       "productTypes": [
         {
           "title": "",
@@ -527,6 +543,10 @@
     },
     {
       "title": "Air & Surface Care",
+      "featuredImg": {
+        "src": "./src/assets/images/cdc-VRpjDw3WqqI-unsplash.jpg",
+        "imgPosition": "0 33%"
+      },
       "productTypes": [
         {
           "title": "",
@@ -597,6 +617,10 @@
     },
     {
       "title": "Chemicals",
+      "featuredImg": {
+        "src": "./src/assets/images/cdc-VRpjDw3WqqI-unsplash.jpg",
+        "imgPosition": "0 33%"
+      },
       "productTypes": [
         {
           "title": "",
@@ -672,6 +696,10 @@
     },
     {
       "title": "3M Cleaning & Maintenance",
+      "featuredImg": {
+        "src": "./src/assets/images/cdc-VRpjDw3WqqI-unsplash.jpg",
+        "imgPosition": "0 33%"
+      },
       "productTypes": [
         {
           "title": "",
@@ -733,6 +761,10 @@
     },
     {
       "title": "Industrial Cleaning Machines",
+      "featuredImg": {
+        "src": "./src/assets/images/cdc-VRpjDw3WqqI-unsplash.jpg",
+        "imgPosition": "0 33%"
+      },
       "productTypes": [
         {
           "title": "Industrial Vacuum Cleaners",
