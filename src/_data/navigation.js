@@ -6,8 +6,13 @@ module.exports = {
       url: '/products/'
     },
     {
+      text: 'Search',
+      icon: 'search',
+      url: '#'
+    },
+    {
       text: 'Contact',
-      icon: 'phone',
+      icon: 'messages-square',
       url: '/contact/'
     }
   ],
