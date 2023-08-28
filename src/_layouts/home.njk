@@ -1,7 +1,13 @@
 ---
 layout: base
 ---
+<div class="cover center wrapper">
+  <h1 class="visually-hidden">{{ title }}</h1>
+  <h2 class="heading-1">{{ description }}</h2>
+</div>
 
-<h1>{{ title }}</h1>
+<div class="wrapper">
+  {{ content | safe }}
+</div>
 
-{{ content | safe }}
+
