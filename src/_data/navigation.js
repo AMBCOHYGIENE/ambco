@@ -8,7 +8,7 @@ module.exports = {
     {
       text: 'Search',
       icon: 'search',
-      url: '#'
+      url: '/search/'
     },
     {
       text: 'Contact',
