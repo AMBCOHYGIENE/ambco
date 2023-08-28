@@ -6,13 +6,13 @@
         "src": "./src/assets/images/photo-1437326300822-01d8f13c024f.avif",
         "imgPosition": "0 70%"
       },
-      "productTypes": [
+      "subCategories": [
         {
           "title": "Mops",
           "brands": [
             {
               "title": "Kleenal",
-              "grouping": [
+              "productTypes": [
                 {
                   "title": "Dry Mops - Cotton Acrylic Blue",
                   "usageArea": "General Area Cleaning",
@@ -106,7 +106,7 @@
           "brands": [
             {
               "title": "Kleenal",
-              "grouping": [
+              "productTypes": [
                 {
                   "title": "Industrial Floor Squeegee",
                   "usageArea": "General Area Cleaning - Color Coded For Washrooms",
@@ -154,7 +154,7 @@
           "brands": [
             {
               "title": "Kleenal",
-              "grouping": [
+              "productTypes": [
                 {
                   "usageArea": "Glass Cleaning Operation All Areas",
                   "advantages": "General glass cleaning operations in public area , external glass, washrooms, malls, corporate office open lobby, passages, hospitals and large restaurants",
@@ -230,7 +230,7 @@
           "brands": [
             {
               "title": "Kleenal",
-              "grouping": [
+              "productTypes": [
                 {
                   "usageArea": "General Area Cleaning",
                   "advantages": "General cleaning operations in public area, hotel rooms, washrooms, malls, corporate office open lobby, passages, hospitals and large restaurants",
@@ -297,13 +297,13 @@
         "src": "./src/assets/images/cdc-VRpjDw3WqqI-unsplash.jpg",
         "imgPosition": "0 33%"
       },
-      "productTypes": [
+      "subCategories": [
         {
           "title": "Floor Mats",
           "brands": [
             {
               "title": "3M",
-              "grouping": [
+              "productTypes": [
                 {
                   "title": "Nomad Terra Loop Matting",
                   "usageArea": "Entrance Matting System",
@@ -352,7 +352,7 @@
             },
             {
               "title": "Time Technoplast",
-              "grouping": [
+              "productTypes": [
                 {
                   "usageArea": "Floor",
                   "productVariants": [
@@ -390,7 +390,7 @@
             },
             {
               "title": "Kleenal",
-              "grouping": [
+              "productTypes": [
                 {
                   "productVariants": [
                     {
@@ -408,7 +408,7 @@
           "brands": [
             {
               "title": "3M",
-              "grouping": [
+              "productTypes": [
                 {
                   "title": "Anti Skid / Slip Resistance Solutions",
                   "productVariants": [
@@ -474,13 +474,13 @@
         "src": "./src/assets/images/cdc-VRpjDw3WqqI-unsplash.jpg",
         "imgPosition": "0 33%"
       },
-      "productTypes": [
+      "subCategories": [
         {
           "title": "",
           "brands": [
             {
               "title": "Kimberly Clark",
-              "grouping": [
+              "productTypes": [
                 {
                   "title": "Hard Roll Tissue Dispenser (HRT)",
                   "productVariants": [
@@ -525,7 +525,7 @@
             },
             {
               "title": "Innovision",
-              "grouping": [
+              "productTypes": [
                 {
                   "title": "",
                   "productVariants": [
@@ -547,13 +547,13 @@
         "src": "./src/assets/images/cdc-VRpjDw3WqqI-unsplash.jpg",
         "imgPosition": "0 33%"
       },
-      "productTypes": [
+      "subCategories": [
         {
           "title": "",
           "brands": [
             {
               "title": "Hygiene Fresh",
-              "grouping": [
+              "productTypes": [
                 {
                   "usageArea": "Wash Room",
                   "productVariants": [
@@ -595,7 +595,7 @@
             },
             {
               "title": "Innovision",
-              "grouping": [
+              "productTypes": [
                 {
                   "usageArea": "Wash Room",
                   "productVariants": [
@@ -621,13 +621,13 @@
         "src": "./src/assets/images/cdc-VRpjDw3WqqI-unsplash.jpg",
         "imgPosition": "0 33%"
       },
-      "productTypes": [
+      "subCategories": [
         {
           "title": "",
           "brands": [
             {
               "title": "Kleenal",
-              "grouping": [
+              "productTypes": [
                 {
                   "productVariants": [
                     {
@@ -700,13 +700,13 @@
         "src": "./src/assets/images/cdc-VRpjDw3WqqI-unsplash.jpg",
         "imgPosition": "0 33%"
       },
-      "productTypes": [
+      "subCategories": [
         {
           "title": "",
           "brands": [
             {
               "title": "3M",
-              "grouping": [
+              "productTypes": [
                 {
                   "usageArea": "General Area Cleaning",
                   "advantages": "General glass cleaning operations in public area , external glass, washrooms, malls, corporate office open lobby, passages, hospitals and large restaurants",
@@ -765,13 +765,13 @@
         "src": "./src/assets/images/cdc-VRpjDw3WqqI-unsplash.jpg",
         "imgPosition": "0 33%"
       },
-      "productTypes": [
+      "subCategories": [
         {
           "title": "Industrial Vacuum Cleaners",
           "brands": [
             {
               "title": "Kleenal",
-              "grouping": [
+              "productTypes": [
                 {
                   "usageArea": "General Area Cleaning",
                   "advantages": "General cleaning operations in public area, hotel rooms, washrooms, malls, corporate office open lobby, passages, hospitals and large restaurants",
