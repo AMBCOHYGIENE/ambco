@@ -108,7 +108,7 @@
               "title": "Kleenal",
               "productTypes": [
                 {
-                  "title": "Industrial Floor Squeegee",
+                  "title": "Squeegee",
                   "usageArea": "General Area Cleaning - Color Coded For Washrooms",
                   "advantages": "Kleenal metal and plastic squeezees are heavy duty used to clean public area washrooms, Malls, corporate office open lobby, passages, Hospitals and large restaurants",
                   "productVariants": [
@@ -131,7 +131,7 @@
                   ]
                 },
                 {
-                  "title": "Industrial Floor Brushes",
+                  "title": "Brushes",
                   "usageArea": "General Area Cleaning - Color Coded",
                   "advantages": "Kleenal brushes are heavy duty used to clean public area roads, washrooms, Malls, corporate office open lobby, passages, Hospitals and small / large restaurants",
                   "productVariants": [
@@ -294,8 +294,8 @@
     {
       "title": "Floor Matting & Safety",
       "featuredImg": {
-        "src": "./src/assets/images/cdc-VRpjDw3WqqI-unsplash.jpg",
-        "imgPosition": "0 33%"
+        "src": "./src/assets/images/gil-ribeiro-3hO8igCybds-unsplash.jpg",
+        "imgPosition": "0 42%"
       },
       "subCategories": [
         {
@@ -466,7 +466,533 @@
       "featuredImg": {
         "src": "./src/assets/images/cdc-VRpjDw3WqqI-unsplash.jpg",
         "imgPosition": "0 33%"
-      }
+      },
+      "subCategories": [
+        {
+          "title": "M Fold",
+          "brands": [
+            {
+              "title": "Kimberly Clark",
+              "productTypes": [
+                {
+                  "title": "",
+                  "productVariants": [
+                    {
+                      "code": "41500",
+                      "description": "TKTK"
+                    },
+                    {
+                      "code": "32152",
+                      "description": "TKTK"
+                    },
+                    {
+                      "code": "28610",
+                      "description": "TKTK"
+                    },
+                    {
+                      "code": "28620",
+                      "description": "TKTK"
+                    },
+                    {
+                      "code": "1222A",
+                      "description": "TKTK"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "title": "Origami",
+              "productTypes": [
+                {
+                  "title": "",
+                  "productVariants": [
+                    {
+                      "code": "VM8908",
+                      "description": "TKTK"
+                    },
+                    {
+                      "code": "VM8902",
+                      "description": "TKTK"
+                    },
+                    {
+                      "code": "VM8907",
+                      "description": "TKTK"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "title": "Multiline",
+              "productTypes": [
+                {
+                  "title": "",
+                  "productVariants": [
+                    {
+                      "code": "MTF19150",
+                      "description": "TKTK"
+                    },
+                    {
+                      "code": "MTF150",
+                      "description": "TKTK"
+                    },
+                    {
+                      "code": "MTF125",
+                      "description": "TKTK"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "title": "HRT",
+          "brands": [
+            {
+              "title": "Kimberly Clark",
+              "productTypes": [
+                {
+                  "title": "",
+                  "productVariants": [
+                    {
+                      "code": "12388",
+                      "description": "TKTK"
+                    },
+                    {
+                      "code": "1005",
+                      "description": "TKTK"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "title": "Origami",
+              "productTypes": [
+                {
+                  "title": "",
+                  "productVariants": [
+                    {
+                      "code": "IH6901",
+                      "description": "TKTK"
+                    },
+                    {
+                      "code": "IH6905",
+                      "description": "TKTK"
+                    },
+                    {
+                      "code": "IH6904N",
+                      "description": "TKTK"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "title": "Multiline",
+              "productTypes": [
+                {
+                  "title": "",
+                  "productVariants": [
+                    {
+                      "code": "HRT250",
+                      "description": "TKTK"
+                    },
+                    {
+                      "code": "HRT160",
+                      "description": "TKTK"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "title": "Toilet Rolls",
+          "brands": [
+            {
+              "title": "Kimberly Clark",
+              "productTypes": [
+                {
+                  "title": "",
+                  "productVariants": [
+                    {
+                      "code": "4001",
+                      "description": "TKTK"
+                    },
+                    {
+                      "code": "4003",
+                      "description": "TKTK"
+                    },
+                    {
+                      "code": "1272",
+                      "description": "TKTK"
+                    },
+                    {
+                      "code": "1368",
+                      "description": "TKTK"
+                    },
+                    {
+                      "code": "1268",
+                      "description": "TKTK"
+                    },
+                    {
+                      "code": "1272",
+                      "description": "TKTK"
+                    },
+                    {
+                      "code": "21226",
+                      "description": "TKTK"
+                    },
+                    {
+                      "code": "82026",
+                      "description": "TKTK"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "title": "Origami",
+              "productTypes": [
+                {
+                  "title": "",
+                  "productVariants": [
+                    {
+                      "code": "VR1903",
+                      "description": "TKTK"
+                    },
+                    {
+                      "code": "VR1904",
+                      "description": "TKTK"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "title": "Multiline",
+              "productTypes": [
+                {
+                  "title": "",
+                  "productVariants": [
+                    {
+                      "code": "TRM125",
+                      "description": "TKTK"
+                    },
+                    {
+                      "code": "TRM150",
+                      "description": "TKTK"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "title": "C Folds",
+          "brands": [
+            {
+              "title": "Kimberly Clark",
+              "productTypes": [
+                {
+                  "title": "",
+                  "productVariants": [
+                    {
+                      "code": "1150A",
+                      "description": "TKTK"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "title": "Origami",
+              "productTypes": [
+                {
+                  "title": "",
+                  "productVariants": [
+                    {
+                      "code": "VC7903",
+                      "description": "TKTK"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "title": "Napkins",
+          "brands": [
+            {
+              "title": "Kimberly Clark",
+              "productTypes": [
+                {
+                  "title": "",
+                  "productVariants": [
+                    {
+                      "code": "1324",
+                      "description": "TKTK"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "title": "Origami",
+              "productTypes": [
+                {
+                  "title": "",
+                  "productVariants": [
+                    {
+                      "code": "VN3901",
+                      "description": "TKTK"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "title": "Multiline",
+              "productTypes": [
+                {
+                  "title": "",
+                  "productVariants": [
+                    {
+                      "code": "PNR2740",
+                      "description": "TKTK"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "title": "Soaps / Gels",
+          "brands": [
+            {
+              "title": "Kimberly Clark",
+              "productTypes": [
+                {
+                  "title": "",
+                  "productVariants": [
+                    {
+                      "code": "30895",
+                      "description": "TKTK"
+                    },
+                    {
+                      "code": "1267",
+                      "description": "TKTK"
+                    },
+                    {
+                      "code": "1108",
+                      "description": "TKTK"
+                    },
+                    {
+                      "code": "1014",
+                      "description": "TKTK"
+                    },
+                    {
+                      "code": "30915",
+                      "description": "TKTK"
+                    },
+                    {
+                      "code": "30916",
+                      "description": "TKTK"
+                    },
+                    {
+                      "code": "30917",
+                      "description": "TKTK"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "title": "JRT",
+          "brands": [
+            {
+              "title": "Kimberly Clark",
+              "productTypes": [
+                {
+                  "title": "",
+                  "productVariants": [
+                    {
+                      "code": "1164A",
+                      "description": "TKTK"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "title": "Origami",
+              "productTypes": [
+                {
+                  "title": "",
+                  "productVariants": [
+                    {
+                      "code": "VJ4901",
+                      "description": "TKTK"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "title": "Multiline",
+              "productTypes": [
+                {
+                  "title": "",
+                  "productVariants": [
+                    {
+                      "code": "JRT1250",
+                      "description": "TKTK"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "title": "Kitchen Roll",
+          "brands": [
+            {
+              "title": "Kimberly Clark",
+              "productTypes": [
+                {
+                  "title": "",
+                  "productVariants": [
+                    {
+                      "code": "1380A",
+                      "description": "TKTK"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "title": "Multiline",
+              "productTypes": [
+                {
+                  "title": "",
+                  "productVariants": [
+                    {
+                      "code": "UTKR300",
+                      "description": "TKTK"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "title": "Facial Tissues & Cube Napkins",
+          "brands": [
+            {
+              "title": "Kimberly Clark",
+              "productTypes": [
+                {
+                  "title": "",
+                  "productVariants": [
+                    {
+                      "code": "51120",
+                      "description": "TKTK"
+                    },
+                    {
+                      "code": "1282",
+                      "description": "TKTK"
+                    },
+                    {
+                      "code": "1033",
+                      "description": "TKTK"
+                    },
+                    {
+                      "code": "11120",
+                      "description": "TKTK"
+                    },
+                    {
+                      "code": "1295",
+                      "description": "TKTK"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "title": "Origami",
+              "productTypes": [
+                {
+                  "title": "",
+                  "productVariants": [
+                    {
+                      "code": "Facial Tissue Box",
+                      "description": "TKTK"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "title": "Multiline",
+              "productTypes": [
+                {
+                  "title": "",
+                  "productVariants": [
+                    {
+                      "code": "F10010",
+                      "description": "TKTK"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "title": "Wipers",
+          "brands": [
+            {
+              "title": "Kimberly Clark",
+              "productTypes": [
+                {
+                  "title": "",
+                  "productVariants": [
+                    {
+                      "code": "30902",
+                      "description": "TKTK"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "title": "Multiline",
+              "productTypes": [
+                {
+                  "title": "",
+                  "productVariants": [
+                    {
+                      "code": "W0324",
+                      "description": "TKTK"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
     },
     {
       "title": "Dispensers",
@@ -685,6 +1211,43 @@
                     {
                       "code": "Diffuser Oil",
                       "description": "Diffuser Oil Concentrate"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "title": "Multiline",
+              "productTypes": [
+                {
+                  "productVariants": [
+                    {
+                      "code": "C1104",
+                      "description": "TKTK"
+                    },
+                    {
+                      "code": "C1504",
+                      "description": "TKTK"
+                    },
+                    {
+                      "code": "C8104",
+                      "description": "TKTK"
+                    },
+                    {
+                      "code": "C4104",
+                      "description": "TKTK"
+                    },
+                    {
+                      "code": "C7104",
+                      "description": "TKTK"
+                    },
+                    {
+                      "code": "C14104",
+                      "description": "TKTK"
+                    },
+                    {
+                      "code": "C11212",
+                      "description": "TKTK"
                     }
                   ]
                 }
