@@ -14,13 +14,7 @@
 
 <meta
   name="theme-color"
-  content="{{ designTokens.colors.items[1].value }}"
-  media="(prefers-color-scheme: light)"
->
-<meta
-  name="theme-color"
-  content="{{ designTokens.colors.items[11].value }}"
-  media="(prefers-color-scheme: dark)"
+  content="{{ designTokens.colors.items[10].value if themeColor else designTokens.colors.items[1].value }}"
 >
 <meta name="robots" content="index,follow" /><!-- All Search Engines -->
 <meta name="googlebot" content="index,follow" /><!-- Google Specific -->
