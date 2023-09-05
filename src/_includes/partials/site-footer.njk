@@ -1,7 +1,7 @@
 {% set activePage = page.url | url %}
 
 <footer
-  class="site-foot | text-min-1"
+  class="site-foot | step-min-1"
   role="contentinfo"
 >
   <div class="site-foot__inner | cluster | wrapper">
@@ -9,8 +9,10 @@
     <p>&copy; {% year %}</p>
 
     <nav aria-label="Footer">
+      
       <ul class="cluster" role="list">
-      {% for item in navigation.bottom %}
+        
+        {% for item in navigation.bottom %}
         <li>
           <a
             class="underline-on-hover"
@@ -20,22 +22,24 @@
             {{ item.text }}
           </a>
         </li>
-      {% endfor %}
+        {% endfor %}
 
-      {% for item in social %}
+        {# {% for item in social %}
         <li>
           <a
             class="{{ "with-icon | " if item.icon }} underline-on-hover"
             href="{{ item.url }}"
           >
             {% if item.icon %}
-              {% lucide item.icon %}
+            {% lucide item.icon %}
             {% endif %}
             {{ item.platform }}
           </a>
         </li>
-      {% endfor %}
+        {% endfor %} #}
+
       </ul>
+
     </nav>
   </div>
 
