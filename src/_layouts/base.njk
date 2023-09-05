@@ -14,12 +14,13 @@
       {% else %}{{ site.siteName }}{% endif %}
     </title>
 
-    <link rel="stylesheet" href="/assets/css/global.css?{{ assetHash }}" />
-
-    {# https://www.matuzo.at/blog/html-boilerplate/ #}
-    <script type="module">
+    <!-- synchronous JS before CSS -->
+    <script>
       document.documentElement.classList.add('has-js');
     </script>
+
+    <!-- stylesheet -->
+    <link rel="stylesheet" href="/assets/css/global.css?{{ assetHash }}" />
 
     <!-- preloads -->
     <link
@@ -46,12 +47,14 @@
       {% if preloads.crossorigin %}crossorigin{% endif %} />
     {% endif %}
 
+    <!-- view-transition -->
+    <meta name="view-transition" content="same-origin">
+
     <!-- everything else: meta tags, icons, open graph etc.  -->
     {% include "partials/meta-info.njk" %}
-    <meta name="view-transition" content="same-origin">
   </head>
 
-  <body class="stack {{ layout }}-page">
+  <body class="{{ layout }}-page | stack">
     <!-- header -->
     {% include "partials/site-header.njk" %}
 
@@ -63,11 +66,21 @@
     <!-- footer -->
     {% include "partials/site-footer.njk" %}
 
+    <!-- svg icon nodes -->
+    {% if layout == "product-categories" %}
+    <div hidden>
+      {% lucide "chevron-right", { "id": "icon-chevron-right" } %}
+      {% lucide "shield-check", { "id": "icon-shield-check", "stroke-width": "2.5" } %}
+      {% lucide "shrink", { "id": "icon-shrink", "stroke-width": "2.5" } %}
+    </div>
+    {% endif %}
+
     <!-- defered js  -->
     <script src="/assets/scripts/app.js?{{ assetHash }}" defer></script>
+    <!-- if youtube is activated in the yaml -->
     {% if youtube %}
-    <!-- youtube if actvated in yaml -->
-      <script src="/assets/scripts/lite-youtube.js?{{ assetHash }}" defer></script>
+    <script src="/assets/scripts/lite-youtube.js?{{ assetHash }}" defer></script>
     {% endif %}
+
   </body>
 </html>
