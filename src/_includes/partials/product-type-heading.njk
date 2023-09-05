@@ -1,0 +1,12 @@
+<!--
+  If the number of subcategories is greater than 1, then `product-type-heading` should be a `h3`, else it should be a `h2` with the `heading-3` class
+-->
+
+<h{{ "3" if (numberOfSubCategories > 1) else "2" }} 
+  class="product-type-heading{{ "" if (numberOfSubCategories > 1) else " | heading-3" }}"
+>
+  {{ manufacturer.title }}
+  {% if item.title %}
+    {{ item.title }}
+  {% endif %}
+</h{{ "3" if (numberOfSubCategories > 1) else "2" }}>
