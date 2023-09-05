@@ -1,6 +1,7 @@
 <nav id="main-nav" class="site-nav" aria-label="Primary">
   <div class="site-nav-list-container">
     <ul role="list">
+      
       {% for item in navigation.top %}
       <li>
         <a
@@ -8,13 +9,15 @@
           href="{{ item.url }}"
           {{ helpers.getLinkActiveState(item.url, page.url) | safe }}
         >
-          {% if item.icon %}
-            {% lucide item.icon %}
+          {% if item.icon %}          
+          {% lucide item.icon %}
           {% endif %}
+          
           {{ item.text }}
         </a>
       </li>
       {% endfor %}
+      
     </ul>
   </div>
 </nav>
