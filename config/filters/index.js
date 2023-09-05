@@ -118,6 +118,14 @@ const splitlines = (input, maxCharLength) => {
   return lines;
 };
 
+const iconRef = function (iconName) {
+  return `
+      <svg width="1em" height="1em">
+        <use href="#icon-${iconName}"></use>
+      </svg>
+    `;
+};
+
 module.exports = {
   limit,
   toHtml,
@@ -128,5 +136,6 @@ module.exports = {
   stripHtml,
   minifyJs,
   mdInline,
-  splitlines
+  splitlines,
+  iconRef
 };
