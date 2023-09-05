@@ -1,0 +1,32 @@
+<!-- subcategories navigation container -->
+<div class="subcategories-nav-container | wrapper | sticky step-min-1">
+
+  <!-- label -->
+  <p
+    class="subcategories-nav-label"
+    aria-hidden="true"
+  >
+    Subcategories:
+  </p>
+
+<!-- subcategories navigation -->
+  <nav
+    class="subcategories-nav"
+    aria-label="Product Subcategories"
+  >
+    <ul role="list">
+      
+      {% for item in category.subCategories %}
+      <li>
+        <a
+          class="underline-on-hover"
+          href="#{{ item.title | slugify }}"
+        >
+          {{ item.title }}
+        </a>
+      </li>
+      {% endfor %}
+      
+    </ul>
+  </nav>
+</div>
