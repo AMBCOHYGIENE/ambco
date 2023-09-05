@@ -2,14 +2,14 @@
   "categories": [
     {
       "title": "Housekeeping",
-      "featuredImg": {
+      "backgroundImage": {
         "src": "./src/assets/images/photo-1437326300822-01d8f13c024f.avif",
         "imgPosition": "0 70%"
       },
       "subCategories": [
         {
           "title": "Mops",
-          "brands": [
+          "manufacturers": [
             {
               "title": "Kleenal",
               "productTypes": [
@@ -103,7 +103,7 @@
         },
         {
           "title": "Industrial Floor Squeegees & Brushes",
-          "brands": [
+          "manufacturers": [
             {
               "title": "Kleenal",
               "productTypes": [
@@ -151,7 +151,7 @@
         },
         {
           "title": "Glass Care Tools & Accessories",
-          "brands": [
+          "manufacturers": [
             {
               "title": "Kleenal",
               "productTypes": [
@@ -227,7 +227,7 @@
         },
         {
           "title": "Cleaning Tools & Accessories",
-          "brands": [
+          "manufacturers": [
             {
               "title": "Kleenal",
               "productTypes": [
@@ -249,15 +249,15 @@
                     },
                     {
                       "code": "K-118A",
-                      "description": "Single bucket with wringer 20 ltrs"
+                      "description": "Single bucket with wringer 20 litres"
                     },
                     {
                       "code": "K-119A",
-                      "description": "Double bucket with wringer trolley 34 ltrs"
+                      "description": "Double bucket with wringer trolley 34 litres"
                     },
                     {
                       "code": "K-119M",
-                      "description": "Double bucket wringer trolley 50 ltrs. with Caddy basket"
+                      "description": "Double bucket wringer trolley 50 litres. with Caddy basket"
                     },
                     {
                       "code": "K-34",
@@ -277,7 +277,7 @@
                     },
                     {
                       "code": "MGB-120 / MGB-240",
-                      "description": "Otto waste bin -120 ltrs / 240 ltrs, Blue / Red / Green / Yellow / Grey"
+                      "description": "Otto waste bin -120 litres / 240 litres, Blue / Red / Green / Yellow / Grey"
                     },
                     {
                       "code": "Campus Bin",
@@ -293,14 +293,14 @@
     },
     {
       "title": "Floor Matting & Safety",
-      "featuredImg": {
+      "backgroundImage": {
         "src": "./src/assets/images/gil-ribeiro-3hO8igCybds-unsplash.jpg",
         "imgPosition": "0 42%"
       },
       "subCategories": [
         {
           "title": "Floor Mats",
-          "brands": [
+          "manufacturers": [
             {
               "title": "3M",
               "productTypes": [
@@ -405,7 +405,7 @@
         },
         {
           "title": "Safety",
-          "brands": [
+          "manufacturers": [
             {
               "title": "3M",
               "productTypes": [
@@ -463,14 +463,14 @@
     },
     {
       "title": "Tissues",
-      "featuredImg": {
+      "backgroundImage": {
         "src": "./src/assets/images/cdc-VRpjDw3WqqI-unsplash.jpg",
         "imgPosition": "0 33%"
       },
       "subCategories": [
         {
-          "title": "M Fold",
-          "brands": [
+          "title": "M-Fold",
+          "manufacturers": [
             {
               "title": "Kimberly Clark",
               "productTypes": [
@@ -479,23 +479,81 @@
                   "productVariants": [
                     {
                       "code": "41500",
-                      "description": "TKTK"
+                      "brand": "Kimsoft",
+                      "image": {
+                        "src": "41500.jpg",
+                        "alt": "",
+                        "loading": "eager"
+                      },
+                      "description": "Kimsoft Multi-Fold Hand Towels",
+                      "additionalInfo": [
+                        {
+                          "label": "Case Count",
+                          "content": "30 packs x 200 sheets"
+                        }
+                      ]
                     },
                     {
                       "code": "32152",
-                      "description": "TKTK"
+                      "brand": "Scott Essential",
+                      "image": {
+                        "src": "32152.jpg",
+                        "alt": "",
+                        "loading": "eager"
+                      },
+                      "description": "Scott Essential Multi-Fold Hand Towel",
+                      "additionalInfo": [
+                        {
+                          "label": "Case Count",
+                          "content": "40 packs x 150 sheets"
+                        }
+                      ]
                     },
                     {
                       "code": "28610",
-                      "description": "TKTK"
+                      "brand": "Scott",
+                      "image": {
+                        "src": "28610.jpg",
+                        "alt": "",
+                        "loading": "eager"
+                      },
+                      "description": "Scott Multi-Fold Paper Towels",
+                      "additionalInfo": [
+                        {
+                          "label": "Case Count",
+                          "content": "16 packs x 250 sheets"
+                        }
+                      ]
                     },
                     {
                       "code": "28620",
-                      "description": "TKTK"
+                      "brand": "Scott",
+                      "image": {
+                        "src": "28620.jpg",
+                        "alt": ""
+                      },
+                      "description": "Scott Multi-Fold Paper Towels",
+                      "additionalInfo": [
+                        {
+                          "label": "Case Count",
+                          "content": "16 packs x 250 sheets"
+                        }
+                      ]
                     },
                     {
                       "code": "1222A",
-                      "description": "TKTK"
+                      "brand": "Scott",
+                      "image": {
+                        "src": "1222A.jpg",
+                        "alt": ""
+                      },
+                      "description": "Scott Multi-Fold Paper Towels",
+                      "additionalInfo": [
+                        {
+                          "label": "Case Count",
+                          "content": "30 packs x 150 sheets"
+                        }
+                      ]
                     }
                   ]
                 }
@@ -509,15 +567,31 @@
                   "productVariants": [
                     {
                       "code": "VM8908",
-                      "description": "TKTK"
+                      "image": {
+                        "src": "VM8908.jpg",
+                        "alt": ""
+                      },
+                      "description": "Multi-Fold Tissue Towels - 1 Ply",
+                      "additionalInfo": [
+                        {
+                          "label": "Case Count",
+                          "content": "40 packs x 150 sheets"
+                        }
+                      ]
                     },
                     {
                       "code": "VM8902",
-                      "description": "TKTK"
-                    },
-                    {
-                      "code": "VM8907",
-                      "description": "TKTK"
+                      "image": {
+                        "src": "VM8902.jpg",
+                        "alt": ""
+                      },
+                      "description": "Multi-Fold Tissue Towels - 1 Ply",
+                      "additionalInfo": [
+                        {
+                          "label": "Case Count",
+                          "content": "40 packs x 150 sheets"
+                        }
+                      ]
                     }
                   ]
                 }
@@ -531,15 +605,41 @@
                   "productVariants": [
                     {
                       "code": "MTF19150",
-                      "description": "TKTK"
+                      "description": "Multi-Fold Paper Towel",
+                      "additionalInfo": [
+                        {
+                          "label": "Case Count",
+                          "content": "40 packs x 150 sheets"
+                        }
+                      ]
                     },
                     {
                       "code": "MTF150",
-                      "description": "TKTK"
+                      "image": {
+                        "src": "MTF150.jpg",
+                        "alt": ""
+                      },
+                      "description": "Multi-Fold Paper Towel",
+                      "additionalInfo": [
+                        {
+                          "label": "Case Count",
+                          "content": "20 packs x 150 sheets"
+                        }
+                      ]
                     },
                     {
                       "code": "MTF125",
-                      "description": "TKTK"
+                      "image": {
+                        "src": "MTF125.jpg",
+                        "alt": ""
+                      },
+                      "description": "Multi-Fold Paper Towel",
+                      "additionalInfo": [
+                        {
+                          "label": "Case Count",
+                          "content": "20 packs x 125 sheets"
+                        }
+                      ]
                     }
                   ]
                 }
@@ -549,7 +649,7 @@
         },
         {
           "title": "HRT",
-          "brands": [
+          "manufacturers": [
             {
               "title": "Kimberly Clark",
               "productTypes": [
@@ -558,11 +658,33 @@
                   "productVariants": [
                     {
                       "code": "12388",
-                      "description": "TKTK"
+                      "brand": "Scott",
+                      "image": {
+                        "src": "12388.jpg",
+                        "alt": ""
+                      },
+                      "description": "Scott Slimroll Hard Roll Towels",
+                      "additionalInfo": [
+                        {
+                          "label": "Case Count",
+                          "content": "6 rolls x 176 metres"
+                        }
+                      ]
                     },
                     {
                       "code": "1005",
-                      "description": "TKTK"
+                      "brand": "Scott",
+                      "image": {
+                        "src": "1005.jpg",
+                        "alt": ""
+                      },
+                      "description": "Scott Hard Roll Paper Towels",
+                      "additionalInfo": [
+                        {
+                          "label": "Case Count",
+                          "content": "6 rolls x 305 metres"
+                        }
+                      ]
                     }
                   ]
                 }
@@ -576,15 +698,37 @@
                   "productVariants": [
                     {
                       "code": "IH6901",
-                      "description": "TKTK"
+                      "description": "HRT Roll - 1 Ply",
+                      "additionalInfo": [
+                        {
+                          "label": "Case Count",
+                          "content": "8 rolls x TKTK"
+                        }
+                      ]
                     },
                     {
                       "code": "IH6905",
-                      "description": "TKTK"
+                      "image": {
+                        "src": "IH6905.jpg",
+                        "alt": ""
+                      },
+                      "description": "HRT Roll - 1 Ply",
+                      "additionalInfo": [
+                        {
+                          "label": "Case Count",
+                          "content": "8 rolls x TKTK"
+                        }
+                      ]
                     },
                     {
                       "code": "IH6904N",
-                      "description": "TKTK"
+                      "description": "Wiper / Utility / Kitchen Roll",
+                      "additionalInfo": [
+                        {
+                          "label": "Case Count",
+                          "content": "8 rolls x TKTK"
+                        }
+                      ]
                     }
                   ]
                 }
@@ -602,7 +746,17 @@
                     },
                     {
                       "code": "HRT160",
-                      "description": "TKTK"
+                      "image": {
+                        "src": "HRT160.jpg",
+                        "alt": ""
+                      },
+                      "description": "HRT Roll",
+                      "additionalInfo": [
+                        {
+                          "label": "Case Count",
+                          "content": "6 rolls x 160 metres"
+                        }
+                      ]
                     }
                   ]
                 }
@@ -612,7 +766,7 @@
         },
         {
           "title": "Toilet Rolls",
-          "brands": [
+          "manufacturers": [
             {
               "title": "Kimberly Clark",
               "productTypes": [
@@ -621,27 +775,78 @@
                   "productVariants": [
                     {
                       "code": "4001",
-                      "description": "TKTK"
+                      "brand": "Kimsoft",
+                      "image": {
+                        "src": "4001.jpg",
+                        "alt": ""
+                      },
+                      "description": "Kimsoft Bathroom Tissue",
+                      "additionalInfo": [
+                        {
+                          "label": "Case Count",
+                          "content": "80 rolls x 375 sheets"
+                        }
+                      ]
                     },
                     {
                       "code": "4003",
-                      "description": "TKTK"
+                      "brand": "Kimsoft",
+                      "image": {
+                        "src": "4003.jpg",
+                        "alt": ""
+                      },
+                      "description": "Kimsoft Bathroom Tissue",
+                      "additionalInfo": [
+                        {
+                          "label": "Case Count",
+                          "content": "100 rolls x 230 sheets"
+                        }
+                      ]
                     },
                     {
                       "code": "1272",
-                      "description": "TKTK"
+                      "brand": "Kleenex",
+                      "image": {
+                        "src": "1272.jpg",
+                        "alt": ""
+                      },
+                      "description": "Kleenex Bathroom Roll 2 Ply",
+                      "additionalInfo": [
+                        {
+                          "label": "Case Count",
+                          "content": "100 rolls x 200 sheets"
+                        }
+                      ]
                     },
                     {
                       "code": "1368",
-                      "description": "TKTK"
+                      "brand": "Kleenex",
+                      "image": {
+                        "src": "1368.jpg",
+                        "alt": ""
+                      },
+                      "description": "Kleenex Bathroom Tissue",
+                      "additionalInfo": [
+                        {
+                          "label": "Case Count",
+                          "content": "80 rolls x 375 sheets"
+                        }
+                      ]
                     },
                     {
                       "code": "1268",
-                      "description": "TKTK"
-                    },
-                    {
-                      "code": "1272",
-                      "description": "TKTK"
+                      "brand": "Scott",
+                      "image": {
+                        "src": "1268.jpg",
+                        "alt": ""
+                      },
+                      "description": "Scott Hygienic Tissue Paper",
+                      "additionalInfo": [
+                        {
+                          "label": "Case Count",
+                          "content": "100 x 125 sheets"
+                        }
+                      ]
                     },
                     {
                       "code": "21226",
@@ -663,11 +868,31 @@
                   "productVariants": [
                     {
                       "code": "VR1903",
-                      "description": "TKTK"
+                      "image": {
+                        "src": "VR1903.jpg",
+                        "alt": ""
+                      },
+                      "description": "Toilet Roll - 2 Ply",
+                      "additionalInfo": [
+                        {
+                          "label": "Case Count",
+                          "content": "100 rolls x 100 gms"
+                        }
+                      ]
                     },
                     {
                       "code": "VR1904",
-                      "description": "TKTK"
+                      "image": {
+                        "src": "VR1904.jpg",
+                        "alt": ""
+                      },
+                      "description": "Toilet Roll - 2 Ply",
+                      "additionalInfo": [
+                        {
+                          "label": "Case Count",
+                          "content": "100 rolls x 130 gms"
+                        }
+                      ]
                     }
                   ]
                 }
@@ -681,11 +906,31 @@
                   "productVariants": [
                     {
                       "code": "TRM125",
-                      "description": "TKTK"
+                      "image": {
+                        "src": "TRM125.jpg",
+                        "alt": ""
+                      },
+                      "description": "Toilet Paper Roll - 2 Ply",
+                      "additionalInfo": [
+                        {
+                          "label": "Case Count",
+                          "content": "100 rolls x 345 sheets"
+                        }
+                      ]
                     },
                     {
                       "code": "TRM150",
-                      "description": "TKTK"
+                      "image": {
+                        "src": "TRM150.jpg",
+                        "alt": ""
+                      },
+                      "description": "Toilet Paper Roll - 2 Ply",
+                      "additionalInfo": [
+                        {
+                          "label": "Case Count",
+                          "content": "90 rolls x 415 sheets"
+                        }
+                      ]
                     }
                   ]
                 }
@@ -694,8 +939,8 @@
           ]
         },
         {
-          "title": "C Folds",
-          "brands": [
+          "title": "C-Fold",
+          "manufacturers": [
             {
               "title": "Kimberly Clark",
               "productTypes": [
@@ -704,7 +949,18 @@
                   "productVariants": [
                     {
                       "code": "1150A",
-                      "description": "TKTK"
+                      "brand": "Scott",
+                      "image": {
+                        "src": "1150A.jpg",
+                        "alt": ""
+                      },
+                      "description": "Scott C-Fold Towels",
+                      "additionalInfo": [
+                        {
+                          "label": "Case Count",
+                          "content": "24 packs x 200 sheets"
+                        }
+                      ]
                     }
                   ]
                 }
@@ -718,7 +974,17 @@
                   "productVariants": [
                     {
                       "code": "VC7903",
-                      "description": "TKTK"
+                      "image": {
+                        "src": "VC7903.jpg",
+                        "alt": ""
+                      },
+                      "description": "C-Fold Towels - 1 Ply",
+                      "additionalInfo": [
+                        {
+                          "label": "Case Count",
+                          "content": "40 packs x 125 sheets"
+                        }
+                      ]
                     }
                   ]
                 }
@@ -728,7 +994,7 @@
         },
         {
           "title": "Napkins",
-          "brands": [
+          "manufacturers": [
             {
               "title": "Kimberly Clark",
               "productTypes": [
@@ -737,7 +1003,18 @@
                   "productVariants": [
                     {
                       "code": "1324",
-                      "description": "TKTK"
+                      "brand": "Scott Essential",
+                      "image": {
+                        "src": "1324.jpg",
+                        "alt": ""
+                      },
+                      "description": "Scott Essential Paper Napkins",
+                      "additionalInfo": [
+                        {
+                          "label": "Case Count",
+                          "content": "60 packs x 100 sheets"
+                        }
+                      ]
                     }
                   ]
                 }
@@ -751,7 +1028,13 @@
                   "productVariants": [
                     {
                       "code": "VN3901",
-                      "description": "TKTK"
+                      "description": "Luncheon Napkin - 1 Ply",
+                      "additionalInfo": [
+                        {
+                          "label": "Case Count",
+                          "content": "50 packs x 100 sheets"
+                        }
+                      ]
                     }
                   ]
                 }
@@ -775,7 +1058,7 @@
         },
         {
           "title": "Soaps / Gels",
-          "brands": [
+          "manufacturers": [
             {
               "title": "Kimberly Clark",
               "productTypes": [
@@ -784,31 +1067,106 @@
                   "productVariants": [
                     {
                       "code": "30895",
-                      "description": "TKTK"
+                      "brand": "Scott",
+                      "image": {
+                        "src": "30895.jpg",
+                        "alt": ""
+                      },
+                      "description": "Scott Luxury Handwash Foam",
+                      "additionalInfo": [
+                        {
+                          "label": "Case Count",
+                          "content": "6 cassettes x 1 litre"
+                        }
+                      ]
                     },
                     {
                       "code": "1267",
-                      "description": "TKTK"
+                      "image": {
+                        "src": "1267.jpg",
+                        "alt": ""
+                      },
+                      "description": "Gentle Lotion Skin Cleanser",
+                      "additionalInfo": [
+                        {
+                          "label": "Case Count",
+                          "content": "2 cans x 5 litres"
+                        }
+                      ]
                     },
                     {
                       "code": "1108",
-                      "description": "TKTK"
+                      "brand": "Scott",
+                      "image": {
+                        "src": "1108.jpg",
+                        "alt": ""
+                      },
+                      "description": "Scott Shower Gel",
+                      "additionalInfo": [
+                        {
+                          "label": "Case Count",
+                          "content": "2 cans x 5 litres"
+                        }
+                      ]
                     },
                     {
                       "code": "1014",
-                      "description": "TKTK"
+                      "image": {
+                        "src": "1014.jpg",
+                        "alt": ""
+                      },
+                      "description": "Gentle Lotion Skin Cleanser",
+                      "additionalInfo": [
+                        {
+                          "label": "Case Count",
+                          "content": "18 refills x 500 ml"
+                        }
+                      ]
                     },
                     {
                       "code": "30915",
-                      "description": "TKTK"
+                      "brand": "Scott",
+                      "image": {
+                        "src": "30915.jpg",
+                        "alt": ""
+                      },
+                      "description": "Scott Gentle Handwash Foam Soap",
+                      "additionalInfo": [
+                        {
+                          "label": "Case Count",
+                          "content": "6 cassettes x 1.2 litres"
+                        }
+                      ]
                     },
                     {
                       "code": "30916",
-                      "description": "TKTK"
+                      "brand": "Scott",
+                      "image": {
+                        "src": "30916.jpg",
+                        "alt": ""
+                      },
+                      "description": "Scott Gentle Lotion Cleanser Refill",
+                      "additionalInfo": [
+                        {
+                          "label": "Case Count",
+                          "content": "6 cassettes x 1.2 litres"
+                        }
+                      ]
                     },
                     {
                       "code": "30917",
-                      "description": "TKTK"
+                      "brand": "Scott",
+                      "image": {
+                        "src": "30917.jpg",
+                        "alt": ""
+                      },
+                      "description": "Scott Instant Hand Sanitiser",
+                      "additionalInfo": [
+                        {
+                          "label": "Case Count",
+                          "content": "6 cassettes x 1.2 litres"
+                        }
+                      ]
                     }
                   ]
                 }
@@ -818,7 +1176,7 @@
         },
         {
           "title": "JRT",
-          "brands": [
+          "manufacturers": [
             {
               "title": "Kimberly Clark",
               "productTypes": [
@@ -827,7 +1185,18 @@
                   "productVariants": [
                     {
                       "code": "1164A",
-                      "description": "TKTK"
+                      "brand": "Scott Essential",
+                      "image": {
+                        "src": "1164A.jpg",
+                        "alt": ""
+                      },
+                      "description": "Scott Essential JRT - 2 Ply",
+                      "additionalInfo": [
+                        {
+                          "label": "Case Count",
+                          "content": "16 rolls x 225 metres"
+                        }
+                      ]
                     }
                   ]
                 }
@@ -841,7 +1210,13 @@
                   "productVariants": [
                     {
                       "code": "VJ4901",
-                      "description": "TKTK"
+                      "description": "Jumbo Toilet Roll - 2 Ply",
+                      "additionalInfo": [
+                        {
+                          "label": "Case Count",
+                          "content": "12 rolls x TKTK"
+                        }
+                      ]
                     }
                   ]
                 }
@@ -855,7 +1230,17 @@
                   "productVariants": [
                     {
                       "code": "JRT1250",
-                      "description": "TKTK"
+                      "image": {
+                        "src": "JRT1250.jpg",
+                        "alt": ""
+                      },
+                      "description": "Jumbo Toilet Paper Roll",
+                      "additionalInfo": [
+                        {
+                          "label": "Case Count",
+                          "content": "12 rolls x 225 metres"
+                        }
+                      ]
                     }
                   ]
                 }
@@ -865,7 +1250,7 @@
         },
         {
           "title": "Kitchen Roll",
-          "brands": [
+          "manufacturers": [
             {
               "title": "Kimberly Clark",
               "productTypes": [
@@ -874,7 +1259,17 @@
                   "productVariants": [
                     {
                       "code": "1380A",
-                      "description": "TKTK"
+                      "image": {
+                        "src": "1380A.jpg",
+                        "alt": ""
+                      },
+                      "description": "Wypall L10 Utility Wipes",
+                      "additionalInfo": [
+                        {
+                          "label": "Case Count",
+                          "content": "8 rolls x 300 metres"
+                        }
+                      ]
                     }
                   ]
                 }
@@ -888,7 +1283,17 @@
                   "productVariants": [
                     {
                       "code": "UTKR300",
-                      "description": "TKTK"
+                      "image": {
+                        "src": "UTKR300.jpg",
+                        "alt": ""
+                      },
+                      "description": "Industrial Kitchen Towel",
+                      "additionalInfo": [
+                        {
+                          "label": "Case Count",
+                          "content": "6 rolls x 300 metres"
+                        }
+                      ]
                     }
                   ]
                 }
@@ -898,7 +1303,7 @@
         },
         {
           "title": "Facial Tissues & Cube Napkins",
-          "brands": [
+          "manufacturers": [
             {
               "title": "Kimberly Clark",
               "productTypes": [
@@ -907,23 +1312,78 @@
                   "productVariants": [
                     {
                       "code": "51120",
-                      "description": "TKTK"
+                      "brand": "Scott Essential",
+                      "image": {
+                        "src": "51120.jpg",
+                        "alt": ""
+                      },
+                      "description": "Scott Essential Facial Tissue Box",
+                      "additionalInfo": [
+                        {
+                          "label": "Case Count",
+                          "content": "2 boxes x 100 sheets"
+                        }
+                      ]
                     },
                     {
                       "code": "1282",
-                      "description": "TKTK"
+                      "brand": "Kleenex",
+                      "image": {
+                        "src": "1282.png",
+                        "alt": ""
+                      },
+                      "description": "Kleenex Facial Tissue",
+                      "additionalInfo": [
+                        {
+                          "label": "Case Count",
+                          "content": "60 boxes x 80 sheets"
+                        }
+                      ]
                     },
                     {
                       "code": "1033",
-                      "description": "TKTK"
+                      "brand": "Kleenex",
+                      "image": {
+                        "src": "1033.jpg",
+                        "alt": ""
+                      },
+                      "description": "Kleenex Facial Tissue",
+                      "additionalInfo": [
+                        {
+                          "label": "Case Count",
+                          "content": "60 boxes x 100 sheets"
+                        }
+                      ]
                     },
                     {
                       "code": "11120",
-                      "description": "TKTK"
+                      "brand": "Scott",
+                      "image": {
+                        "src": "11120.jpg",
+                        "alt": ""
+                      },
+                      "description": "Scott Facial Tissue - 2 Ply",
+                      "additionalInfo": [
+                        {
+                          "label": "Case Count",
+                          "content": "60 boxes x 80 sheets"
+                        }
+                      ]
                     },
                     {
                       "code": "1295",
-                      "description": "TKTK"
+                      "brand": "Kleenex",
+                      "image": {
+                        "src": "1295.jpg",
+                        "alt": ""
+                      },
+                      "description": "Kleenex Facial Tissue - 2 Ply",
+                      "additionalInfo": [
+                        {
+                          "label": "Case Count",
+                          "content": "60 boxes x 100 sheets"
+                        }
+                      ]
                     }
                   ]
                 }
@@ -936,8 +1396,18 @@
                   "title": "",
                   "productVariants": [
                     {
-                      "code": "Facial Tissue Box",
-                      "description": "TKTK"
+                      "code": "TKTK",
+                      "image": {
+                        "src": "facial-tissue-box.jpg",
+                        "alt": ""
+                      },
+                      "description": "Facial Tissue Box",
+                      "additionalInfo": [
+                        {
+                          "label": "Case Count",
+                          "content": "TKTK x TKTK"
+                        }
+                      ]
                     }
                   ]
                 }
@@ -951,7 +1421,17 @@
                   "productVariants": [
                     {
                       "code": "F10010",
-                      "description": "TKTK"
+                      "image": {
+                        "src": "F10010.png",
+                        "alt": ""
+                      },
+                      "description": "Facial Tissue - 2 Ply",
+                      "additionalInfo": [
+                        {
+                          "label": "Case Count",
+                          "content": "80 packs x 100 sheets"
+                        }
+                      ]
                     }
                   ]
                 }
@@ -961,7 +1441,7 @@
         },
         {
           "title": "Wipers",
-          "brands": [
+          "manufacturers": [
             {
               "title": "Kimberly Clark",
               "productTypes": [
@@ -970,7 +1450,18 @@
                   "productVariants": [
                     {
                       "code": "30902",
-                      "description": "TKTK"
+                      "brand": "Kimtech",
+                      "image": {
+                        "src": "30902.jpg",
+                        "alt": ""
+                      },
+                      "description": "Kimtech Prep Wettask Wiper",
+                      "additionalInfo": [
+                        {
+                          "label": "Case Count",
+                          "content": "6 rolls x 90 sheets"
+                        }
+                      ]
                     }
                   ]
                 }
@@ -996,14 +1487,14 @@
     },
     {
       "title": "Dispensers",
-      "featuredImg": {
+      "backgroundImage": {
         "src": "./src/assets/images/cdc-VRpjDw3WqqI-unsplash.jpg",
         "imgPosition": "0 33%"
       },
       "subCategories": [
         {
           "title": "",
-          "brands": [
+          "manufacturers": [
             {
               "title": "Kimberly Clark",
               "productTypes": [
@@ -1021,7 +1512,7 @@
                   ]
                 },
                 {
-                  "title": "Compact Multifold Towel Dispenser",
+                  "title": "Compact Multi-Fold Towel Dispenser",
                   "productVariants": [
                     {
                       "code": "70220",
@@ -1069,14 +1560,14 @@
     },
     {
       "title": "Air & Surface Care",
-      "featuredImg": {
+      "backgroundImage": {
         "src": "./src/assets/images/cdc-VRpjDw3WqqI-unsplash.jpg",
         "imgPosition": "0 33%"
       },
       "subCategories": [
         {
           "title": "",
-          "brands": [
+          "manufacturers": [
             {
               "title": "Hygiene Fresh",
               "productTypes": [
@@ -1086,23 +1577,38 @@
                     {
                       "code": "MB-3000 / MB-3045",
                       "description": "TKTK",
-                      "additionalInfo": {
-                        "installation": "2 screws / 2.2 mts height",
-                        "setting": [
-                          "(MB-3000) 30 / 60 / 90 days, 8 / 12 / 16 / 24 hours, 5 day /week",
-                          "(MB-3045) 30 / 45 / 60 / 90 days, 8 to 24 hours, 5 day / week"
-                        ]
-                      }
+                      "additionalInfo": [
+                        {
+                          "label": "Installation",
+                          "content": "2 screws / 2.2 mts height"
+                        },
+                        {
+                          "label": "Setting",
+                          "content": "(MB-3000) 30 / 60 / 90 days, 8 / 12 / 16 / 24 hours, 5 day /week, (MB-3045) 30 / 45 / 60 / 90 days, 8 to 24 hours, 5 day / week"
+                        }
+                      ]
                     },
                     {
                       "code": "AJ-6000 & Autokleen 6000",
                       "description": "TKTK",
-                      "additionalInfo": {
-                        "installation": "2 screws / plumbing",
-                        "setting": "15 / 30 / 60 days, 24 hours",
-                        "refill": "Clean machine / remove old refill, new refill spray for 3 to 5 times, check batteries / replace new wick",
-                        "ftu": "Free To Use dispensers no key to be given to clients"
-                      }
+                      "additionalInfo": [
+                        {
+                          "label": "Installation",
+                          "content": "2 screws / plumbing"
+                        },
+                        {
+                          "label": "Setting",
+                          "content": "15 / 30 / 60 days, 24 hours"
+                        },
+                        {
+                          "label": "Refill",
+                          "content": "Clean machine / remove old refill, new refill spray for 3 to 5 times, check batteries / replace new wick"
+                        },
+                        {
+                          "label": "FTU",
+                          "content": "Free To Use dispensers no key to be given to clients"
+                        }
+                      ]
                     },
                     {
                       "code": "TKTK",
@@ -1143,14 +1649,14 @@
     },
     {
       "title": "Chemicals",
-      "featuredImg": {
+      "backgroundImage": {
         "src": "./src/assets/images/cdc-VRpjDw3WqqI-unsplash.jpg",
         "imgPosition": "0 33%"
       },
       "subCategories": [
         {
           "title": "",
-          "brands": [
+          "manufacturers": [
             {
               "title": "Kleenal",
               "productTypes": [
@@ -1259,14 +1765,14 @@
     },
     {
       "title": "3M Cleaning & Maintenance",
-      "featuredImg": {
+      "backgroundImage": {
         "src": "./src/assets/images/cdc-VRpjDw3WqqI-unsplash.jpg",
         "imgPosition": "0 33%"
       },
       "subCategories": [
         {
           "title": "",
-          "brands": [
+          "manufacturers": [
             {
               "title": "3M",
               "productTypes": [
@@ -1324,14 +1830,14 @@
     },
     {
       "title": "Industrial Cleaning Machines",
-      "featuredImg": {
+      "backgroundImage": {
         "src": "./src/assets/images/cdc-VRpjDw3WqqI-unsplash.jpg",
         "imgPosition": "0 33%"
       },
       "subCategories": [
         {
           "title": "Industrial Vacuum Cleaners",
-          "brands": [
+          "manufacturers": [
             {
               "title": "Kleenal",
               "productTypes": [
@@ -1341,19 +1847,19 @@
                   "productVariants": [
                     {
                       "code": "K-15",
-                      "description": "Wet & Dry Vacuum cleaner, 1000w, 220v, 15ltrs SS body with std. accessories"
+                      "description": "Wet & Dry Vacuum cleaner, 1000w, 220v, 15 litres SS body with std. accessories"
                     },
                     {
                       "code": "K-30",
-                      "description": "Wet & Dry Vacuum cleaner, 1000w, 220v, 30ltrs SS body with std. accessories"
+                      "description": "Wet & Dry Vacuum cleaner, 1000w, 220v, 30 litres SS body with std. accessories"
                     },
                     {
                       "code": "K-260",
-                      "description": "Wet & Dry Vacuum cleaner, 2000w, 220v, 60ltrs SS body with std. accessories"
+                      "description": "Wet & Dry Vacuum cleaner, 2000w, 220v, 60 litres SS body with std. accessories"
                     },
                     {
                       "code": "K-360",
-                      "description": "Wet & Dry Vacuum cleaner, 3000w, 220v, 60ltrs SS body with std. accessories"
+                      "description": "Wet & Dry Vacuum cleaner, 3000w, 220v, 60 litres SS body with std. accessories"
                     },
                     {
                       "code": "K-14",
@@ -1361,15 +1867,15 @@
                     },
                     {
                       "code": "K-S3",
-                      "description": "Three brush floor machine 1000w, 220v, 480mm, 10 ltrs. tank"
+                      "description": "Three brush floor machine 1000w, 220v, 480mm, 10 litres. tank"
                     },
                     {
                       "code": "TKTK",
-                      "description": "Carpet extractor 35 ltrs with accessories"
+                      "description": "Carpet extractor 35 litres with accessories"
                     },
                     {
                       "code": "TKTK",
-                      "description": "Electric Scrubber Dryer 40/30 ltr."
+                      "description": "Electric Scrubber Dryer 40/30 litres."
                     }
                   ]
                 }
