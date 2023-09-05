@@ -2,7 +2,7 @@ module.exports = {
   top: [
     {
       text: 'Products',
-      icon: 'box',
+      icon: 'package',
       url: '/products/'
     },
     {
