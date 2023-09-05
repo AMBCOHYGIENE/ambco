@@ -1,0 +1,29 @@
+<nav
+  class="breadcrumbs | step-min-1"
+  aria-label="Breadcrumbs"
+>
+  <a
+    class="underline-on-hover"
+    href="/"
+  >
+    Home
+  </a>
+
+  {{ "chevron-right" | iconRef | safe }}
+
+  <a
+    class="underline-on-hover"
+    href="/products/"
+  >
+    Products
+  </a>
+
+  {{ 'chevron-right' | iconRef | safe }}
+
+  <a
+    class="underline-on-hover"
+    href="{{ page.url }}"
+  >
+    {{ title | safe }}
+  </a>
+</nav>
