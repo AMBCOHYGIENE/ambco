@@ -107,8 +107,8 @@ module.exports = eleventyConfig => {
   eleventyConfig.addPlugin(bundlerPlugin);
   eleventyConfig.addPlugin(lucideIcons, {
     'class': 'icon',
-    'width': '1.125em',
-    'height': '1.125em',
+    'width': '1em',
+    'height': '1em',
     'stroke': 'currentColor',
     'stroke-width': 1.75,
     'aria-hidden': 'true'
