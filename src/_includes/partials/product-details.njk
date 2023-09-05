@@ -1,0 +1,27 @@
+<dl class="product-details | flow | step-min-1">
+  
+  <!-- description -->
+  <div class="product-description">
+    <dt class="visually-hidden">
+      Description
+    </dt>
+    <dd>{{ item.description }}</dd>
+  </div>
+  
+  <!-- additional information -->
+  {% if item.additionalInfo %}
+  {% for item in item.additionalInfo %}
+  
+  <div>
+    <dt class={{ "inline" if item.label !== "Case Count" else "visually-hidden" }}>
+      {{ item.label }}:
+    </dt>
+    <dd class={{ "inline" if item.label !== "Case Count" }}>
+      {{ item.content }}
+    </dd>
+  </div>
+
+  {% endfor %}
+  {% endif %}
+
+</dl>
