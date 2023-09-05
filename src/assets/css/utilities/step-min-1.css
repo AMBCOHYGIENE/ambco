@@ -1,0 +1,4 @@
+.step-min-1 {
+  font-size: var(--step-min-1);
+  letter-spacing: var(--tracking-l);
+}
