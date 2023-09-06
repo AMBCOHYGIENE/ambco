@@ -8,26 +8,17 @@ CUSTOM PROPERTIES AND CONFIGURATION
 --gutter (var(--space-s-m)): This defines the space
 between each item.
 
---grid-min-item-size (14rem): How large each item should be
+--grid-min-item-size (16rem): How large each item should be
 ideally, as a minimum.
 
 --grid-placement (auto-fill): Set either auto-fit or auto-fill
 to change how empty grid tracks are handled */
-.grid {
+
+.auto-grid {
   display: grid;
   grid-template-columns: repeat(
     var(--grid-placement, auto-fill),
     minmax(var(--grid-min-item-size, 16rem), 1fr)
   );
-  gap: var(--gutter, var(--space-s-l));
-}
-
-.grid[data-rows='masonry'] {
-  grid-template-rows: masonry;
-  align-items: start;
-}
-
-.grid[data-layout='50-50'] {
-  --grid-placement: auto-fit;
-  --grid-min-item-size: clamp(16rem, 50vw, 26rem);
+  gap: var(--grid-gap, var(--gutter));
 }
