@@ -1,20 +1,20 @@
 <div class="product-title | repel">
   <!-- product code -->
-  <p>
+  <p class="product-code | em-semi-bold">
     <span class="visually-hidden">
       Product Code:
     </span>
-    <span class="product-code">
+    <span>
       {{ item.code }}
     </span>
   </p>
   
   <!-- product brand/manufacturer -->
-  <p>
+  <p class="product-brand | text-color-quaternary step-min-1">
     <span class="visually-hidden">
       {{ "Brand: " if item.brand else "Manufacturer: " }}
     </span>
-    <span class="step-min-1">
+    <span>
       {{ item.brand or manufacturer.title }}
     </span>
   </p>

@@ -4,7 +4,7 @@
   <!-- advantages -->
   {% if item.advantages %}
   <p>
-    <span class="emphasise">
+    <span class="em-medium">
       {{ "shield-check" | iconRef | safe }} {{ item.advantages.label }}:
     </span>
     {{ item.advantages.content }}
@@ -14,7 +14,7 @@
   <!-- area of usage -->
   {% if item.usageArea %}
   <p>
-    <span class="emphasise">
+    <span class="em-medium">
       {{ "shrink" | iconRef | safe }} {{ item.usageArea.label }}:
     </span>
     {{ item.usageArea.content | md | safe }}

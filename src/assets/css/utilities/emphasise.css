@@ -1,0 +1,17 @@
+.em-medium {
+  font-weight: medium;
+
+  @supports (font-variation-settings: 'wght' 400) {
+    font-weight: unset;
+    font-variation-settings: 'wght' var(--font-weight, var(--weight-medium));
+  }
+}
+
+.em-semi-bold {
+  font-weight: bold;
+
+  @supports (font-variation-settings: 'wght' 400) {
+    font-weight: unset;
+    font-variation-settings: 'wght' var(--font-weight, var(--weight-semi-bold));
+  }
+}
