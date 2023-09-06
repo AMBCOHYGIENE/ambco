@@ -1,7 +1,14 @@
 .site-head {
   --stack-space: 0;
+
+  background: var(--site-head-bg, var(--color-neutral-primary-bg));
+  color: var(--site-head-text, inherit);
   isolation: isolate;
   z-index: 1;
+
+  * {
+    color: inherit;
+  }
 
   & a {
     display: inline-flex;
@@ -16,5 +23,4 @@
 
 .site-head__inner {
   --repel-space: 0 var(--gutter);
-  background: var(--color-neutral-bg);
 }
