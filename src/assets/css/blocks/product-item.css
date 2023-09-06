@@ -1,0 +1,15 @@
+.product-item {
+  --stack-space: var(--space-l-xl);
+  --stack-vertical-alignment: space-between;
+
+  padding: var(--space-xs-s);
+  background-image: linear-gradient(
+    135deg,
+    var(--color-brand-primary-bg),
+    var(--color-neutral-primary-bg),
+    var(--color-brand-primary-bg)
+  );
+  outline: var(--border-regular) solid var(--color-brand-border-subtle);
+  border-radius: var(--border-radius);
+  box-shadow: var(--shadow-1);
+}
