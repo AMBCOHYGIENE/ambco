@@ -1,0 +1,7 @@
+.product-type-item {
+  --flow-space: var(--space-l-xl);
+}
+
+.product-type-item > * {
+  --flow-space: var(--space-xs-s);
+}
