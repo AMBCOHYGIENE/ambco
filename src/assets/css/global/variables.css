@@ -18,13 +18,14 @@
   /* bg */
   --color-neutral-primary-bg: var(--color-slate-1); /* also used as a theme color */
   --color-neutral-secondary-bg: var(--color-slate-2);
+  --color-neutral-tertiary-bg: var(--color-slate-11);
   --color-brand-primary-bg: var(--color-blue-1);
   --color-brand-secondary-bg: var(--color-blue-2);
 
   /* border */
   --color-neutral-border: var(--color-slate-4);
   --color-neutral-border-subtle: var(--color-slate-3);
-  --color-neutral-border-dark: var(--color-slate-7);
+  --color-neutral-border-dark: var(--color-slate-8);
   --color-brand-border: var(--color-blue-4);
   --color-brand-border-subtle: var(--color-blue-2);
 }

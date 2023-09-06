@@ -4,22 +4,20 @@ layout: base
 
 {% for category in pagination.items %}
 
-<header>
-  <div class="page-header | inverted relative">
-    <!-- background image -->
-    <div
-      class="bg-image"
-      style="--img-position: {{ category.backgroundImage.imgPosition or "center" }}"
-    >
-      {% image category.backgroundImage.src, "", "", "100vw", "eager" %}
-    </div>
+<header class="page-header | inverted relative">
+  <!-- background image -->
+  <div
+    class="bg-image"
+    style="--img-position: {{ category.backgroundImage.imgPosition or "center" }}"
+  >
+    {% image category.backgroundImage.src, "", "", "100vw", "eager" %}
+  </div>
 
-    <div class="cover wrapper">
-      <!-- breadcrumbs -->
-      {% include "partials/breadcrumbs.njk" %}
-      <!-- heading 1 -->
-      <h1>{{ category.title }}</h1>
-    </div>
+  <div class="cover wrapper">
+    <!-- breadcrumbs -->
+    {% include "partials/breadcrumbs.njk" %}
+    <!-- heading 1 -->
+    <h1>{{ category.title }}</h1>
   </div>
 </header>
 
