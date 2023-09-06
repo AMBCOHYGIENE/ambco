@@ -6,6 +6,9 @@
 
   padding: calc(1 / 2 * var(--nav-link-padding-block)) var(--gutter);
 
+  outline-offset: 1px;
+  box-shadow: var(--shadow-6);
+
   opacity: 0;
   transform: translateY(-100%);
   transition: transform 0.15s ease;
@@ -14,6 +17,5 @@
 
 .skip-link:focus {
   opacity: 1;
-  outline: 0;
   transform: translate(0);
 }
