@@ -18,3 +18,6 @@ Thumbs.db
 
 # TODO file
 /TODO.md
+
+# Local Netlify folder
+.netlify
