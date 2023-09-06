@@ -1,0 +1,25 @@
+{% if item.advantages or item.usageArea %}
+
+<div class="product-type-addn-info | flow | text-color-tertiary step-min-1">
+  <!-- advantages -->
+  {% if item.advantages %}
+  <p>
+    <span class="emphasise">
+      {{ "shield-check" | iconRef | safe }} Advantages:
+    </span>
+    {{ item.advantages }}
+  </p>
+  {% endif %}
+
+  <!-- area of usage -->
+  {% if item.usageArea %}
+  <p>
+    <span class="emphasise">
+      {{ "shrink" | iconRef | safe }} Area of Usage:
+    </span>
+    {{ item.usageArea | md | safe }}
+  </p>
+  {% endif %}
+</div>
+
+{% endif %}
