@@ -1,18 +1,8 @@
 .with-icon {
   display: inline-flex;
   align-items: center;
-}
 
-.icon {
-  inline-size: 1.125em;
-  block-size: 1.125em;
-
-  @supports (height: 1.5cap) {
-    inline-size: 1.5cap;
-    block-size: 1.5cap;
+  .icon {
+    margin-inline-end: 0.5ch;
   }
-}
-
-.with-icon .icon {
-  margin-inline-end: 0.5ch;
 }
