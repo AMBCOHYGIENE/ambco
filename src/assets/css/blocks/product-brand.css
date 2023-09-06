@@ -1,0 +1,7 @@
+.product-brand {
+  transition: color var(--transition-fade);
+
+  .product-item:hover & {
+    color: var(--color-neutral-tertiary-text);
+  }
+}
