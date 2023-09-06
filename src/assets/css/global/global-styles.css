@@ -7,7 +7,7 @@
 
 * {
   text-decoration-color: inherit;
-  text-decoration-thickness: 0.15ch;
+  text-decoration-thickness: 0.1ch;
 }
 
 body {
@@ -164,8 +164,11 @@ summary {
 }
 
 a {
-  /* text-underline-offset: min(0.3em, 5px); */
   text-underline-offset: 0.5ex;
+}
+
+a:hover {
+  text-decoration-thickness: 0.15ch;
 }
 
 :target {
