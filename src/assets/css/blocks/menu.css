@@ -4,15 +4,28 @@
   overflow: auto;
   background: linear-gradient(
       to right,
-      var(--color-neutral-bg) 30%,
-      rgba(255, 255, 255, 0)
+      var(--site-head-bg, var(--color-neutral-primary-bg)) 30%,
+      transparent
     ),
-    linear-gradient(to right, rgba(255, 255, 255, 0), var(--color-neutral-bg) 70%) 100% 0,
-    radial-gradient(farthest-side at 0% 50%, rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0)),
-    radial-gradient(farthest-side at 100% 50%, rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0)) 100%
-      0%;
+    linear-gradient(
+        to right,
+        transparent,
+        var(--site-head-bg, var(--color-neutral-primary-bg)) 70%
+      )
+      100% 0,
+    radial-gradient(
+      farthest-side at 0% 50%,
+      var(--scroll-shadow-affordance-color, rgba(0, 0, 0, 0.4)),
+      transparent
+    ),
+    radial-gradient(
+        farthest-side at 100% 50%,
+        var(--scroll-shadow-affordance-color, rgba(0, 0, 0, 0.4)),
+        transparent
+      )
+      100% 0%;
   background-repeat: no-repeat;
-  background-color: var(--color-neutral-bg);
+  background-color: var(--site-head-bg, var(--color-neutral-primary-bg));
   background-size: 1.2rem 100%, 1.2rem 100%, 0.4rem 100%, 0.4rem 100%;
   background-attachment: local, local, scroll, scroll;
 }
@@ -22,7 +35,7 @@
   background: unset;
 }
 
-@media (--sm-n-above) {
+@media (--md-n-above) {
   :where(.has-js) .site-nav-button {
     display: none;
   }
@@ -60,7 +73,7 @@
   z-index: var(--nav-list-container-z-index, -1);
   overscroll-behavior: contain;
 
-  @media (--sm-n-above) {
+  @media (--md-n-above) {
     --nav-list-container-position: static;
     --nav-list-container-inset: unset;
     --nav-list-container-width: auto;
@@ -68,7 +81,7 @@
     --nav-list-container-overflow: visible;
     --nav-list-container-z-index: unset;
     --nav-list-container-opacity: 1;
-    --nav-list-container-translate: none;
+    /* --nav-list-container-translate: none; */
     --nav-list-container-visibility: visible;
     --nav-list-container-pointer-events: auto;
   }
@@ -76,7 +89,7 @@
 
 .site-nav-button[aria-expanded='false'] + .site-nav-list-container {
   opacity: var(--nav-list-container-opacity, 0);
-  translate: var(--nav-list-container-translate, 66% 0);
+  /* translate: var(--nav-list-container-translate, 66% 0); */
   visibility: var(--nav-list-container-visibility, hidden);
   pointer-events: var(--nav-list-container-pointer-events, none);
 }
@@ -84,8 +97,8 @@
 /* animates ul only when opening to avoid flash on page load, svg always */
 @media (--motionOK) {
   .site-nav-button[aria-expanded='true'] + .site-nav-list-container {
-    /* transition: var(--transition-fade); */
-    transition: 0.4s cubic-bezier(0.68, -0.55, 0.27, 1.55);
+    transition: var(--transition-fade);
+    /* transition: 0.4s cubic-bezier(0.68, -0.55, 0.27, 1.55); */
   }
 
   .site-nav-button line:nth-child(2),
@@ -99,24 +112,29 @@
   gap: var(--gutter);
 
   > li {
-    flex-shrink: 0;
+    flex: 0 0 auto;
   }
 }
 
 /* Remove default list styling and create layout for list */
 :where(.has-js) .site-nav ul {
+  --nav-list-padding: var(--site-header-height) var(--gutter) var(--space-l-xl);
+
   flex-direction: var(--nav-list-layout, column);
   gap: 0 var(--gutter);
   justify-content: end;
 
   min-block-size: var(--nav-list-height, var(--full-vh));
-  padding: var(--nav-list-padding, var(--space-xl) var(--gutter) var(--space-l-xl));
-  background: var(--nav-list-background, var(--color-neutral-bg));
+  padding: var(--nav-list-padding);
+  background: var(
+    --nav-list-background,
+    var(--site-head-bg, var(--color-neutral-primary-bg))
+  );
 
   /* overflow: auto; */
-  /* text-align: end; */
+  text-align: end;
 
-  @media (--sm-n-above) {
+  @media (--md-n-above) {
     --nav-list-layout: row;
     --nav-list-padding: 0;
     --nav-list-height: auto;
@@ -141,8 +159,4 @@
 
 body:has(.site-nav-button[aria-expanded='true']) {
   overflow: hidden;
-}
-
-.site-head__inner:has(.site-nav-button[aria-expanded='true']) {
-  border-block-end: var(--header-border) solid var(--color-slate-3);
 }
