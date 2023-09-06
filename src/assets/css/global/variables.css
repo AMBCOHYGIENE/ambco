@@ -33,6 +33,8 @@
   --border-thin: 1px;
   --border-regular: 1px;
 
+  --border-radius: 4px;
+
   @media (resolution >= 192dpi) {
     --border-thin: 0.5px;
   }

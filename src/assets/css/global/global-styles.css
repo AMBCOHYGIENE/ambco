@@ -7,13 +7,13 @@
 
 * {
   text-decoration-color: inherit;
-  text-decoration-thickness: 0.1ex;
+  text-decoration-thickness: 0.15ch;
 }
 
 body {
   --stack-horizontal-alignment: stretch;
 
-  background: var(--color-neutral-bg);
+  background: var(--color-neutral-primary-bg);
   color: var(--color-neutral-secondary-text);
 
   font-size: var(--step-0);
@@ -21,10 +21,20 @@ body {
   line-height: var(--leading-standard);
 }
 
+main {
+  --stack-space: 0;
+  padding-block: var(--gutter);
+}
+
 /* Base typesetting */
 h1,
+.heading-1,
 h2,
+.heading-2,
 h3,
+.heading-3,
+h4,
+.heading-4,
 .heading-wrapper {
   color: var(--color-neutral-primary-text);
   font-family: var(--font-display);
@@ -35,46 +45,68 @@ h3,
 }
 
 h1,
-h2 {
+h2,
+.heading-1,
+.heading-2 {
   letter-spacing: var(--tracking-s);
 }
 
 h2,
-h3,
-.heading-wrapper:has(h2),
-.heading-wrapper:has(h3) {
+.heading-2,
+.heading-wrapper:has(h2) {
   line-height: var(--leading-fine);
 }
 
-h1 {
-  font-size: var(--step-6);
+h1,
+.heading-1 {
+  font-size: var(--step-5);
   line-height: var(--leading-flat);
 }
 
 h2,
+.heading-2,
 .heading-wrapper:has(h2) {
   font-size: var(--step-3);
 }
 
 h3,
+.heading-3,
 .heading-wrapper:has(h3) {
-  font-size: var(--step-2);
+  font-size: var(--step-1);
+  line-height: var(--leading-medium);
 }
 
-h3 {
+h3,
+.heading-3 {
   letter-spacing: var(--tracking-m);
+}
+
+h4,
+.heading-4 {
+  font-size: var(--step-0);
+}
+
+em {
+  font-style: normal;
+  font-weight: 500;
+
+  @supports (font-variation-settings: 'wght' 400) {
+    font-weight: unset;
+    font-variation-settings: 'wght' var(--font-weight, var(--weight-medium));
+  }
 }
 
 /* Set line lengths */
 h1,
 h2,
-h3 {
+h3,
+h4 {
   max-inline-size: var(--measure-headings);
   text-wrap: balance;
 }
 
 p,
-li,
+dd,
 figcaption,
 blockquote:not([class]) {
   max-inline-size: var(--measure-body);
@@ -111,6 +143,11 @@ blockquote:not([class]) cite {
   /* letter-spacing: normal; */
 }
 
+dt,
+dd {
+  overflow-wrap: break-word;
+}
+
 /* Base interactive elements */
 a,
 button {
@@ -121,14 +158,14 @@ button,
 summary {
   -webkit-tap-highlight-color: transparent;
   touch-action: manipulation;
+  cursor: pointer;
+  -webkit-user-select: none;
+  user-select: none;
 }
 
 a {
-  text-underline-offset: min(0.2em, 4px);
-}
-
-a:hover {
-  text-decoration-thickness: 0.2ex;
+  /* text-underline-offset: min(0.3em, 5px); */
+  text-underline-offset: 0.5ex;
 }
 
 :target {
@@ -136,10 +173,14 @@ a:hover {
 }
 
 :focus-visible {
-  outline: 2px solid var(--color-brand-primary-text);
-  outline-offset: 2px;
-  border-radius: 1px;
-  /* text-decoration-color: transparent; */
+  outline: 1px solid var(--color-brand-primary-text);
+  outline-offset: 1px;
+  border-radius: var(--border-radius);
+  text-decoration-color: transparent;
+}
+
+[class]:focus-visible {
+  outline-offset: -2px;
 }
 
 main:focus {
