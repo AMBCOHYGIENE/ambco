@@ -8,6 +8,10 @@
     -webkit-font-smoothing: antialiased;
   }
 
+  .site-head__inner {
+    --header-border-color: var(--color-neutral-border-dark);
+  }
+
   & main {
     padding-block: 0;
     isolation: isolate;
@@ -34,10 +38,6 @@
     inset-block-start: 0;
     inset-inline: 0;
     background-color: transparent;
-  }
-
-  .site-head__inner {
-    --header-border-color: var(--color-neutral-border-dark);
   }
 
   .page-header {
