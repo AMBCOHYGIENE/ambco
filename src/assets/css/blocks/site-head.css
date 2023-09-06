@@ -23,4 +23,11 @@
 
 .site-head__inner {
   --repel-space: 0 var(--gutter);
+
+  border-block-end: var(--border-thin) solid transparent;
+  transition: border var(--transition-fade);
+}
+
+.site-head__inner:has(.site-nav-button[aria-expanded='true']) {
+  border-block-end-color: var(--color-neutral-border);
 }
