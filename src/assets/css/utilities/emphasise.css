@@ -1,5 +1,5 @@
 .em-medium {
-  font-weight: medium;
+  font-weight: 500;
 
   @supports (font-variation-settings: 'wght' 400) {
     font-weight: unset;
