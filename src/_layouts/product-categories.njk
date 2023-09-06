@@ -1,0 +1,111 @@
+---
+layout: base
+---
+
+{% for category in pagination.items %}
+
+<header>
+  <div class="page-header | inverted relative">
+    <!-- background image -->
+    <div
+      class="bg-image"
+      style="--img-position: {{ category.backgroundImage.imgPosition or "center" }}"
+    >
+      {% image category.backgroundImage.src, "", "", "100vw", "eager" %}
+    </div>
+
+    <div class="cover wrapper">
+      <!-- breadcrumbs -->
+      {% include "partials/breadcrumbs.njk" %}
+      <!-- heading 1 -->
+      <h1>{{ category.title }}</h1>
+    </div>
+  </div>
+</header>
+
+{% set numberOfSubCategories = category.subCategories.length %}
+{% if numberOfSubCategories > 1 %}
+{% include "partials/subcategories-navigation.njk" %}
+{% endif %}
+
+<div>
+  <ul
+    class="product-subcategories-list"
+    role="list"
+  >
+    {% for subcategory in category.subCategories %}
+    <!-- subcategory -->
+    <li class="product-subcategories-item | wrapper">
+      {%- if numberOfSubCategories > 1 -%}
+      <section class="flow" aria-labelledby="{{ subcategory.title | slugify }}">
+      {%- else -%}
+      <div class="flow">
+      {%- endif -%}
+
+        <!-- subcategory heading -->
+        {% if numberOfSubCategories > 1 %}
+        <h2
+          id="{{ subcategory.title | slugify }}"
+          class="product-subcategory-heading"
+        >
+          {{ subcategory.title }}
+        </h2>
+        {% endif %}
+
+        {% for manufacturer in subcategory.manufacturers %}
+        <div class="flow">
+          {% if manufacturer.productTypes %}
+          <ul
+            class="product-type-list | flow"
+            role="list"
+          >
+            {% for item in manufacturer.productTypes %}
+              <li class="product-type-item">
+                <article class="flow">
+                  <!-- product-type-heading -->
+                  {% include "partials/product-type-heading.njk" %}
+
+                  <!-- product-type-addn-info -->
+                  {% include "partials/product-type-addn-info.njk" %}
+
+                  <ul class="product-list | auto-grid" role="list">
+                    {% for item in item.productVariants %}
+                    <li class="product-item | stack">
+                      <!-- product title -->
+                      {% include "partials/product-title.njk" %}
+                      
+                      <!-- product image -->
+                      {% if item.image.src %}
+                      {% set src = "./src/assets/images/products/" + item.image.src %}
+                      {% set loading %}
+                      {{- item.image.loading if item.image.loading else "lazy" -}}
+                      {% endset %}
+                      {% image src, "", "", "(min-width: 65.625rem) 20vw, (min-width: 43.8125rem) 30vw, 60vw", loading %}
+                      {% endif %}
+
+                      <!-- product details -->
+                      {% include "partials/product-details.njk" %}
+                    </li>
+                    {% endfor %}
+                  </ul>
+                </article>
+              </li>
+            {% endfor %}
+          </ul>
+          {% endif %}
+        </div>
+        {% endfor %}
+      </{{ "section" if numberOfSubCategories > 1 else "div" }}>
+    </li>
+    {% endfor %}
+  </ul>
+</div>
+
+{% endfor %}
+
+{% if content %}  
+<div class="wrapper">
+  {{ content | safe }}
+</div>
+{% endif %}
+
