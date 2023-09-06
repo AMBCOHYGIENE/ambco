@@ -9,3 +9,5 @@
 @custom-media --lg-n-above (min-width: 64em);
 @custom-media --xl-n-above (min-width: 90em);
 @custom-media --2xl-n-above (min-width: 120em);
+
+@custom-media --md-n-below (max-width: 47.9375em);
