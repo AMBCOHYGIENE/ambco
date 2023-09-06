@@ -122,7 +122,7 @@
 
   flex-direction: var(--nav-list-layout, column);
   gap: 0 var(--gutter);
-  justify-content: end;
+  justify-content: start;
 
   min-block-size: var(--nav-list-height, var(--full-vh));
   padding: var(--nav-list-padding);
