@@ -1,0 +1,19 @@
+.bg-image {
+  position: absolute;
+  inset: 0;
+  pointer-events: none;
+
+  & figure,
+  picture,
+  img {
+    block-size: 100%;
+    inline-size: 100%;
+  }
+
+  & img {
+    mix-blend-mode: overlay;
+    object-fit: cover;
+    object-position: var(--img-position);
+    opacity: 0.5;
+  }
+}
