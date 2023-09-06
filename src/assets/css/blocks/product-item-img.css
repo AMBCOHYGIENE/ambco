@@ -1,0 +1,7 @@
+.product-item img {
+  margin-inline: auto;
+  max-inline-size: 80%;
+  max-block-size: 12rem;
+  object-fit: contain;
+  mix-blend-mode: darken;
+}
