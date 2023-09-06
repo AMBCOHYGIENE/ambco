@@ -1,0 +1,5 @@
+.cover {
+  display: flex;
+  flex-direction: column;
+  min-block-size: var(--cover-size, var(--full-vh));
+}
