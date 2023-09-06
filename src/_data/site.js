@@ -1,8 +1,7 @@
 module.exports = {
   url: process.env.URL || 'http://localhost:8080',
   siteName: 'Ambco Hygiene Care',
-  siteDescription:
-    'Eleventy starter based on the workflow suggested by buildexcellentwebsit.es.',
+  siteDescription: 'Professional & Innovative Cleaning Tools & Accessories',
   siteType: 'Person', // schema
   locale: 'en',
   lang: 'en',
