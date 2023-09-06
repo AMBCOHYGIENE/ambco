@@ -1,0 +1,12 @@
+.product-subcategories-list > * + * {
+  border-block-start: var(--border-regular) solid var(--color-brand-border-subtle);
+}
+
+.product-subcategories-item {
+  --flow-space: var(--space-xl-2xl);
+  padding-block: var(--space-xl-2xl);
+}
+
+.product-subcategory-heading + div {
+  --flow-space: var(--space-m-l);
+}
