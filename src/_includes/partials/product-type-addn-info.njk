@@ -5,9 +5,9 @@
   {% if item.advantages %}
   <p>
     <span class="emphasise">
-      {{ "shield-check" | iconRef | safe }} Advantages:
+      {{ "shield-check" | iconRef | safe }} {{ item.advantages.label }}:
     </span>
-    {{ item.advantages }}
+    {{ item.advantages.content }}
   </p>
   {% endif %}
 
@@ -15,9 +15,9 @@
   {% if item.usageArea %}
   <p>
     <span class="emphasise">
-      {{ "shrink" | iconRef | safe }} Area of Usage:
+      {{ "shrink" | iconRef | safe }} {{ item.usageArea.label }}:
     </span>
-    {{ item.usageArea | md | safe }}
+    {{ item.usageArea.content | md | safe }}
   </p>
   {% endif %}
 </div>

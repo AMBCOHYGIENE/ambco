@@ -15,8 +15,14 @@
               "productTypes": [
                 {
                   "title": "Dry Mops - Cotton Acrylic Blue",
-                  "usageArea": "General Area Cleaning",
-                  "advantages": "Heavy duty product used to clean public areas for dry dust sweeping. Used in malls, corporate office open lobbies, passages, hospitals and large restaurants.",
+                  "usageArea": {
+                    "label": "Area of Usage",
+                    "content": "General Area Cleaning"
+                  },
+                  "advantages": {
+                    "label": "Advantages",
+                    "content": "Heavy duty product used to clean public areas for dry dust sweeping. Used in malls, corporate office open lobbies, passages, hospitals and large restaurants."
+                  },
                   "productVariants": [
                     {
                       "code": "FS-40 / FS-60",
@@ -30,8 +36,14 @@
                 },
                 {
                   "title": "Wet Dry Mops System - Microfiber",
-                  "usageArea": "General Area, Pharma Labs, Production Area Cleaning",
-                  "advantages": "Damp mop used to clean public area for dry and wet dust used in malls, corporate office open lobby, passages, hospitals and large restaurants. Refills can be machine washed up to 300 times.",
+                  "usageArea": {
+                    "label": "Area of Usage",
+                    "content": "General Area, Pharma Labs, Production Area Cleaning"
+                  },
+                  "advantages": {
+                    "label": "Advantages",
+                    "content": "Damp mop used to clean public area for dry and wet dust used in malls, corporate office open lobby, passages, hospitals and large restaurants. Refills can be machine washed up to 300 times."
+                  },
                   "productVariants": [
                     {
                       "code": "MWD-40",
@@ -45,8 +57,14 @@
                 },
                 {
                   "title": "Wet Mopping System - Kent Color Coded",
-                  "usageArea": "General Area Cleaning - [Color Coded](#)",
-                  "advantages": "Wet mop used to clean public area , wet dust in Malls, corporate office open lobby, passages, Hospitals and large restaurants.",
+                  "usageArea": {
+                    "label": "Area of Usage",
+                    "content": "General Area Cleaning - [Color Coded](#)"
+                  },
+                  "advantages": {
+                    "label": "Advantages",
+                    "content": "Wet mop used to clean public area , wet dust in Malls, corporate office open lobby, passages, Hospitals and large restaurants."
+                  },
                   "productVariants": [
                     {
                       "code": "PMH-300",
@@ -72,8 +90,14 @@
                 },
                 {
                   "title": "Wet Mops Round & Heavy Handles",
-                  "usageArea": "General Area Cleaning - [Color Coded](#)",
-                  "advantages": "All products are heavy duty and already used by all facility companies, malls, corporate offices, hospitals and restaurant outlets. Color coded grips on all handles.",
+                  "usageArea": {
+                    "label": "Area of Usage",
+                    "content": "General Area Cleaning - [Color Coded](#)"
+                  },
+                  "advantages": {
+                    "label": "Advantages",
+                    "content": "All products are heavy duty and already used by all facility companies, malls, corporate offices, hospitals and restaurant outlets. Color coded grips on all handles."
+                  },
                   "productVariants": [
                     {
                       "code": "MC-300P",
@@ -109,8 +133,14 @@
               "productTypes": [
                 {
                   "title": "Squeegee",
-                  "usageArea": "General Area Cleaning - Color Coded For Washrooms",
-                  "advantages": "Kleenal metal and plastic squeezees are heavy duty used to clean public area washrooms, Malls, corporate office open lobby, passages, Hospitals and large restaurants",
+                  "usageArea": {
+                    "label": "Area of Usage",
+                    "content": "General Area Cleaning - Color Coded For Washrooms"
+                  },
+                  "advantages": {
+                    "label": "Advantages",
+                    "content": "Kleenal metal and plastic squeezees are heavy duty used to clean public area washrooms, Malls, corporate office open lobby, passages, Hospitals and large restaurants"
+                  },
                   "productVariants": [
                     {
                       "code": "S-12 / S-18 / S-24",
@@ -132,8 +162,14 @@
                 },
                 {
                   "title": "Brushes",
-                  "usageArea": "General Area Cleaning - Color Coded",
-                  "advantages": "Kleenal brushes are heavy duty used to clean public area roads, washrooms, Malls, corporate office open lobby, passages, Hospitals and small / large restaurants",
+                  "usageArea": {
+                    "label": "Area of Usage",
+                    "content": "General Area Cleaning - Color Coded"
+                  },
+                  "advantages": {
+                    "label": "Advantages",
+                    "content": "Kleenal brushes are heavy duty used to clean public area roads, washrooms, Malls, corporate office open lobby, passages, Hospitals and small / large restaurants"
+                  },
                   "productVariants": [
                     {
                       "code": "FB-12 / FB-18 / FB-24",
@@ -156,8 +192,14 @@
               "title": "Kleenal",
               "productTypes": [
                 {
-                  "usageArea": "Glass Cleaning Operation All Areas",
-                  "advantages": "General glass cleaning operations in public area , external glass, washrooms, malls, corporate office open lobby, passages, hospitals and large restaurants",
+                  "usageArea": {
+                    "label": "Area of Usage",
+                    "content": "Glass Cleaning Operation All Areas"
+                  },
+                  "advantages": {
+                    "label": "Advantages",
+                    "content": "General glass cleaning operations in public area , external glass, washrooms, malls, corporate office open lobby, passages, hospitals and large restaurants"
+                  },
                   "productVariants": [
                     {
                       "code": "K-39",
@@ -232,8 +274,14 @@
               "title": "Kleenal",
               "productTypes": [
                 {
-                  "usageArea": "General Area Cleaning",
-                  "advantages": "General cleaning operations in public area, hotel rooms, washrooms, malls, corporate office open lobby, passages, hospitals and large restaurants",
+                  "usageArea": {
+                    "label": "Area of Usage",
+                    "content": "General Area Cleaning"
+                  },
+                  "advantages": {
+                    "label": "Advantages",
+                    "content": "General cleaning operations in public area, hotel rooms, washrooms, malls, corporate office open lobby, passages, hospitals and large restaurants"
+                  },
                   "productVariants": [
                     {
                       "code": "TH17 / TH21",
@@ -306,7 +354,10 @@
               "productTypes": [
                 {
                   "title": "Nomad Terra Loop Matting",
-                  "usageArea": "Entrance Matting System",
+                  "usageArea": {
+                    "label": "Area of Usage",
+                    "content": "Entrance Matting System"
+                  },
                   "productVariants": [
                     {
                       "code": "3200 - 9100",
@@ -354,7 +405,10 @@
               "title": "Time Technoplast",
               "productTypes": [
                 {
-                  "usageArea": "Floor",
+                  "usageArea": {
+                    "label": "Area of Usage",
+                    "content": "Floor"
+                  },
                   "productVariants": [
                     {
                       "code": "DS-Premium",
@@ -1572,7 +1626,10 @@
               "title": "Hygiene Fresh",
               "productTypes": [
                 {
-                  "usageArea": "Wash Room",
+                  "usageArea": {
+                    "label": "Area of Usage",
+                    "content": "Wash Room"
+                  },
                   "productVariants": [
                     {
                       "code": "MB-3000 / MB-3045",
@@ -1629,7 +1686,10 @@
               "title": "Innovision",
               "productTypes": [
                 {
-                  "usageArea": "Wash Room",
+                  "usageArea": {
+                    "label": "Area of Usage",
+                    "content": "Wash Room"
+                  },
                   "productVariants": [
                     {
                       "code": "TKTK",
@@ -1777,8 +1837,14 @@
               "title": "3M",
               "productTypes": [
                 {
-                  "usageArea": "General Area Cleaning",
-                  "advantages": "General glass cleaning operations in public area , external glass, washrooms, malls, corporate office open lobby, passages, hospitals and large restaurants",
+                  "usageArea": {
+                    "label": "Area of Usage",
+                    "content": "General Area Cleaning"
+                  },
+                  "advantages": {
+                    "label": "Advantages",
+                    "content": "General glass cleaning operations in public area , external glass, washrooms, malls, corporate office open lobby, passages, hospitals and large restaurants"
+                  },
                   "productVariants": [
                     {
                       "code": "TKTK",
@@ -1842,8 +1908,14 @@
               "title": "Kleenal",
               "productTypes": [
                 {
-                  "usageArea": "General Area Cleaning",
-                  "advantages": "General cleaning operations in public area, hotel rooms, washrooms, malls, corporate office open lobby, passages, hospitals and large restaurants",
+                  "usageArea": {
+                    "label": "Area of Usage",
+                    "content": "General Area Cleaning"
+                  },
+                  "advantages": {
+                    "label": "Advantages",
+                    "content": "General cleaning operations in public area, hotel rooms, washrooms, malls, corporate office open lobby, passages, hospitals and large restaurants"
+                  },
                   "productVariants": [
                     {
                       "code": "K-15",
