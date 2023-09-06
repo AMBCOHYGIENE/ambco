@@ -10,6 +10,7 @@
 
   .site-head__inner {
     --header-border-color: var(--color-neutral-border-dark);
+    transition: none;
   }
 
   & main {
