@@ -24,8 +24,7 @@
 .site-head__inner {
   --repel-space: 0 var(--gutter);
 
-  border-block-end: var(--border-thin) solid var(--header-border-color, transparent);
-  transition: border var(--transition-fade);
+  border-block-end: var(--border-thin) solid var(--header-border-color);
 }
 
 :where(.site-head__inner:has(.site-nav-button[aria-expanded='true'])) {
