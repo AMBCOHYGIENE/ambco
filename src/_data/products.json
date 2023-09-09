@@ -25,12 +25,12 @@
                   },
                   "productVariants": [
                     {
-                      "code": "FS-40 / FS-60",
-                      "description": "Metal frame 40cms / 60cms with cotton refill / acrylic blue refill"
+                      "code": "FS-40/FS-60",
+                      "description": "Metal frame 40 cm/60 cm with cotton refill/acrylic blue refill"
                     },
                     {
-                      "code": "TPFS-40 / PFS-60",
-                      "description": "Plastic frame 40cms / 60cms with cotton refill / acrylic blue refill"
+                      "code": "TPFS-40/PFS-60",
+                      "description": "Plastic frame 40 cm/60 cm with cotton refill/acrylic blue refill"
                     }
                   ]
                 },
@@ -47,11 +47,11 @@
                   "productVariants": [
                     {
                       "code": "MWD-40",
-                      "description": "Plastic collapsible holder 40cms with Microfiber cloth clip refill"
+                      "description": "Plastic collapsible holder 40 cm with Microfiber cloth clip refill"
                     },
                     {
                       "code": "MEC-40",
-                      "description": "Plastic easy fixed frame 40cms with Microfiber cloth pocket refill"
+                      "description": "Plastic easy fixed frame 40 cm with Microfiber cloth pocket refill"
                     }
                   ]
                 },
@@ -68,7 +68,7 @@
                   "productVariants": [
                     {
                       "code": "PMH-300",
-                      "description": "Plastic holder – Blue / Red / Green / Yellow with cotton refill"
+                      "description": "Plastic holder – Blue/Red/Green/Yellow with cotton refill"
                     },
                     {
                       "code": "M-300",
@@ -76,11 +76,11 @@
                     },
                     {
                       "code": "MC-300",
-                      "description": "Cotton refill 300gms (250gms / 350gms)"
+                      "description": "Cotton refill 300 grams (250 grams/350 grams)"
                     },
                     {
                       "code": "MFR-300",
-                      "description": "Microfiber strip refill 300gms (Microfiber refills can be machine washed up to 300 times)"
+                      "description": "Microfiber strip refill 300 grams (Microfiber refills can be machine washed up to 300 times)"
                     },
                     {
                       "code": "YMR16",
@@ -101,22 +101,22 @@
                   "productVariants": [
                     {
                       "code": "MC-300P",
-                      "description": "Plastic socket – Blue / Red / Green / Yellow with cotton mops 300gms"
+                      "description": "Plastic socket – Blue/Red/Green/Yellow with cotton mops 300 grams"
                     },
                     {
                       "code": "H-4.5",
-                      "description": "Metal handle coated 4.5’ heavy 22mm"
+                      "description": "Metal handle coated 4.5’ heavy 22 mm"
                     },
                     {
                       "code": "AH-4.5",
-                      "description": "Anodized aluminum handle 4.5’ 22mm"
+                      "description": "Anodized aluminum handle 4.5’ 22 mm"
                     },
                     {
                       "code": "H-4.5SS",
-                      "description": "Stainless steel Handle 4.5’, 22mm. (All Kleenal handle are international sizes and fits to all products)"
+                      "description": "Stainless steel Handle 4.5’, 22 mm. (All Kleenal handle are international sizes and fits to all products)"
                     },
                     {
-                      "code": "PH-5 / 6",
+                      "code": "PH-5/6",
                       "description": "Mop Hanger (for all international handles)"
                     }
                   ]
@@ -143,16 +143,16 @@
                   },
                   "productVariants": [
                     {
-                      "code": "S-12 / S-18 / S-24",
-                      "description": "Aluminum rubber squeezee 12” / 18” / 24” heavy duty"
+                      "code": "S-12/S-18/S-24",
+                      "description": "Aluminum rubber squeezee 12”/18”/24” heavy duty"
                     },
                     {
-                      "code": "PS-13 / PS-18",
-                      "description": "Hard plastic bracket rubber squeegee 13” / 18” heavy duty (Color Red / Blue)"
+                      "code": "PS-13/PS-18",
+                      "description": "Hard plastic bracket rubber squeegee 13”/18” heavy duty (Color Red/Blue)"
                     },
                     {
-                      "code": "PDRS45 / PDRS55",
-                      "description": "Hard plastic double rubber squeegee 45cm / 55cm heavy duty (Color Blue)"
+                      "code": "PDRS45/PDRS55",
+                      "description": "Hard plastic double rubber squeegee 45 cm/55 cm heavy duty (Color Blue)"
                     },
                     {
                       "code": "CB-18",
@@ -168,16 +168,16 @@
                   },
                   "advantages": {
                     "label": "Advantages",
-                    "content": "Kleenal brushes are heavy duty used to clean public area roads, washrooms, Malls, corporate office open lobby, passages, Hospitals and small / large restaurants"
+                    "content": "Kleenal brushes are heavy duty used to clean public area roads, washrooms, Malls, corporate office open lobby, passages, Hospitals and small or large restaurants"
                   },
                   "productVariants": [
                     {
-                      "code": "FB-12 / FB-18 / FB-24",
-                      "description": "Aluminum body scrubbing brush 12” / 18” / 24” heavy duty"
+                      "code": "FB-12/FB-18/FB-24",
+                      "description": "Aluminum body scrubbing brush 12”/18”/24” heavy duty"
                     },
                     {
-                      "code": "NSC-12 / NSC-18",
-                      "description": "Hard plastic scrubbing brush 12” / 18” heavy duty (Color Red / Blue)"
+                      "code": "NSC-12/NSC-18",
+                      "description": "Hard plastic scrubbing brush 12”/18” heavy duty (Color Red/Blue)"
                     }
                   ]
                 }
@@ -206,20 +206,20 @@
                       "description": "Glass Cleaning Kit Bag. This includes all glass tools required to clean glass"
                     },
                     {
-                      "code": "K-48 / K-50",
-                      "description": "Stainless steel body with rubber blade 35cm / 45cms"
+                      "code": "K-48/K-50",
+                      "description": "Stainless steel body with rubber blade 35 cm/45 cm"
                     },
                     {
-                      "code": "PGS20 / PGS35",
-                      "description": "Plastic body with rubber blade 20cms / 35cms"
+                      "code": "PGS20/PGS35",
+                      "description": "Plastic body with rubber blade 20 cm/35 cm"
                     },
                     {
-                      "code": "K-43 / K-55",
-                      "description": "Plastic glass washer holder with micro cloth sleeve 35cm / 45cms"
+                      "code": "K-43/K-55",
+                      "description": "Plastic glass washer holder with micro cloth sleeve 35 cm/45 cm"
                     },
                     {
-                      "code": "K-66 / K-68 / K-68-9",
-                      "description": "Telescopic poles 4mts / 6mts / 9mts to reach higher ceilings with tools"
+                      "code": "K-66/K-68/K-68-9",
+                      "description": "Telescopic poles 4 m/6 m/9 m to reach higher ceilings with tools"
                     },
                     {
                       "code": "K-40",
@@ -243,7 +243,7 @@
                     },
                     {
                       "code": "HS-10",
-                      "description": "Handy Plastic glass / platform squeegee"
+                      "description": "Handy Plastic glass or platform squeegee"
                     },
                     {
                       "code": "KCH",
@@ -284,7 +284,7 @@
                   },
                   "productVariants": [
                     {
-                      "code": "TH17 / TH21",
+                      "code": "TH17/TH21",
                       "description": "TKTK"
                     },
                     {
@@ -312,20 +312,20 @@
                       "description": "Lobby dustpan with lid and dusting brush"
                     },
                     {
-                      "code": "CIP / CWF",
+                      "code": "CIP/CWF",
                       "description": "Caution Signage – 'Cleaning in Progress' and 'Caution Wet Floors' (Blank signage with stickers arranged on request)"
                     },
                     {
                       "code": "K-73",
-                      "description": "Caddy basket - Blue / Red / Green / Yellow / Grey"
+                      "description": "Caddy basket - Blue/Red/Green/Yellow/Grey"
                     },
                     {
                       "code": "K-74",
                       "description": "Pro multi trolley for utility service products"
                     },
                     {
-                      "code": "MGB-120 / MGB-240",
-                      "description": "Otto waste bin -120 litres / 240 litres, Blue / Red / Green / Yellow / Grey"
+                      "code": "MGB-120/MGB-240",
+                      "description": "Otto waste bin - 120 litres/240 litres, Blue/Red/Green/Yellow/Grey"
                     },
                     {
                       "code": "Campus Bin",
@@ -432,7 +432,7 @@
                     },
                     {
                       "code": "DP-Aqua MD",
-                      "description": "Black / Grey aqua carpet mats"
+                      "description": "Black/Grey aqua carpet mats"
                     },
                     {
                       "code": "DA-Active",
@@ -464,7 +464,7 @@
               "title": "3M",
               "productTypes": [
                 {
-                  "title": "Anti Skid / Slip Resistance Solutions",
+                  "title": "Anti Skid/Slip Resistance Solutions",
                   "productVariants": [
                     {
                       "code": "TKTK",
@@ -776,7 +776,7 @@
                     },
                     {
                       "code": "IH6904N",
-                      "description": "Wiper / Utility / Kitchen Roll",
+                      "description": "Wiper/Utility/Kitchen Roll",
                       "additionalInfo": [
                         {
                           "label": "Case Count",
@@ -930,7 +930,7 @@
                       "additionalInfo": [
                         {
                           "label": "Case Count",
-                          "content": "100 rolls x 100 gms"
+                          "content": "100 rolls x 100 grams"
                         }
                       ]
                     },
@@ -944,7 +944,7 @@
                       "additionalInfo": [
                         {
                           "label": "Case Count",
-                          "content": "100 rolls x 130 gms"
+                          "content": "100 rolls x 130 grams"
                         }
                       ]
                     }
@@ -1111,7 +1111,7 @@
           ]
         },
         {
-          "title": "Soaps / Gels",
+          "title": "Soaps/Gels",
           "manufacturers": [
             {
               "title": "Kimberly Clark",
@@ -1632,16 +1632,16 @@
                   },
                   "productVariants": [
                     {
-                      "code": "MB-3000 / MB-3045",
+                      "code": "MB-3000/MB-3045",
                       "description": "TKTK",
                       "additionalInfo": [
                         {
                           "label": "Installation",
-                          "content": "2 screws / 2.2 mts height"
+                          "content": "2 screws/2.2 m height"
                         },
                         {
                           "label": "Setting",
-                          "content": "(MB-3000) 30 / 60 / 90 days, 8 / 12 / 16 / 24 hours, 5 day /week, (MB-3045) 30 / 45 / 60 / 90 days, 8 to 24 hours, 5 day / week"
+                          "content": "(MB-3000) 30/60/90 days, 8/12/16/24 hours, 5 day/week, (MB-3045) 30/45/60/90 days, 8 to 24 hours, 5 day/week"
                         }
                       ]
                     },
@@ -1651,15 +1651,15 @@
                       "additionalInfo": [
                         {
                           "label": "Installation",
-                          "content": "2 screws / plumbing"
+                          "content": "2 screws/plumbing"
                         },
                         {
                           "label": "Setting",
-                          "content": "15 / 30 / 60 days, 24 hours"
+                          "content": "15/30/60 days, 24 hours"
                         },
                         {
                           "label": "Refill",
-                          "content": "Clean machine / remove old refill, new refill spray for 3 to 5 times, check batteries / replace new wick"
+                          "content": "Clean machine/remove old refill, new refill spray for 3 to 5 times, check batteries/replace new wick TKTK"
                         },
                         {
                           "label": "FTU",
@@ -1772,7 +1772,7 @@
                     },
                     {
                       "code": "CLO",
-                      "description": "Crockery / Cutlery Whitener / Destainer"
+                      "description": "Crockery or Cutlery Whitener or Destainer"
                     },
                     {
                       "code": "Diffuser Oil",
@@ -1848,7 +1848,7 @@
                   "productVariants": [
                     {
                       "code": "TKTK",
-                      "description": "3M scotch-brite General purpose pad green 6”x4”"
+                      "description": "3M scotch-brite General purpose pad green 6″ x 4″"
                     },
                     {
                       "code": "TKTK",
@@ -1864,7 +1864,7 @@
                     },
                     {
                       "code": "TKTK",
-                      "description": "3M scotch-brite sponge wipe –pink / yellow "
+                      "description": "3M scotch-brite sponge wipe – pink/yellow "
                     },
                     {
                       "code": "TKTK",
@@ -1872,7 +1872,7 @@
                     },
                     {
                       "code": "TKTK",
-                      "description": "3M scotch-brite High performance micro fiber cloth (Blue / Red / Green / Yellow)"
+                      "description": "3M scotch-brite High performance micro fiber cloth (Blue/Red/Green/Yellow)"
                     },
                     {
                       "code": "TKTK",
@@ -1880,7 +1880,7 @@
                     },
                     {
                       "code": "TKTK",
-                      "description": "3M High performance Floor Pad 17” - Blue / Red / Black / White"
+                      "description": "3M High performance Floor Pad 17” - Blue/Red/Black/White"
                     },
                     {
                       "code": "TKTK",
@@ -1919,27 +1919,27 @@
                   "productVariants": [
                     {
                       "code": "K-15",
-                      "description": "Wet & Dry Vacuum cleaner, 1000w, 220v, 15 litres SS body with std. accessories"
+                      "description": "Wet & Dry Vacuum cleaner, 1000 W, 220 V, 15 litres SS body with standard accessories"
                     },
                     {
                       "code": "K-30",
-                      "description": "Wet & Dry Vacuum cleaner, 1000w, 220v, 30 litres SS body with std. accessories"
+                      "description": "Wet & Dry Vacuum cleaner, 1000 W, 220 V, 30 litres SS body with standard accessories"
                     },
                     {
                       "code": "K-260",
-                      "description": "Wet & Dry Vacuum cleaner, 2000w, 220v, 60 litres SS body with std. accessories"
+                      "description": "Wet & Dry Vacuum cleaner, 2000 W, 220 V, 60 litres SS body with standard accessories"
                     },
                     {
                       "code": "K-360",
-                      "description": "Wet & Dry Vacuum cleaner, 3000w, 220v, 60 litres SS body with std. accessories"
+                      "description": "Wet & Dry Vacuum cleaner, 3000 W, 220 V, 60 litres SS body with standard accessories"
                     },
                     {
                       "code": "K-14",
-                      "description": "Single Disc Floor machine 1100w, 220v, 17” with std. accessories"
+                      "description": "Single Disc Floor machine 1100 W, 220 V, 17” with standard accessories"
                     },
                     {
                       "code": "K-S3",
-                      "description": "Three brush floor machine 1000w, 220v, 480mm, 10 litres. tank"
+                      "description": "Three brush floor machine 1000 W, 220 V, 480 mm, 10 litres. tank"
                     },
                     {
                       "code": "TKTK",
