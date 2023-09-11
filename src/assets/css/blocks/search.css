@@ -17,12 +17,11 @@
   box-shadow: var(--shadow-1);
 
   &:focus-within {
-    outline: var(--border-regular) solid var(--color-brand-primary-text);
-    outline-offset: var(--border-regular);
+    outline-color: var(--color-brand-primary-text);
   }
 
   &:has(button:focus) {
-    outline: none;
+    outline-color: var(--color-neutral-border-subtle);
   }
 }
 
