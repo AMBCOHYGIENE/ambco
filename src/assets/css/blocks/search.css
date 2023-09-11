@@ -14,7 +14,7 @@
   background-color: var(--color-slate-0);
   outline: var(--border-regular) solid var(--color-neutral-border-subtle);
   border-radius: var(--border-radius);
-  box-shadow: var(--shadow-2);
+  box-shadow: var(--shadow-1);
 
   &:focus-within {
     outline: var(--border-regular) solid var(--color-brand-primary-text);
