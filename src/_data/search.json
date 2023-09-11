@@ -1,0 +1,14 @@
+[
+  {
+    "queryString": "fs40",
+    "label": "fs40"
+  },
+  {
+    "queryString": "scotch%20brite",
+    "label": "scotch brite"
+  },
+  {
+    "queryString": "kimsoft",
+    "label": "kimsoft"
+  }
+]

@@ -26,7 +26,7 @@ layout: base
 {% include "partials/subcategories-navigation.njk" %}
 {% endif %}
 
-<div>
+<div data-pagefind-body>
   <ul
     class="product-subcategories-list"
     role="list"
@@ -68,7 +68,7 @@ layout: base
 
                   <ul class="product-list | auto-grid" role="list">
                     {% for item in item.productVariants %}
-                    <li class="product-item | stack">
+                    <li class="product-item | stack box">
                       <!-- product title -->
                       {% include "partials/product-title.njk" %}
                       

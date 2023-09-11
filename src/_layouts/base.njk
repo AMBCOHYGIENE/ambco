@@ -73,13 +73,16 @@
       {% lucide "shield-check", { "id": "icon-shield-check", "stroke-width": "2.5" } %}
       {% lucide "shrink", { "id": "icon-shrink", "stroke-width": "2.5" } %}
     </div>
+    {% elif layout == "search" %}
+    <div hidden>
+      {% lucide "link-2", { "id": "icon-link-2", "stroke-width": "2.5" } %}
+    </div>
     {% endif %}
 
     <!-- defered js  -->
     <script src="/assets/scripts/app.js?{{ assetHash }}" defer></script>
-    <!-- if youtube is activated in the yaml -->
-    {% if youtube %}
-    <script src="/assets/scripts/lite-youtube.js?{{ assetHash }}" defer></script>
+    {% if layout == 'search' %}
+    <script src="/assets/scripts/search.js" defer></script>
     {% endif %}
 
   </body>

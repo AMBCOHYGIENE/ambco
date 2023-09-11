@@ -1,0 +1,131 @@
+[role='search'] {
+  --flow-space: var(--space-m-l);
+  display: block;
+}
+
+[role='search'] > * {
+  --flow-space: initial;
+}
+
+#search-form {
+  max-inline-size: var(--measure-body);
+  padding: var(--space-2xs);
+  gap: var(--space-2xs);
+  background-color: var(--color-slate-0);
+  outline: var(--border-regular) solid var(--color-neutral-border-subtle);
+  border-radius: var(--border-radius);
+  box-shadow: var(--shadow-2);
+
+  &:focus-within {
+    outline: var(--border-regular) solid var(--color-brand-primary-text);
+    outline-offset: var(--border-regular);
+  }
+
+  &:has(button:focus) {
+    outline: none;
+  }
+}
+
+.search-input-container {
+  display: flex;
+}
+
+:where(#search-form) {
+  & input,
+  button {
+    inline-size: 100%;
+    border: none;
+  }
+
+  & input:focus-visible {
+    outline: none;
+  }
+
+  & button {
+    padding: var(--space-2xs) var(--space-xs);
+    border-radius: calc(1 / 2 * var(--border-radius));
+    text-align: center;
+  }
+}
+
+.has-js [type='search']::-webkit-search-cancel-button {
+  -webkit-appearance: none;
+}
+
+:is(.search-btn, .clear-btn):focus-visible {
+  outline: var(--border-regular) solid var(--color-brand-primary-text);
+  outline-offset: 2px;
+}
+
+.has-js .search-btn {
+  display: none;
+}
+
+.clear-btn {
+  display: none;
+}
+
+.has-js .clear-btn {
+  display: unset;
+}
+
+#search-results {
+  --flow-space: var(--space-m-l);
+}
+
+#search-results > * {
+  --flow-space: initial;
+}
+
+#search-results-list {
+  --grid-min-item-size: min(var(--measure-headings), 100%);
+  --grid-gap: var(--space-s);
+  --box-bg: linear-gradient(
+    135deg,
+    var(--color-brand-primary-bg),
+    var(--color-neutral-primary-bg),
+    var(--color-brand-primary-bg)
+  );
+}
+
+@media (hover: hover) {
+  #search-results-list:not(.search-results-notfound) .search-result-item:hover {
+    --box-bg: linear-gradient(
+      135deg,
+      var(--color-brand-secondary-bg),
+      var(--color-neutral-primary-bg),
+      var(--color-brand-secondary-bg)
+    );
+  }
+}
+
+.search-result-link {
+  --repel-wrap-behaviour: nowrap;
+
+  &:after {
+    content: '';
+    position: absolute;
+    inset: 0;
+  }
+}
+
+.search-result-excerpt {
+  overflow: hidden;
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: 4;
+}
+
+.keyword-suggestion-container {
+  --cluster-space: var(--space-2xs);
+  display: none;
+
+  .has-js & {
+    display: flex;
+  }
+}
+
+/* Hide the keyword suggestions when the search results are shown */
+#search-results:not(.hidden) + .keyword-suggestion-container {
+  display: none;
+}

@@ -25,7 +25,8 @@ const {
   minifyJs,
   mdInline,
   splitlines,
-  iconRef
+  iconRef,
+  removeHttp
 } = require('./config/filters/index.js');
 
 // module import shortcodes
@@ -47,6 +48,8 @@ const pluginRss = require('@11ty/eleventy-plugin-rss');
 const bundlerPlugin = require('@11ty/eleventy-plugin-bundle');
 const lucideIcons = require('@grimlink/eleventy-plugin-lucide-icons'); // https://github.com/GrimLink/eleventy-plugin-lucide-icons
 
+const {execSync} = require('child_process');
+
 module.exports = eleventyConfig => {
   eleventyConfig.setQuietMode(true);
   eleventyConfig.addPlugin(directoryOutputPlugin);
@@ -61,6 +64,7 @@ module.exports = eleventyConfig => {
   eleventyConfig.addLayoutAlias('home', 'home.njk');
   eleventyConfig.addLayoutAlias('products', 'products.njk');
   eleventyConfig.addLayoutAlias('product-categories', 'product-categories.njk');
+  eleventyConfig.addLayoutAlias('search', 'search.njk');
 
   // 	---------------------  Custom filters -----------------------
   eleventyConfig.addFilter('limit', limit);
@@ -78,6 +82,7 @@ module.exports = eleventyConfig => {
   eleventyConfig.addFilter('md', mdInline);
   eleventyConfig.addFilter('splitlines', splitlines);
   eleventyConfig.addFilter('iconRef', iconRef);
+  eleventyConfig.addFilter('removeHttp', removeHttp);
   eleventyConfig.addFilter('keys', Object.keys);
   eleventyConfig.addFilter('values', Object.values);
   eleventyConfig.addFilter('entries', Object.entries);
@@ -100,7 +105,10 @@ module.exports = eleventyConfig => {
   eleventyConfig.addCollection('pages', getAllPages);
 
   // 	--------------------- Events ---------------------
-  eleventyConfig.on('afterBuild', svgToJpeg);
+  eleventyConfig.on('eleventy.after', svgToJpeg);
+  eleventyConfig.on('eleventy.after', () => {
+    execSync(`pagefind --source dist --glob \"**/*.html\"`, {encoding: 'utf-8'});
+  });
 
   // 	--------------------- Plugins ---------------------
   eleventyConfig.addPlugin(EleventyRenderPlugin);

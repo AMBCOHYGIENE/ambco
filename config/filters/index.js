@@ -126,6 +126,11 @@ const iconRef = function (iconName) {
     `;
 };
 
+// Create a custom filter to remove "http://" or "https://"
+const removeHttp = function (value) {
+  return value.replace(/^(https?:\/\/)/, '');
+};
+
 module.exports = {
   limit,
   toHtml,
@@ -137,5 +142,6 @@ module.exports = {
   minifyJs,
   mdInline,
   splitlines,
-  iconRef
+  iconRef,
+  removeHttp
 };

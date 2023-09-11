@@ -11,7 +11,7 @@ module.exports = eleventyConfig => {
       input: './src/assets/scripts/app.js'
     },
     {
-      input: './src/assets/scripts/lite-youtube.js'
+      input: './src/assets/scripts/search.js'
     }
   ];
 

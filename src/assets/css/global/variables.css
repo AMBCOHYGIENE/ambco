@@ -9,16 +9,17 @@
   /* colors */
 
   /* text */
-  --color-neutral-primary-text: var(--color-slate-10); /* also used as a theme color */
-  --color-neutral-secondary-text: var(--color-slate-9);
+  --color-neutral-primary-text: var(--color-slate-9);
+  --color-neutral-secondary-text: var(--color-slate-8);
   --color-neutral-tertiary-text: var(--color-slate-7);
   --color-neutral-quaternary-text: var(--color-slate-5);
-  --color-brand-primary-text: var(--color-blue-8);
+  --color-neutral-inverted-text: var(--color-slate-3);
+  --color-brand-primary-text: var(--color-blue-9);
 
   /* bg */
   --color-neutral-primary-bg: var(--color-slate-1); /* also used as a theme color */
   --color-neutral-secondary-bg: var(--color-slate-2);
-  --color-neutral-tertiary-bg: var(--color-slate-11);
+  --color-neutral-inverted-bg: var(--color-slate-10); /* also used as a theme color */
   --color-brand-primary-bg: var(--color-blue-1);
   --color-brand-secondary-bg: var(--color-blue-2);
 
@@ -33,6 +34,7 @@
 :root {
   --border-thin: 1px;
   --border-regular: 1px;
+  --border-thick: 2px;
 
   --border-radius: 4px;
 

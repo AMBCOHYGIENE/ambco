@@ -1,0 +1,98 @@
+---
+layout: base
+---
+
+<div class="wrapper flow">
+  <h1>{{ title }}</h1>
+
+  <search class="flow" role="search">
+    
+    <!-- form -->
+    <form
+      id="search-form"
+      class="with-sidebar"
+      action="https://duckduckgo.com/"
+      method="get"
+    >
+      <!-- label and input -->
+      <div class="search-input-container">
+        <label for="search-term" class="visually-hidden">
+          Search Terms
+        </label>
+        <input
+          type="search"
+          name="q"
+          id="search-term"
+          class=""
+          autocomplete="off"
+          autofocus
+          placeholder="Search using product code, brand, etc."
+        >
+        <input
+          aria-hidden="true"
+          hidden
+          name="sites"
+          value={{ site.url | removeHttp }}
+        >
+      </div>
+
+      <!-- search and clear button -->
+      <div class="search-button-container | step-min-1">
+        <!-- search button -->
+        <button type="submit" class="search-btn | inverted em-medium">
+          Search
+        </button>
+
+        <!-- clear button -->
+        <button class="clear-btn | inverted em-medium">
+          Clear
+        </button>
+      </div>
+    </form>
+
+    <!-- search results -->
+    <div
+      id="search-results"
+      class="flow hidden"
+    >
+      <h2
+        id="search-results-count"
+        class="heading-4"
+        aria-live="polite"
+      >
+        Results
+      </h2>
+      <ol
+        id="search-results-list"
+        class="auto-grid"
+        role="list"
+      ></ol>
+    </div>
+
+    <!-- keyword suggestions -->
+    <div class="keyword-suggestion-container | cluster | step-min-1 text-color-tertiary">
+      <!-- keyword label -->
+      <p class="with-icon" aria-hidden="true">
+        {% lucide "search" %}
+        <span class="keyword-suggestion-label">Suggestions:</span>
+      </p>
+      <!-- keyword list -->
+      <ul
+        class="keyword-suggestion-list | cluster"
+        role="list"
+        aria-label="Search term suggestions"
+      >
+        {% for item in search %}
+        <li>
+          <a href="/search/?q={{ item.queryString }}">
+            {{ item.label }}
+          </a>
+        </li>
+        {% endfor %}
+      </ul>
+    </div>
+  </search>
+  
+  {{ content | safe }}
+
+</div>

@@ -1,0 +1,8 @@
+.product-description {
+  text-wrap: balance;
+}
+
+.product-description:only-child {
+  --font-weight: var(--weight-normal);
+  font-weight: unset;
+}

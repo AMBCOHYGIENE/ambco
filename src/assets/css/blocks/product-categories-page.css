@@ -1,7 +1,7 @@
 .product-categories-page {
   --cover-size: min(400px, 50vh);
-  --site-head-bg: var(--color-neutral-primary-text);
-  --site-head-text: var(--color-neutral-primary-bg);
+  --site-head-bg: var(--color-neutral-inverted-bg);
+  --site-head-text: var(--color-neutral-inverted-text);
   --scroll-shadow-affordance-color: rgba(0, 0, 0, 1);
 
   .site-head {
@@ -19,7 +19,7 @@
 
   .page-header {
     -webkit-font-smoothing: antialiased;
-    background-image: radial-gradient(transparent 50%, var(--color-neutral-tertiary-bg));
+    background-image: radial-gradient(transparent 50%, var(--color-slate-11));
     /* isolation: isolate; */
   }
 

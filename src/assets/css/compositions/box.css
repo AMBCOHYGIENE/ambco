@@ -1,0 +1,16 @@
+.box {
+  padding: var(--box-padding, 1em);
+  outline: var(--border-regular) solid
+    var(--box-border-color, var(--color-brand-border-subtle));
+  border-radius: var(--border-radius);
+  background: var(--box-bg, transparent);
+}
+
+.box:focus-within {
+  outline: var(--border-regular) solid var(--color-brand-primary-text);
+  outline-offset: var(--border-regular);
+}
+
+.box *:focus-visible {
+  outline: none;
+}

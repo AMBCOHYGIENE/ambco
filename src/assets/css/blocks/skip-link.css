@@ -1,7 +1,11 @@
+.skip-link-container {
+  inline-size: calc(100vw - (2 * var(--gutter)));
+}
+
 .skip-link {
   display: block;
   position: absolute;
-  inset-block-start: var(--nav-link-padding-block);
+  inset-block-start: 0;
   inset-inline-start: var(--gutter);
 
   padding: calc(1 / 2 * var(--nav-link-padding-block)) var(--gutter);
@@ -10,12 +14,12 @@
   box-shadow: var(--shadow-6);
 
   opacity: 0;
-  transform: translateY(-100%);
-  transition: transform 0.15s ease;
+  translate: 0 -100%;
+  transition: translate var(--transition-fade);
   z-index: 999;
 }
 
 .skip-link:focus {
   opacity: 1;
-  transform: translate(0);
+  translate: 0 calc(1 / 2 * var(--nav-link-padding-block));
 }

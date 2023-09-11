@@ -1,8 +1,8 @@
 .inverted {
   -webkit-font-smoothing: antialiased;
 
-  background-color: var(--color-neutral-primary-text);
-  color: var(--color-neutral-primary-bg);
+  background-color: var(--color-neutral-inverted-bg);
+  color: var(--color-neutral-inverted-text);
 }
 
 .inverted * {

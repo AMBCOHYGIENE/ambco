@@ -13,7 +13,7 @@
   {% for item in item.additionalInfo %}
   
   <div>
-    <dt class={{ "inline" if item.label !== "Case Count" else "visually-hidden" }}>
+    <dt class="em-medium {{ "inline" if item.label !== "Case Count" else "visually-hidden" }}">
       {{ item.label }}:
     </dt>
     <dd class={{ "inline" if item.label !== "Case Count" }}>
