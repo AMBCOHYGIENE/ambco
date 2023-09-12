@@ -39,12 +39,15 @@
 
     <!-- preloads in page data -->
     {% if preloads -%}
-    <!-- prettier-ignore -->
-    <link rel="preload"
+    <link 
+      rel="preload"
       href="{{ preloads.href }}"
       as="{{ preloads.as }}"
-      {% if preloads.type %}type={{ preloads.type }}{% endif %}{% if preloads.imagesrcset %}imagesrcset="{{ preloads.imagesrcset }}" {% endif %}
-      {% if preloads.crossorigin %}crossorigin{% endif %} />
+      {% if preloads.type %}type={{ preloads.type }}{% endif %}
+      {% if preloads.imagesrcset %}imagesrcset="{{ preloads.imagesrcset }}"{% endif %}
+      {% if preloads.crossorigin %}crossorigin{% endif %}
+      {% if preloads.fetchpriority %}fetchpriority={{ preloads.fetchpriority }}{% endif %} 
+    />
     {% endif %}
 
     <!-- view-transition -->
