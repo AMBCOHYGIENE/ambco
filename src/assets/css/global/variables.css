@@ -34,7 +34,8 @@
 :root {
   --border-thin: 1px;
   --border-regular: 1px;
-  --border-thick: 2px;
+  --border-medium: 2px;
+  --border-thick: 4px;
 
   --border-radius: 4px;
 

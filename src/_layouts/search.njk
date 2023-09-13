@@ -26,7 +26,7 @@ layout: base
           class=""
           autocomplete="off"
           autofocus
-          placeholder="Search using product code, brand, etc."
+          placeholder="Product code, brand, etc."
         >
         <input
           aria-hidden="true"
@@ -44,8 +44,12 @@ layout: base
         </button>
 
         <!-- clear button -->
-        <button class="clear-btn | inverted em-medium">
-          Clear
+        <button class="clear-btn" aria-label="Clear search term">
+          {% lucide "x-circle", 
+            { "fill": "var(--color-brand-primary-text)", 
+              "stroke": "var(--color-neutral-primary-bg)" 
+            }
+          %}
         </button>
       </div>
     </form>

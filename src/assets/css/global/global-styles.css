@@ -173,8 +173,9 @@ a {
 } */
 
 input::placeholder {
-  font-size: var(--step-min-1);
   color: var(--color-neutral-tertiary-text);
+  font-size: var(--step-min-1);
+  letter-spacing: var(--tracking-l);
 }
 
 :target {
