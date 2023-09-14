@@ -28,12 +28,12 @@ main {
 
 /* Base typesetting */
 h1,
-.heading-1,
 h2,
-.heading-2,
 h3,
-.heading-3,
 h4,
+.heading-1,
+.heading-2,
+.heading-3,
 .heading-4,
 .heading-wrapper {
   color: var(--color-neutral-primary-text);
@@ -187,6 +187,7 @@ input::placeholder {
   outline-offset: var(--border-regular);
   border-radius: var(--border-radius);
   text-decoration-color: transparent;
+  box-shadow: 0 0 0 var(--border-thick) var(--color-brand-secondary-bg);
 }
 
 [class]:focus-visible {
