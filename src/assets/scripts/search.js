@@ -6,19 +6,14 @@ class Search {
 
   addResult(result) {
     let listItem = document.createElement('li');
-    listItem.classList.add('search-result-item', 'box', 'flow', 'relative');
+    listItem.classList.add('product-category-item', 'stack', 'box', 'relative');
 
     listItem.innerHTML = `
       <a 
         href="${result.url}" 
-        class="search-result-link | repel | em-medium"
+        class="product-category-title | repel | em-semi-bold no-underline"
       >
-        <span class="search-result-title">
-          ${result.meta.title ? `${result.meta.title}` : result.url}
-        </span>
-        <svg width="1em" height="1em">
-          <use href="#icon-link-2"></use>
-        </svg>
+        ${result.meta.title ? `${result.meta.title}` : result.url}
       </a>
       <p class="search-result-excerpt | step-min-1">
       ${result.excerpt
