@@ -1,0 +1,11 @@
+.text-color-tertiary {
+  color: var(--color-neutral-tertiary-text);
+}
+
+.text-color-quaternary {
+  color: var(--color-neutral-quaternary-text);
+}
+
+.text-color-quinary {
+  color: var(--color-neutral-quinary-text);
+}
