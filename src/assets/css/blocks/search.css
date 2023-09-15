@@ -102,8 +102,23 @@
   --flow-space: initial;
 }
 
+#search-results-list {
+  --grid-min-item-size: min(20rem, 100%);
+  --grid-gap: var(--space-s);
+}
+
+:where(#search-results) .product-category-item {
+  --box-bg: var(--linear-gradient);
+
+  @media (hover: hover) {
+    &:hover {
+      --box-bg: var(--linear-gradient-hover);
+    }
+  }
+}
+
 .search-result-excerpt {
-  --stack-space: calc(1em * var(--leading-standard));
+  --stack-space: 1ex;
   overflow: hidden;
   display: -webkit-box;
   -webkit-box-orient: vertical;
