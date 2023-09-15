@@ -13,7 +13,8 @@
   --color-neutral-secondary-text: var(--color-slate-8);
   --color-neutral-tertiary-text: var(--color-slate-7);
   --color-neutral-quaternary-text: var(--color-slate-6);
-  --color-neutral-inverted-text: var(--color-slate-3);
+  --color-neutral-quinary-text: var(--color-slate-4);
+  --color-neutral-inverted-text: var(--color-slate-2);
   --color-brand-primary-text: var(--color-blue-9);
 
   /* bg */
@@ -37,7 +38,7 @@
   --border-medium: 2px;
   --border-thick: 4px;
 
-  --border-radius: 4px;
+  --border-radius: 8px;
 
   @media (resolution >= 192dpi) {
     --border-thin: 0.5px;
@@ -51,5 +52,20 @@
   );
   --site-footer-height: calc(
     (var(--step-min-1) * var(--leading-standard)) + (2 * var(--nav-link-padding-block))
+  );
+}
+
+:root {
+  --linear-gradient: linear-gradient(
+    135deg,
+    var(--color-brand-primary-bg),
+    var(--color-neutral-primary-bg),
+    var(--color-brand-primary-bg)
+  );
+  --linear-gradient-hover: linear-gradient(
+    135deg,
+    var(--color-brand-secondary-bg),
+    var(--color-neutral-primary-bg),
+    var(--color-brand-secondary-bg)
   );
 }
