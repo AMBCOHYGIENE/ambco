@@ -11,7 +11,7 @@ class Search {
     listItem.innerHTML = `
       <a 
         href="${result.url}" 
-        class="product-category-title | repel | em-semi-bold no-underline"
+        class="product-category-title | em-semi-bold no-underline"
       >
         ${result.meta.title ? `${result.meta.title}` : result.url}
       </a>
