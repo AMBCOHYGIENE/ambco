@@ -2,6 +2,8 @@
   position: absolute;
   inset: 0;
   pointer-events: none;
+  background-image: radial-gradient(transparent 50%, var(--color-slate-11));
+  border-radius: inherit;
 
   & figure,
   picture,
@@ -16,4 +18,8 @@
     object-position: var(--img-position);
     opacity: 0.5;
   }
+}
+
+.bg-image + * {
+  isolation: isolate;
 }

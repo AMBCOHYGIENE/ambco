@@ -3,12 +3,7 @@
   --stack-vertical-alignment: space-between;
 
   --box-padding: var(--space-xs-s);
-  --box-bg: linear-gradient(
-    135deg,
-    var(--color-brand-primary-bg),
-    var(--color-neutral-primary-bg),
-    var(--color-brand-primary-bg)
-  );
+  --box-bg: var(--linear-gradient);
 
   box-shadow: var(--shadow-1);
 }
