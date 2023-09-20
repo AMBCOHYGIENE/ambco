@@ -1,0 +1,21 @@
+.products-page {
+  .product-category-item {
+    position: relative;
+    overflow: hidden;
+
+    &:after {
+      content: '';
+      position: absolute;
+      inset: 0;
+      opacity: 0;
+      border: 0.3rem solid var(--color-brand-primary-text);
+      border-radius: inherit;
+      transition: opacity 0.45s cubic-bezier(0.215, 0.61, 0.355, 1);
+      pointer-events: none;
+    }
+
+    &:hover:after {
+      opacity: 1;
+    }
+  }
+}
