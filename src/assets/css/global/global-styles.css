@@ -150,6 +150,12 @@ dd {
 }
 
 /* Base interactive elements */
+button,
+input,
+label {
+  line-height: var(--leading-fine);
+}
+
 a,
 button {
   color: var(--color-brand-primary-text);
