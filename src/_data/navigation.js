@@ -20,10 +20,6 @@ module.exports = {
     {
       text: 'Link',
       url: '#'
-    },
-    {
-      text: 'Link',
-      url: '#'
     }
   ]
 };

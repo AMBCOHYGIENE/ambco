@@ -1,46 +1,14 @@
 {% set activePage = page.url | url %}
 
 <footer
-  class="site-foot | step-min-1"
+  class="site-foot | text-color-tertiary step-min-1"
   role="contentinfo"
 >
-  <div class="site-foot__inner | cluster | wrapper">
+  <div class="wrapper">
     
-    <p>&copy; {% year %}</p>
-
-    <nav aria-label="Footer">
-      
-      <ul class="cluster" role="list">
-        
-        {% for item in navigation.bottom %}
-        <li>
-          <a
-            class="underline-on-hover"
-            href="{{ item.url }}"
-            {{ helpers.getLinkActiveState(item.url, page.url) | safe }}
-          >
-            {{ item.text }}
-          </a>
-        </li>
-        {% endfor %}
-
-        {# {% for item in social %}
-        <li>
-          <a
-            class="{{ "with-icon | " if item.icon }} underline-on-hover"
-            href="{{ item.url }}"
-          >
-            {% if item.icon %}
-            {% lucide item.icon %}
-            {% endif %}
-            {{ item.platform }}
-          </a>
-        </li>
-        {% endfor %} #}
-
-      </ul>
-
-    </nav>
+    {% include "partials/site-footer-upper.njk" %}
+    {% include "partials/site-footer-lower.njk" %}
+  
   </div>
 
 </footer>

@@ -23,15 +23,17 @@ module.exports = {
       'Tell the word what you are writing about in your blog! It will show up on feed readers.'
   },
   address: {
-    // edit all presets or leave empty. They are being used in the pages for privacy.md and imprint.md
-    firm: '',
-    street: '',
-    city: '',
-    state: '',
-    zip: '',
-    mobileDisplay: '+34 1234567',
-    mobileCall: ' +341234567',
-    email: 'support@example.com',
+    firm: 'Ambco Hygiene Care',
+    street:
+      'D-20, Shop-1, Ground Floor, Sainath Niwas, Anandwadi Shivaji Nagar, Kurar Village, Near Shivsena Office-37, Malad (E)',
+    city: 'Mumbai',
+    state: 'Maharashtra',
+    zip: '400097',
+    landlineDisplay: '022 28406012',
+    landlineCall: '912228406012',
+    mobileDisplay: '+91 9820816415',
+    mobileCall: '919820816415',
+    email: 'ambcohygiene@gmail.com',
     cif: ''
   }
 };
