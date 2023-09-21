@@ -1,7 +1,7 @@
 .underline-on-hover {
-  text-decoration-color: transparent;
+  text-decoration-line: none;
 
   &:hover {
-    text-decoration-color: inherit;
+    text-decoration-line: underline;
   }
 }

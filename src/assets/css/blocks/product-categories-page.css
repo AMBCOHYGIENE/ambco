@@ -13,7 +13,10 @@
   }
 
   & main {
-    padding-block: 0;
+    padding-block-start: 0;
+    padding-block-end: calc(
+      var(--main-padding-block-end) - var(--product-subcat-item-padding-block)
+    );
     isolation: isolate;
   }
 

@@ -1,8 +1,14 @@
 .with-icon {
   display: inline-flex;
-  align-items: center;
+  align-items: baseline;
+
+  @supports (align-items: first baseline) {
+    align-items: first baseline;
+  }
 
   .icon {
     margin-inline-end: 0.5ch;
+    flex-shrink: 0;
+    translate: 0 0.125rem;
   }
 }

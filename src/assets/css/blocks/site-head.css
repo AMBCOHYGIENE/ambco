@@ -1,6 +1,4 @@
 .site-head {
-  --stack-space: 0;
-
   background: var(--site-head-bg, var(--color-neutral-primary-bg));
   color: var(--site-head-text, inherit);
   isolation: isolate;

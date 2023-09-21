@@ -6,12 +6,13 @@
 */
 
 * {
-  text-decoration-color: inherit;
+  text-decoration-color: currentColor;
   text-decoration-thickness: 0.1ch;
 }
 
 body {
   --stack-horizontal-alignment: stretch;
+  --stack-space: 0;
 
   background: var(--color-neutral-primary-bg);
   color: var(--color-neutral-secondary-text);
@@ -22,8 +23,7 @@ body {
 }
 
 main {
-  --stack-space: 0;
-  padding-block: var(--gutter);
+  padding-block: var(--main-padding-block-start) var(--main-padding-block-end);
 }
 
 /* Base typesetting */
@@ -149,6 +149,10 @@ dd {
   overflow-wrap: break-word;
 }
 
+address {
+  font-style: normal;
+}
+
 /* Base interactive elements */
 button,
 input,
@@ -171,7 +175,7 @@ summary {
 }
 
 a {
-  text-underline-offset: 0.5ex;
+  text-underline-offset: 0.2ex;
 }
 
 /* a:hover {

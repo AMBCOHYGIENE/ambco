@@ -3,8 +3,8 @@
 }
 
 .product-subcategories-item {
-  --flow-space: var(--space-xl-2xl);
-  padding-block: var(--space-xl-2xl);
+  --flow-space: var(--product-subcat-item-padding-block);
+  padding-block: var(--product-subcat-item-padding-block);
 }
 
 .product-subcategory-heading + div {

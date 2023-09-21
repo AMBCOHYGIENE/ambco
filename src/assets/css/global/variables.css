@@ -47,8 +47,13 @@
 
 :root {
   --nav-link-padding-block: var(--space-xs-s);
+  --main-padding-block-start: var(--gutter);
+  --main-padding-block-end: var(--space-2xl-3xl);
+  --product-subcat-item-padding-block: var(--space-xl-2xl);
+
   --site-header-height: calc(
-    (var(--step-0) * var(--leading-standard)) + (2 * var(--nav-link-padding-block))
+    (var(--step-0) * var(--leading-standard)) + (2 * var(--nav-link-padding-block)) +
+      var(--border-thin)
   );
   --site-footer-height: calc(
     (var(--step-min-1) * var(--leading-standard)) + (2 * var(--nav-link-padding-block))
