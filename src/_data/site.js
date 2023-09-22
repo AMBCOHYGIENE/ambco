@@ -34,6 +34,8 @@ module.exports = {
     mobileDisplay: '+91 9820816415',
     mobileCall: '919820816415',
     email: 'ambcohygiene@gmail.com',
-    cif: ''
+    cif: '',
+    googleMap:
+      'https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d421.01593175525267!2d72.86502764471616!3d19.188407495494392!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3be7b7103b619113%3A0x5bc3c4d25c1d840c!2sSainath%20Niwas%20Chawl!5e0!3m2!1sen!2sin!4v1695208281581!5m2!1sen!2sin'
   }
 };

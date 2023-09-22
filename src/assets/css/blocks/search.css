@@ -108,7 +108,7 @@
 }
 
 :where(#search-results) .product-category-item {
-  --box-bg: var(--linear-gradient);
+  --box-bg: initial;
 
   @media (hover: hover) {
     &:hover {

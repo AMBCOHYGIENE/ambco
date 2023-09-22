@@ -65,6 +65,7 @@ module.exports = eleventyConfig => {
   eleventyConfig.addLayoutAlias('products', 'products.njk');
   eleventyConfig.addLayoutAlias('product-categories', 'product-categories.njk');
   eleventyConfig.addLayoutAlias('search', 'search.njk');
+  eleventyConfig.addLayoutAlias('contact', 'contact.njk');
 
   // 	---------------------  Custom filters -----------------------
   eleventyConfig.addFilter('limit', limit);

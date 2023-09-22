@@ -3,7 +3,6 @@
   --stack-vertical-alignment: space-between;
 
   --box-padding: var(--space-xs-s);
-  --box-bg: var(--linear-gradient);
 
   box-shadow: var(--shadow-1);
 }

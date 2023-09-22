@@ -1,0 +1,40 @@
+<address class="stack">
+  <!-- Address -->
+  {% include "partials/address.njk" %}
+
+  <!-- Calling Info -->
+  <p class="phone | with-icon">
+    {% lucide "phone" %}
+    
+    <span class="cluster">
+      <span class="visually-hidden">Mobile: </span>
+      <a
+        class="underline-on-hover"
+        href="tel:+{{ site.address.mobileCall }}"
+      >
+        {{ site.address.mobileDisplay }}
+      </a>
+      |
+      <span class="visually-hidden">Landline: </span>
+      <a
+        class="underline-on-hover"
+        href="tel:+{{ site.address.landlineCall }}"
+      >
+        {{ site.address.landlineDisplay }}
+      </a>          
+    </span>
+  </p>
+
+  <!-- Mail -->
+  <p class="with-icon">
+    {% lucide "mail" %}
+    
+    <span class="visually-hidden">Mail: </span>
+    <a
+      class="underline-on-hover"
+      href="mailto:{{ site.address.email }}"
+    >
+      {{ site.address.email }}
+    </a>
+  </p>
+</address>

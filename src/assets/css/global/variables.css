@@ -46,7 +46,7 @@
 }
 
 :root {
-  --nav-link-padding-block: var(--space-xs-s);
+  --nav-link-padding-block: var(--space-s);
   --main-padding-block-start: var(--gutter);
   --main-padding-block-end: var(--space-2xl-3xl);
   --product-subcat-item-padding-block: var(--space-xl-2xl);

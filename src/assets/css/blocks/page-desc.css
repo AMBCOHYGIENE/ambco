@@ -1,0 +1,7 @@
+.page-desc {
+  text-wrap: balance;
+}
+
+.page-desc + * {
+  --flow-space: calc(var(--nav-link-padding-block) + var(--gutter));
+}
