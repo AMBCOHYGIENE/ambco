@@ -28,7 +28,7 @@
     inline-size: auto;
     max-block-size: var(--space-4xl);
     stroke-width: 0.2;
-    stroke: var(--color-brand-border-subtle);
+    stroke: var(--color-brand-border);
     pointer-events: none;
   }
 }
@@ -43,19 +43,27 @@
   }
 
   &:hover {
-    --box-bg: var(--linear-gradient-hover);
+    --box-bg: var(--radial-gradient-hover);
+    outline-color: var(--color-brand-border);
+
+    /* .icon {
+      fill: var(--color-blue-3);
+    } */
   }
 }
 
 .address-info-container {
   --grid-min-item-size: 20rem;
   --grid-gap: 0;
-  --box-padding: 0;
+  outline: var(--border-regular) solid var(--color-brand-border-subtle);
+  border-radius: var(--border-radius);
 
   > :first-child {
     --stack-vertical-alignment: space-between;
     --stack-space: var(--space-3xl);
+    --box-border-color: transparent;
     padding: 1em;
+    border-radius: none;
   }
 
   .icon {

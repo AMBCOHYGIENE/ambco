@@ -1,5 +1,7 @@
 .products-page {
   .product-category-item {
+    --box-border-color: transparent;
+
     position: relative;
     overflow: hidden;
 

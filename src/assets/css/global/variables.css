@@ -28,7 +28,7 @@
   --color-neutral-border: var(--color-slate-4);
   --color-neutral-border-subtle: var(--color-slate-3);
   --color-neutral-border-dark: var(--color-slate-8);
-  --color-brand-border: var(--color-blue-4);
+  --color-brand-border: var(--color-blue-3);
   --color-brand-border-subtle: var(--color-blue-2);
 }
 
@@ -81,11 +81,11 @@
     ),
     radial-gradient(
         circle at center,
-        transparent 2px,
+        var(--color-brand-secondary-bg) 1.25px,
         var(--color-brand-primary-bg) 1px,
         var(--color-brand-primary-bg) 5px
       )
-      50% 50%/8px 8px repeat;
+      50% 50% / var(--space-2xs) var(--space-2xs) repeat;
   --radial-gradient-hover: radial-gradient(
       circle at center,
       transparent 35%,
@@ -94,9 +94,9 @@
     ),
     radial-gradient(
         circle at center,
-        var(--color-brand-primary-bg) 2px,
-        var(--color-brand-secondary-bg) 1px,
-        var(--color-brand-secondary-bg) 5px
+        var(--color-brand-secondary-bg) 1.25px,
+        var(--color-brand-primary-bg) 1px,
+        var(--color-brand-primary-bg) 5px
       )
-      50% 50%/8px 8px repeat;
+      50% 50% / var(--space-2xs) var(--space-2xs) repeat;
 }

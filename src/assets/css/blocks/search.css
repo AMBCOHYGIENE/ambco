@@ -112,13 +112,14 @@
 
   @media (hover: hover) {
     &:hover {
-      --box-bg: var(--linear-gradient-hover);
+      --box-bg: var(--radial-gradient-hover);
+      outline-color: var(--color-brand-border);
     }
   }
 }
 
 .search-result-excerpt {
-  --stack-space: 1ex;
+  --stack-space: var(--space-l-xl);
   overflow: hidden;
   display: -webkit-box;
   -webkit-box-orient: vertical;

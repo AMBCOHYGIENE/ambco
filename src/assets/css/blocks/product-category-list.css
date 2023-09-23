@@ -1,6 +1,6 @@
 .product-category-list {
   --grid-min-item-size: min(20rem, 100%);
-  --grid-gap: var(--space-s-2xs);
+  --grid-gap: var(--space-s);
 }
 
 .product-category-item {

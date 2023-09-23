@@ -12,7 +12,7 @@ layout: base
       <h2 class="heading-3">WhatsApp Us</h2>
       <span class="visually-hidden">Mobile: </span>
         <a
-          class="underline-on-hover"
+          class="no-underline"
           href="https://wa.me/{{ site.address.mobileCall }}"
         >
           {{ site.address.mobileDisplay }}
@@ -25,7 +25,7 @@ layout: base
       <h2 class="heading-3">Call Us</h2>
       <span class="visually-hidden">Mobile: </span>
       <a
-        class="underline-on-hover"
+        class="no-underline"
         href="tel:+{{ site.address.mobileCall }}"
       >
         {{ site.address.mobileDisplay }}
@@ -38,7 +38,7 @@ layout: base
       <h2 class="heading-3">Email Us</h2>
       <span class="visually-hidden">Email: </span>
         <a
-          class="underline-on-hover"
+          class="no-underline"
           href="mailto:{{ site.address.email }}"
         >
           {{ site.address.email }}
@@ -47,8 +47,8 @@ layout: base
     </div>
   </div>
   
-  <div class="address-info-container | auto-grid box | overflow-hidden">
-    <div class="stack | relative overflow-hidden">
+  <div class="address-info-container | auto-grid | overflow-hidden">
+    <div class="stack box | relative overflow-hidden">
       <h2 class="heading-3">Address</h2>
       {% include "partials/address.njk" %}
     </div>
