@@ -73,4 +73,30 @@
     var(--color-neutral-primary-bg),
     var(--color-brand-secondary-bg)
   );
+  --radial-gradient: radial-gradient(
+      circle at center,
+      transparent 35%,
+      transparent 35%,
+      var(--color-brand-primary-bg) 75%
+    ),
+    radial-gradient(
+        circle at center,
+        transparent 2px,
+        var(--color-brand-primary-bg) 1px,
+        var(--color-brand-primary-bg) 5px
+      )
+      50% 50%/8px 8px repeat;
+  --radial-gradient-hover: radial-gradient(
+      circle at center,
+      transparent 35%,
+      transparent 35%,
+      var(--color-brand-secondary-bg) 75%
+    ),
+    radial-gradient(
+        circle at center,
+        var(--color-brand-primary-bg) 2px,
+        var(--color-brand-secondary-bg) 1px,
+        var(--color-brand-secondary-bg) 5px
+      )
+      50% 50%/8px 8px repeat;
 }
