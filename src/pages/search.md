@@ -7,4 +7,5 @@ preloads:
   as: 'script'
   fetchpriority: 'high'
   crossorigin: true
+displayOrder: 3
 ---
