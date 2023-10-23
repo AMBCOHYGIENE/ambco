@@ -1,0 +1,37 @@
+.address:where(:hover, :focus-within) clipboard-copy {
+  opacity: 1;
+}
+
+clipboard-copy {
+  display: none;
+
+  margin-inline-start: 0.5ch;
+  padding: 0 0.5ch;
+  border-radius: calc(1 / 4 * var(--border-radius));
+
+  background: var(--box-bg, var(--radial-gradient));
+  outline: var(--border-regular) solid
+    var(--box-border-color, var(--color-brand-border-subtle));
+
+  line-height: var(--leading-fine);
+  opacity: 0;
+
+  transition: opacity var(--transition-fade);
+  cursor: pointer;
+
+  user-select: none;
+
+  .has-js & {
+    display: initial;
+  }
+
+  &:hover {
+    background: var(--box-bg, var(--radial-gradient-hover));
+  }
+}
+
+.address:has(clipboard-copy:hover) {
+  border-radius: calc(1 / 4 * var(--border-radius));
+  outline: var(--border-regular) solid var(--color-brand-border-subtle);
+  outline-offset: calc(1em / 4);
+}

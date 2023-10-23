@@ -12,6 +12,9 @@ module.exports = eleventyConfig => {
     },
     {
       input: './src/assets/scripts/search.js'
+    },
+    {
+      input: './src/assets/scripts/clipboard-copy-element.js'
     }
   ];
 

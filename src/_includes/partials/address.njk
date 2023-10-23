@@ -1,11 +1,18 @@
-<p class="with-icon">
+{% set address %}
+{{ site.address.firm }}, {{ site.address.street }}, {{ site.address.city }}, {{ site.address.state }}, {{ site.address.zip }}
+{% endset %}
+
+<p class="address | with-icon">
   {% lucide "map-pin" %}
   
   <span>
-    {{ site.address.firm }},
-    {{ site.address.street }},
-    {{ site.address.city }},
-    {{ site.address.state }},
-    {{ site.address.zip }}
+    {{ address }}
+    <clipboard-copy
+      value="{{ address | safe }}"
+      class="copy-btn | step-min-2 uppercase"
+      data-confetti-text="Copied!"
+    >
+      Copy
+    </clipboard-copy>
   </span>
 </p>
