@@ -6,7 +6,8 @@
     class="underline-on-hover"
     href="/"
   >
-    Home
+    {# remove unnecessary whitespace #}
+    {{- "Home" -}}
   </a>
 
   {{ "chevron-right" | iconRef | safe }}
@@ -15,7 +16,8 @@
     class="underline-on-hover"
     href="/products/"
   >
-    Products
+    {# remove unnecessary whitespace #}
+    {{- "Products" -}}
   </a>
 
   {{ 'chevron-right' | iconRef | safe }}
