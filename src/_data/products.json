@@ -659,6 +659,10 @@
                   "productVariants": [
                     {
                       "code": "MTF19150",
+                      "image": {
+                        "src": "MTF125.jpg",
+                        "alt": ""
+                      },
                       "description": "Multi-Fold Paper Towel",
                       "additionalInfo": [
                         {
@@ -670,7 +674,7 @@
                     {
                       "code": "MTF150",
                       "image": {
-                        "src": "MTF150.jpg",
+                        "src": "MTF125.jpg",
                         "alt": ""
                       },
                       "description": "Multi-Fold Paper Towel",
@@ -795,8 +799,14 @@
                   "title": "",
                   "productVariants": [
                     {
-                      "code": "HRT250",
-                      "description": "TKTK"
+                      "code": "HRT300",
+                      "description": "HRT Roll",
+                      "additionalInfo": [
+                        {
+                          "label": "Case Count",
+                          "content": "6 rolls x 300 metres"
+                        }
+                      ]
                     },
                     {
                       "code": "HRT160",
@@ -1557,11 +1567,11 @@
                   "productVariants": [
                     {
                       "code": "69530",
-                      "description": "TKTK"
+                      "description": "Slimroll Hand Towel Dispenser"
                     },
                     {
                       "code": "69590",
-                      "description": "TKTK"
+                      "description": "Hand Roll Towel (HRT Roll) Dispenser"
                     }
                   ]
                 },
@@ -1570,7 +1580,7 @@
                   "productVariants": [
                     {
                       "code": "70220",
-                      "description": "TKTK"
+                      "description": "Multifold Towel Tissue Dispenser"
                     }
                   ]
                 },
@@ -1579,7 +1589,7 @@
                   "productVariants": [
                     {
                       "code": "69480",
-                      "description": "TKTK"
+                      "description": "Skincare Dispenser Manual"
                     }
                   ]
                 },
@@ -1588,7 +1598,7 @@
                   "productVariants": [
                     {
                       "code": "70260",
-                      "description": "TKTK"
+                      "description": "Bathroom Tissue Jumbo Roll Dispenser"
                     }
                   ]
                 }
@@ -1602,7 +1612,7 @@
                   "productVariants": [
                     {
                       "code": "TKTK",
-                      "description": "Local Soap Dispensers"
+                      "description": "Premium Soap Dispensers"
                     }
                   ]
                 }
