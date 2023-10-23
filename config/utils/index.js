@@ -18,7 +18,19 @@ const throwIfNotType = (arg, expectedType) => {
   }
 };
 
+/**
+ * Takes a collection and returns it back in display order
+ *
+ * @param {Array} collection The 11ty collection
+ * @returns {Array} the sorted collection
+ */
+const sortByDisplayOrder = collection =>
+  collection.sort((a, b) =>
+    Number(a.data.displayOrder) > Number(b.data.displayOrder) ? 1 : -1
+  );
+
 module.exports = {
   slugifyString,
-  throwIfNotType
+  throwIfNotType,
+  sortByDisplayOrder
 };

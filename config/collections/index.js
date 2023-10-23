@@ -1,15 +1,16 @@
+const {sortByDisplayOrder} = require('../utils');
+
 /** Returns all pages as a collection. */
 const getAllPages = collection => {
   return collection.getFilteredByGlob('./src/pages/*.md');
 };
 
-/** Returns all blog posts as a collection. */
-const getAllPosts = collection => {
-  const posts = collection.getFilteredByGlob('./src/posts/*.md');
-  return posts.reverse();
+/** Returns sorted pages as a collection. */
+const getAllSortedPages = collection => {
+  return sortByDisplayOrder(collection.getFilteredByGlob('./src/pages/*.md'));
 };
 
 module.exports = {
   getAllPages,
-  getAllPosts
+  getAllSortedPages
 };
