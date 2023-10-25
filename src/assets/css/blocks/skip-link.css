@@ -11,7 +11,7 @@
   padding: calc(1 / 2 * var(--nav-link-padding-block)) var(--gutter);
 
   outline-offset: 1px;
-  box-shadow: var(--shadow-6);
+  box-shadow: var(--button-shadow);
 
   opacity: 0;
   translate: 0 -100%;
