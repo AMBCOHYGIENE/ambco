@@ -8,14 +8,12 @@
 
 .box:focus-within {
   --box-border-color: var(--color-brand-primary-text);
-  box-shadow: 0 0 0 var(--border-thick) var(--color-brand-secondary-bg);
+  outline-width: var(--border-medium);
+  outline-offset: calc(2 * var(--border-medium));
+  border-radius: 0;
 }
 
 .box *:focus-visible {
   outline: none;
   box-shadow: none;
-}
-
-.box.inverted:focus-within {
-  outline-offset: var(--border-thick);
 }
