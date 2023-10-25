@@ -6,32 +6,30 @@ clipboard-copy {
   display: none;
 
   margin-inline-start: 0.5ch;
-  padding: 0 0.5ch;
-  border-radius: calc(1 / 4 * var(--border-radius));
-
-  background: var(--box-bg, var(--radial-gradient));
+  padding: 0.25ex 0.5ch;
+  border-radius: var(--border-radius);
+  background: var(--clipboard-copy-bg, var(--radial-gradient));
   outline: var(--border-regular) solid
-    var(--box-border-color, var(--color-brand-border-subtle));
-
+    var(--clipboard-copy-border-color, var(--color-brand-border-subtle));
   line-height: var(--leading-fine);
   opacity: 0;
 
   transition: opacity var(--transition-fade);
-  cursor: pointer;
 
   user-select: none;
+  cursor: pointer;
 
   .has-js & {
     display: initial;
   }
 
   &:hover {
-    background: var(--box-bg, var(--radial-gradient-hover));
+    --clipboard-copy-bg: var(--radial-gradient-hover);
+    --clipboard-copy-border-color: currentColor;
   }
 }
 
 .address:has(clipboard-copy:hover) {
-  border-radius: calc(1 / 4 * var(--border-radius));
   outline: var(--border-regular) solid var(--color-brand-border-subtle);
   outline-offset: calc(1em / 4);
 }
