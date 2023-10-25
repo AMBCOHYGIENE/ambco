@@ -21,7 +21,7 @@
 
   &:focus-visible {
     outline: var(--border-medium) solid var(--color-brand-primary-text);
-    outline-offset: calc(-1 * var(--border-medium));
+    box-shadow: var(--button-hover-shadow);
     z-index: 2;
   }
 
