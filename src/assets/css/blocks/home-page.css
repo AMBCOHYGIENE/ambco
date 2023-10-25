@@ -1,7 +1,8 @@
 .home-page {
-  --cover-size: calc(var(--full-vh) - var(--site-header-height));
+  --cover-size: var(--full-vh);
 
   & main {
+    margin-block-start: calc(-1 * var(--site-header-height));
     padding-block: 0;
   }
 
