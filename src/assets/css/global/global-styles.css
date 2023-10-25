@@ -193,17 +193,22 @@ input::placeholder {
 }
 
 :focus-visible {
-  outline: var(--border-regular) solid var(--color-brand-primary-text);
-  outline-offset: var(--border-regular);
-  border-radius: var(--border-radius);
+  outline: var(--border-medium) solid var(--color-brand-primary-text);
+  outline-offset: var(--border-medium);
+  border-radius: 0;
   text-decoration-color: transparent;
-  box-shadow: 0 0 0 var(--border-thick) var(--color-brand-secondary-bg);
 }
 
 [class]:focus-visible {
-  outline-offset: -2px;
+  outline-offset: var(--border-medium);
+  border-radius: 0;
 }
 
 main:focus {
   outline: none;
+}
+
+::selection {
+  background-color: var(--color-blue-3);
+  color: var(--color-neutral-primary-text);
 }
