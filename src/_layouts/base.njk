@@ -86,10 +86,22 @@
     {% endif %}
 
     <!-- defered js  -->
-    <script src="/assets/scripts/app.js?{{ assetHash }}" defer></script>
+    <script
+      src="/assets/scripts/app.js?{{ assetHash }}"
+      defer>
+    </script>
+
     {% if layout == 'search' %}
-    <script src="/assets/scripts/search.js?{{ assetHash }}" defer></script>
+    <script
+      src="/assets/scripts/search.js?{{ assetHash }}"
+      defer>
+    </script>
     {% endif %}
+    
+    <script
+      src="/assets/scripts/clipboard-copy-element.js?{{ assetHash }}"
+      defer>
+    </script>
 
   </body>
 </html>
