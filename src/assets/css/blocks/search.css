@@ -19,7 +19,8 @@
 
   &:focus-within {
     outline-color: var(--color-brand-primary-text);
-    box-shadow: 0 0 0 var(--border-thick) var(--color-brand-secondary-bg);
+    outline-width: var(--border-medium);
+    outline-offset: calc(-1 * var(--border-medium));
   }
 
   &:has(button:focus) {
@@ -54,7 +55,8 @@
 }
 
 :is(.search-btn, .clear-btn):focus-visible {
-  outline: var(--border-regular) solid var(--color-brand-primary-text);
+  outline: var(--border-medium) solid var(--color-brand-primary-text);
+  outline-offset: var(--border-medium);
 }
 
 .search-btn {
@@ -92,6 +94,7 @@
 
 .has-js .clear-btn:focus-visible {
   opacity: 1;
+  outline-offset: calc(-4 * var(--border-medium));
 }
 
 #search-results {
@@ -104,7 +107,7 @@
 
 #search-results-list {
   --grid-min-item-size: min(20rem, 100%);
-  --grid-gap: var(--space-s);
+  --grid-gap: var(--space-xs);
 }
 
 :where(#search-results) .product-category-item {
@@ -112,8 +115,7 @@
 
   @media (hover: hover) {
     &:hover {
-      --box-bg: var(--radial-gradient-hover);
-      outline-color: var(--color-brand-border);
+      --box-border-color: var(--color-brand-border);
     }
   }
 }
