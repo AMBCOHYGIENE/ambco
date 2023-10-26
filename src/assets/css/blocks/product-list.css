@@ -1,4 +1,4 @@
 .product-list {
   --grid-min-item-size: min(20rem, 100%);
-  --grid-gap: var(--space-s);
+  --grid-gap: var(--space-xs);
 }

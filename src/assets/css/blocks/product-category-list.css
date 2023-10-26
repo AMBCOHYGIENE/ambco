@@ -1,12 +1,17 @@
 .product-category-list {
   --grid-min-item-size: min(20rem, 100%);
-  --grid-gap: var(--space-s);
+  --grid-gap: var(--space-xs);
 }
 
 .product-category-item {
   --stack-space: var(--space-3xl);
   --stack-vertical-alignment: space-between;
   --box-bg: radial-gradient(transparent 50%, var(--color-slate-11));
+  transition: scale var(--transition-bounce), outline-color var(--transition-bounce);
+
+  &:hover {
+    scale: 1.033;
+  }
 }
 
 .product-category-content {

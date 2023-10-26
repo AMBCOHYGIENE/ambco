@@ -1,4 +1,4 @@
-.products-page {
+/* .products-page {
   .product-category-item {
     --box-border-color: transparent;
 
@@ -13,4 +13,9 @@
       scale: 1.2;
     }
   }
+} */
+
+.products-page .product-category-item {
+  position: relative;
+  overflow: hidden;
 }
