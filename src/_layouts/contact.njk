@@ -6,6 +6,7 @@ layout: base
   <h1>{{ title }}</h1>
   <p class="page-desc">{{ description }}</p>
 
+  <!-- TODO: use the swticher instead of auto-grid -->
   <div class="auto-grid">
     <!-- Whatsapp -->
     <div class="contact-info-box | box stack | relative overflow-hidden">
@@ -47,19 +48,19 @@ layout: base
     </div>
   </div>
   
-  <div class="address-info-container | auto-grid | overflow-hidden">
-    <div class="stack box | relative overflow-hidden">
+  <div class="address-n-map-container | auto-grid | overflow-hidden">
+    <div class="address-info-box | stack box | relative overflow-hidden">
       <h2 class="heading-3">Address</h2>
       {% include "partials/address.njk" %}
     </div>
 
     <iframe
+      class="map-embed"
       src="{{ site.address.googleMap }}"
       width="600"
       height="450"
       style="border:0;"
       allowfullscreen=""
-      loading="lazy"
       referrerpolicy="no-referrer-when-downgrade"
       title="Sainath Niwas - Google Maps"
     >
