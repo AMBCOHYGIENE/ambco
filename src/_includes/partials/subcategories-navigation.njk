@@ -1,34 +1,50 @@
 <!-- subcategories navigation container -->
 <div
-  class="subcategories-nav-container | wrapper | sticky step-min-1"
+  class="breadcrumbs-container | wrapper | sticky step-min-1"
 >
-
-  <!-- label -->
-  <p
-    class="subcategories-nav-label"
-    aria-hidden="true"
-  >
-    Subcategories:
-  </p>
-
-<!-- subcategories navigation -->
   <nav
-    class="subcategories-nav"
-    aria-label="Product Subcategories"
+    class="breadcrumbs"
+    aria-label="Breadcrumbs"
   >
-    <ul role="list">
-      
-      {% for item in category.subCategories %}
-      <li>
-        <a
-          class="underline-on-hover"
-          href="#{{ item.title | slugify }}"
-        >
-          {{ item.title }}
-        </a>
-      </li>
-      {% endfor %}
-      
-    </ul>
+    <a
+      class="underline-on-hover"
+      href="/products/"
+    >
+      {# remove unnecessary whitespace #}
+      {{- "Product Categories" -}}
+    </a>
+    
+    {{ 'chevron-right' | iconRef | safe }}
+    
+    <a
+      class="underline-on-hover"
+      href="{{ page.url }}"
+    >
+      {{ title | safe }}
+    </a>
+    
+    <!-- subcategories navigation -->
+    {% if numberOfSubCategories > 1 %}
+    {{ 'chevron-right' | iconRef | safe }}
+
+    <div class="subcategories">
+      <ul
+        role="list"
+        aria-label="Product Subcategories"
+      >
+        {% for item in category.subCategories %}
+        <li>
+          <a
+            class="underline-on-hover"
+            href="#{{ item.title | slugify }}"
+          >
+            {{ item.title }}
+          </a>
+        </li>
+        {% endfor %}
+      </ul>
+    </div>
+    
+    {% endif %}
   </nav>
 </div>
