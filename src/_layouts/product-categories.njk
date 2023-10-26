@@ -14,17 +14,13 @@ layout: base
   </div>
 
   <div class="cover wrapper">
-    <!-- breadcrumbs -->
-    {% include "partials/breadcrumbs.njk" %}
     <!-- heading 1 -->
     <h1>{{ category.title }}</h1>
   </div>
 </header>
 
 {% set numberOfSubCategories = category.subCategories.length %}
-{% if numberOfSubCategories > 1 %}
-{% include "partials/subcategories-navigation.njk" %}
-{% endif %}
+{% include "partials/breadcrumbs.njk" %}
 
 <div data-pagefind-body>
   <ul
