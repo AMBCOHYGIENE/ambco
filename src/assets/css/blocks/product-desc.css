@@ -3,6 +3,10 @@
 }
 
 .product-description:only-child {
-  --font-weight: var(--weight-normal);
+  --font-weight: 450;
   font-weight: unset;
+
+  & dd {
+    text-wrap: balance;
+  }
 }
