@@ -14,7 +14,7 @@
   --color-neutral-tertiary-text: var(--color-slate-7);
   --color-neutral-quaternary-text: var(--color-slate-6);
   --color-neutral-quinary-text: var(--color-slate-4);
-  --color-neutral-inverted-text: var(--color-slate-2);
+  --color-neutral-inverted-text: var(--color-slate-3);
   --color-brand-primary-text: var(--color-blue-9);
 
   /* bg */
@@ -38,7 +38,7 @@
   --border-medium: 2px;
   --border-thick: 4px;
 
-  --border-radius: 8px;
+  --border-radius: 0.25rem;
 
   @media (resolution >= 192dpi) {
     --border-thin: 0.5px;
@@ -47,6 +47,7 @@
 
 :root {
   --nav-link-padding-block: var(--space-s);
+  --nav-link-padding-inline: var(--space-2xs);
   --main-padding-block-start: var(--gutter);
   --main-padding-block-end: var(--space-2xl-3xl);
   --product-subcat-item-padding-block: var(--space-xl-2xl);
@@ -60,6 +61,7 @@
   );
 }
 
+/* linear gradient */
 :root {
   --linear-gradient: linear-gradient(
     135deg,
@@ -67,12 +69,18 @@
     var(--color-neutral-primary-bg),
     var(--color-brand-primary-bg)
   );
+
+  /* hover */
   --linear-gradient-hover: linear-gradient(
     135deg,
     var(--color-brand-secondary-bg),
     var(--color-neutral-primary-bg),
     var(--color-brand-secondary-bg)
   );
+}
+
+/* radial gradient */
+:root {
   --radial-gradient: radial-gradient(
       circle at center,
       transparent 35%,
@@ -81,11 +89,13 @@
     ),
     radial-gradient(
         circle at center,
-        var(--color-brand-secondary-bg) 1.25px,
+        var(--color-slate-0) 1.25px,
         var(--color-brand-primary-bg) 1px,
         var(--color-brand-primary-bg) 5px
       )
       50% 50% / var(--space-2xs) var(--space-2xs) repeat;
+
+  /* hover */
   --radial-gradient-hover: radial-gradient(
       circle at center,
       transparent 35%,
@@ -99,4 +109,38 @@
         var(--color-brand-primary-bg) 5px
       )
       50% 50% / var(--space-2xs) var(--space-2xs) repeat;
+}
+
+:root {
+  /* button shadow */
+  --button-shadow-color: 220 40% 2%;
+  --button-shadow-strength: 8%;
+  --button-shadow: 0 3px 2px -2px hsl(var(--button-shadow-color) /
+          calc(var(--button-shadow-strength) + 3%)),
+    0 7px 5px -2px hsl(var(--button-shadow-color) /
+          calc(var(--button-shadow-strength) + 3%)),
+    0 12px 10px -2px hsl(var(--button-shadow-color) /
+          calc(var(--button-shadow-strength) + 4%)),
+    0 22px 18px -2px hsl(var(--button-shadow-color) /
+          calc(var(--button-shadow-strength) + 5%)),
+    0 41px 33px -2px hsl(var(--button-shadow-color) /
+          calc(var(--button-shadow-strength) + 6%)),
+    0 100px 80px -2px hsl(var(--button-shadow-color) /
+          calc(var(--button-shadow-strength) + 7%));
+
+  /* button shadow hover */
+  --button-hover-shadow-color: 220 3% 15%;
+  --button-hover-shadow-strength: 0%;
+  --button-hover-shadow: 0 3px 2px -2px hsl(var(--button-hover-shadow-color) /
+          calc(var(--button-hover-shadow-strength) + 3%)),
+    0 7px 5px -2px hsl(var(--button-hover-shadow-color) /
+          calc(var(--button-hover-shadow-strength) + 3%)),
+    0 12px 10px -2px hsl(var(--button-hover-shadow-color) /
+          calc(var(--button-hover-shadow-strength) + 4%)),
+    0 22px 18px -2px hsl(var(--button-hover-shadow-color) /
+          calc(var(--button-hover-shadow-strength) + 5%)),
+    0 41px 33px -2px hsl(var(--button-hover-shadow-color) /
+          calc(var(--button-hover-shadow-strength) + 6%)),
+    0 100px 80px -2px hsl(var(--button-hover-shadow-color) /
+          calc(var(--button-hover-shadow-strength) + 7%));
 }

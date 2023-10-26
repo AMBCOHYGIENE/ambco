@@ -2,7 +2,7 @@
   background: var(--site-head-bg, var(--color-neutral-primary-bg));
   color: var(--site-head-text, inherit);
   isolation: isolate;
-  z-index: 1;
+  z-index: 2;
 
   * {
     color: inherit;
@@ -10,6 +10,11 @@
 
   & a {
     display: inline-flex;
+    padding-inline: var(--nav-link-padding-inline);
+
+    &:focus-visible {
+      outline-offset: calc(-4 * var(--border-medium));
+    }
   }
 
   & a,
@@ -27,4 +32,8 @@
   @media (--md-n-below) {
     --header-border-color: var(--color-neutral-border);
   }
+}
+
+.site-head__brand {
+  translate: calc(-1 * var(--nav-link-padding-inline)) 0;
 }
