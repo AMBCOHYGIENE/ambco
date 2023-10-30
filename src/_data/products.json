@@ -26,10 +26,20 @@
                   "productVariants": [
                     {
                       "code": "FS-40/FS-60",
+                      "image": {
+                        "src": "fs-40-60.jpg",
+                        "alt": "",
+                        "loading": "eager"
+                      },
                       "description": "Metal frame 40 cm/60 cm with cotton refill/acrylic blue refill"
                     },
                     {
                       "code": "TPFS-40/PFS-60",
+                      "image": {
+                        "src": "pfs-60.jpg",
+                        "alt": "",
+                        "loading": "eager"
+                      },
                       "description": "Plastic frame 40 cm/60 cm with cotton refill/acrylic blue refill"
                     }
                   ]
@@ -47,10 +57,18 @@
                   "productVariants": [
                     {
                       "code": "MWD-40",
+                      "image": {
+                        "src": "mwd-40.jpg",
+                        "alt": ""
+                      },
                       "description": "Plastic collapsible holder 40 cm with Microfiber cloth clip refill"
                     },
                     {
                       "code": "MEC-40",
+                      "image": {
+                        "src": "mec-40.jpg",
+                        "alt": ""
+                      },
                       "description": "Plastic easy fixed frame 40 cm with Microfiber cloth pocket refill"
                     }
                   ]
@@ -68,10 +86,18 @@
                   "productVariants": [
                     {
                       "code": "PMH-300",
+                      "image": {
+                        "src": "pmh-300.jpg",
+                        "alt": ""
+                      },
                       "description": "Plastic holder – Blue/Red/Green/Yellow with cotton refill"
                     },
                     {
                       "code": "M-300",
+                      "image": {
+                        "src": "m-300.jpg",
+                        "alt": ""
+                      },
                       "description": "Metal holder – with cotton refill"
                     },
                     {
@@ -80,6 +106,10 @@
                     },
                     {
                       "code": "MFR-300",
+                      "image": {
+                        "src": "mfr-300.jpg",
+                        "alt": ""
+                      },
                       "description": "Microfiber strip refill 300 grams (Microfiber refills can be machine washed up to 300 times)"
                     },
                     {
@@ -101,14 +131,26 @@
                   "productVariants": [
                     {
                       "code": "MC-300P",
+                      "image": {
+                        "src": "mc-300p.jpg",
+                        "alt": ""
+                      },
                       "description": "Plastic socket – Blue/Red/Green/Yellow with cotton mops 300 grams"
                     },
                     {
                       "code": "H-4.5",
+                      "image": {
+                        "src": "h-4.5.jpg",
+                        "alt": ""
+                      },
                       "description": "Metal handle coated 4.5’ heavy 22 mm"
                     },
                     {
                       "code": "AH-4.5",
+                      "image": {
+                        "src": "ah-4.5.png",
+                        "alt": ""
+                      },
                       "description": "Anodized aluminum handle 4.5’ 22 mm"
                     },
                     {
@@ -117,6 +159,10 @@
                     },
                     {
                       "code": "PH-5/6",
+                      "image": {
+                        "src": "ph-5-6.png",
+                        "alt": ""
+                      },
                       "description": "Mop Hanger (for all international handles)"
                     }
                   ]
@@ -144,18 +190,34 @@
                   "productVariants": [
                     {
                       "code": "S-12/S-18/S-24",
+                      "image": {
+                        "src": "s-12.png",
+                        "alt": ""
+                      },
                       "description": "Aluminum rubber squeezee 12”/18”/24” heavy duty"
                     },
                     {
                       "code": "PS-13/PS-18",
+                      "image": {
+                        "src": "ps-13.jpg",
+                        "alt": ""
+                      },
                       "description": "Hard plastic bracket rubber squeegee 13”/18” heavy duty (Color Red/Blue)"
                     },
                     {
                       "code": "PDRS45/PDRS55",
+                      "image": {
+                        "src": "pdrs45.png",
+                        "alt": ""
+                      },
                       "description": "Hard plastic double rubber squeegee 45 cm/55 cm heavy duty (Color Blue)"
                     },
                     {
                       "code": "CB-18",
+                      "image": {
+                        "src": "cb-18.png",
+                        "alt": ""
+                      },
                       "description": "Two in one hard plastic rubber squeegee with brush bristles 18” heavy duty"
                     }
                   ]
@@ -173,10 +235,18 @@
                   "productVariants": [
                     {
                       "code": "FB-12/FB-18/FB-24",
+                      "image": {
+                        "src": "fb-12.png",
+                        "alt": ""
+                      },
                       "description": "Aluminum body scrubbing brush 12”/18”/24” heavy duty"
                     },
                     {
                       "code": "NSC-12/NSC-18",
+                      "image": {
+                        "src": "nsc-12.png",
+                        "alt": ""
+                      },
                       "description": "Hard plastic scrubbing brush 12”/18” heavy duty (Color Red/Blue)"
                     }
                   ]
@@ -203,10 +273,18 @@
                   "productVariants": [
                     {
                       "code": "K-39",
+                      "image": {
+                        "src": "k-39.png",
+                        "alt": ""
+                      },
                       "description": "Glass Cleaning Kit Bag. This includes all glass tools required to clean glass"
                     },
                     {
                       "code": "K-48/K-50",
+                      "image": {
+                        "src": "k-48.png",
+                        "alt": ""
+                      },
                       "description": "Stainless steel body with rubber blade 35 cm/45 cm"
                     },
                     {
@@ -215,22 +293,42 @@
                     },
                     {
                       "code": "K-43/K-55",
+                      "image": {
+                        "src": "k-43.png",
+                        "alt": ""
+                      },
                       "description": "Plastic glass washer holder with micro cloth sleeve 35 cm/45 cm"
                     },
                     {
                       "code": "K-66/K-68/K-68-9",
+                      "image": {
+                        "src": "k-66.png",
+                        "alt": ""
+                      },
                       "description": "Telescopic poles 4 m/6 m/9 m to reach higher ceilings with tools"
                     },
                     {
                       "code": "K-40",
+                      "image": {
+                        "src": "k-40.png",
+                        "alt": ""
+                      },
                       "description": "Floor scrapper with handle and blade"
                     },
                     {
                       "code": "K-139",
+                      "image": {
+                        "src": "k-139.png",
+                        "alt": ""
+                      },
                       "description": "Web brush round for ceilings and fans"
                     },
                     {
                       "code": "K-138",
+                      "image": {
+                        "src": "k-138.png",
+                        "alt": ""
+                      },
                       "description": "Web brush curve for ceilings and pipes"
                     },
                     {
@@ -243,6 +341,10 @@
                     },
                     {
                       "code": "HS-10",
+                      "image": {
+                        "src": "hs-10.png",
+                        "alt": ""
+                      },
                       "description": "Handy Plastic glass or platform squeegee"
                     },
                     {
@@ -251,10 +353,18 @@
                     },
                     {
                       "code": "K-113",
+                      "image": {
+                        "src": "k-113.png",
+                        "alt": ""
+                      },
                       "description": "Glass cleaning utility bucket on castors"
                     },
                     {
                       "code": "CHM-40",
+                      "image": {
+                        "src": "chm-40.jpg",
+                        "alt": ""
+                      },
                       "description": "Micro fiber cleaning cloth"
                     },
                     {
@@ -289,18 +399,34 @@
                     },
                     {
                       "code": "K-6",
+                      "image": {
+                        "src": "k-6.png",
+                        "alt": ""
+                      },
                       "description": "Twin bucket with round mop press"
                     },
                     {
                       "code": "K-16w",
+                      "image": {
+                        "src": "k-16w.png",
+                        "alt": ""
+                      },
                       "description": "Square bucket with wringer 16lts"
                     },
                     {
                       "code": "K-118A",
+                      "image": {
+                        "src": "k-118a.png",
+                        "alt": ""
+                      },
                       "description": "Single bucket with wringer 20 litres"
                     },
                     {
                       "code": "K-119A",
+                      "image": {
+                        "src": "k-119a.png",
+                        "alt": ""
+                      },
                       "description": "Double bucket with wringer trolley 34 litres"
                     },
                     {
@@ -309,10 +435,18 @@
                     },
                     {
                       "code": "K-34",
+                      "image": {
+                        "src": "k-34.png",
+                        "alt": ""
+                      },
                       "description": "Lobby dustpan with lid and dusting brush"
                     },
                     {
                       "code": "CIP/CWF",
+                      "image": {
+                        "src": "cip.png",
+                        "alt": ""
+                      },
                       "description": "Caution Signage – 'Cleaning in Progress' and 'Caution Wet Floors' (Blank signage with stickers arranged on request)"
                     },
                     {
@@ -321,10 +455,18 @@
                     },
                     {
                       "code": "K-74",
+                      "image": {
+                        "src": "k-74.png",
+                        "alt": ""
+                      },
                       "description": "Pro multi trolley for utility service products"
                     },
                     {
                       "code": "MGB-120/MGB-240",
+                      "image": {
+                        "src": "mgb-120.png",
+                        "alt": ""
+                      },
                       "description": "Otto waste bin - 120 litres/240 litres, Blue/Red/Green/Yellow/Grey"
                     },
                     {
@@ -361,10 +503,20 @@
                   "productVariants": [
                     {
                       "code": "3200 - 9100",
+                      "image": {
+                        "src": "3200.png",
+                        "alt": "",
+                        "loading": "eager"
+                      },
                       "description": "Terra Z-Web"
                     },
                     {
                       "code": "6050 - 6850 - 7150",
+                      "image": {
+                        "src": "6050-6850-7150.png",
+                        "alt": "",
+                        "loading": "eager"
+                      },
                       "description": "Terra Loop"
                     }
                   ]
@@ -374,6 +526,10 @@
                   "productVariants": [
                     {
                       "code": "8900 – 8300",
+                      "image": {
+                        "src": "8900.png",
+                        "alt": ""
+                      },
                       "description": "Modular"
                     }
                   ]
@@ -383,18 +539,34 @@
                   "productVariants": [
                     {
                       "code": "3100",
+                      "image": {
+                        "src": "3100.png",
+                        "alt": ""
+                      },
                       "description": "Aqua LDS"
                     },
                     {
                       "code": "4000",
+                      "image": {
+                        "src": "4000.png",
+                        "alt": ""
+                      },
                       "description": "Aqua LDP"
                     },
                     {
                       "code": "6500",
+                      "image": {
+                        "src": "6500.png",
+                        "alt": ""
+                      },
                       "description": "Aqua MD"
                     },
                     {
                       "code": "8850",
+                      "image": {
+                        "src": "8850.png",
+                        "alt": ""
+                      },
                       "description": "Aqua HD"
                     }
                   ]
@@ -412,30 +584,58 @@
                   "productVariants": [
                     {
                       "code": "DS-Premium",
+                      "image": {
+                        "src": "ds-premium.jpg",
+                        "alt": ""
+                      },
                       "description": "Green, Red, Blue, Grey, Maroon"
                     },
                     {
                       "code": "DS-Heavy Duty",
+                      "image": {
+                        "src": "ds-heavy-duty.jpg",
+                        "alt": ""
+                      },
                       "description": "Red, Grey, Maroon"
                     },
                     {
                       "code": "DS-Ultra Heavy Duty",
+                      "image": {
+                        "src": "ds-ultra-heavy-duty.jpg",
+                        "alt": ""
+                      },
                       "description": "Red, Grey, Maroon"
                     },
                     {
                       "code": "DW-Premium",
+                      "image": {
+                        "src": "dw-premium.jpg",
+                        "alt": ""
+                      },
                       "description": "Green, Red, Blue, Grey, Maroon"
                     },
                     {
                       "code": "DW-Heavy Duty",
+                      "image": {
+                        "src": "dw-heavy-duty.jpg",
+                        "alt": ""
+                      },
                       "description": "Red, Grey, Maroon"
                     },
                     {
                       "code": "DP-Aqua MD",
+                      "image": {
+                        "src": "dp-aqua.png",
+                        "alt": ""
+                      },
                       "description": "Black/Grey aqua carpet mats"
                     },
                     {
                       "code": "DA-Active",
+                      "image": {
+                        "src": "da-active.jpg",
+                        "alt": ""
+                      },
                       "description": "Work Area Mat for production area, factory, kitchens & bar counters"
                     }
                   ]
