@@ -1934,46 +1934,93 @@
                   "productVariants": [
                     {
                       "code": "A1",
+                      "image": {
+                        "src": "a1.jpg",
+                        "alt": "",
+                        "loading": "eager"
+                      },
                       "description": "Bathroom Cleaner cum Sanitizer Concentrate"
                     },
                     {
                       "code": "A2",
+                      "image": {
+                        "src": "a2.jpg",
+                        "alt": "",
+                        "loading": "eager"
+                      },
                       "description": "Marbinol Hard Surface Cleaner Concentrate"
                     },
                     {
                       "code": "A3",
+                      "image": {
+                        "src": "a3.jpg",
+                        "alt": "",
+                        "loading": "eager"
+                      },
                       "description": "Classic Glass Cleaner Concentrate"
                     },
                     {
                       "code": "A4",
+                      "image": {
+                        "src": "a4.jpg",
+                        "alt": ""
+                      },
                       "description": "Woodshine Furniture Maintainer Polish"
                     },
                     {
                       "code": "A5",
+                      "image": {
+                        "src": "a5.jpg",
+                        "alt": ""
+                      },
                       "description": "Khushboo Liquid Room Freshner (RTU)"
                     },
                     {
                       "code": "A6",
+                      "image": {
+                        "src": "a6.jpg",
+                        "alt": ""
+                      },
                       "description": "Sanikliq Toilet Bowl Cleaner (RTU)"
                     },
                     {
                       "code": "A7",
+                      "image": {
+                        "src": "a7.jpg",
+                        "alt": ""
+                      },
                       "description": "Marbinol Extra Floor Cleaner Concentrate"
                     },
                     {
                       "code": "Pearl",
+                      "image": {
+                        "src": "pearl-silk.jpg",
+                        "alt": ""
+                      },
                       "description": "Liquid Hand Cleanser (RTU)"
                     },
                     {
                       "code": "Pearl Plus",
+                      "image": {
+                        "src": "pearl-silk-plus.jpg",
+                        "alt": ""
+                      },
                       "description": "Liquid Hand Cleanser with QAC (RTU)"
                     },
                     {
                       "code": "Amerind",
+                      "image": {
+                        "src": "amerind.jpg",
+                        "alt": ""
+                      },
                       "description": "Multi Surface Crème Cleaner"
                     },
                     {
                       "code": "Lemonol",
+                      "image": {
+                        "src": "lemonol.jpg",
+                        "alt": ""
+                      },
                       "description": "Utensil Liquid Concentrate"
                     },
                     {
@@ -1982,10 +2029,18 @@
                     },
                     {
                       "code": "CLO",
+                      "image": {
+                        "src": "clo.jpg",
+                        "alt": ""
+                      },
                       "description": "Crockery or Cutlery Whitener or Destainer"
                     },
                     {
                       "code": "Diffuser Oil",
+                      "image": {
+                        "src": "diffuser.jpg",
+                        "alt": ""
+                      },
                       "description": "Diffuser Oil Concentrate"
                     }
                   ]
