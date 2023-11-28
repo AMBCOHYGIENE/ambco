@@ -24,6 +24,17 @@
     {"name": "blue-8", "value": "#1d4ed8"},
     {"name": "blue-9", "value": "#1e40af"},
     {"name": "blue-10", "value": "#1e3a8a"},
-    {"name": "blue-11", "value": "#172554"}
+    {"name": "blue-11", "value": "#172554"},
+    {"name": "green-1", "value": "#f0fdf4"},
+    {"name": "green-2", "value": "#dcfce7"},
+    {"name": "green-3", "value": "#bbf7d0"},
+    {"name": "green-4", "value": "#86efac"},
+    {"name": "green-5", "value": "#4ade80"},
+    {"name": "green-6", "value": "#22c55e"},
+    {"name": "green-7", "value": "#16a34a"},
+    {"name": "green-8", "value": "#15803d"},
+    {"name": "green-9", "value": "#166534"},
+    {"name": "green-10", "value": "#14532d"},
+    {"name": "green-11", "value": "#052e16"}
   ]
 }
