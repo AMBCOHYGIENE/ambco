@@ -36,6 +36,6 @@ module.exports = {
     email: 'ambcohygiene@gmail.com',
     cif: '',
     googleMap:
-      'https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d3768.16301616746!2d72.8661281!3d19.188081!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3be7b70fd25e0441%3A0x66609f96bed83be9!2sMalad%20Ayyappa%20Temple%2C%20Mumbai!5e0!3m2!1sen!2sin!4v1695624243544!5m2!1sen!2sin'
+      'https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d2039.7228382035041!2d72.86577581726144!3d19.187537775624055!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3be7b7d7e93716dd%3A0x8526dcc3a1efa2c6!2sSHIV%20SENA!5e0!3m2!1sen!2sin!4v1701078143766!5m2!1sen!2sin'
   }
 };
