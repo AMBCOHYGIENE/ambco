@@ -1,0 +1,50 @@
+[
+  {
+    "organisation": "3M",
+    "src": "/assets/images/logos/3m.png"
+  },
+  {
+    "organisation": "Multiline",
+    "src": "/assets/images/logos/multiline.png"
+  },
+  {
+    "organisation": "Time",
+    "src": "/assets/images/logos/time.png"
+  },
+  {
+    "organisation": "Origami",
+    "src": "/assets/images/logos/origami.png"
+  },
+  {
+    "organisation": "Hygiene Fresh",
+    "src": "/assets/images/logos/hygiene-fresh.png"
+  },
+  {
+    "organisation": "Kleenal",
+    "src": "/assets/images/logos/kleenal.png"
+  },
+  {
+    "organisation": "Innovision Hygiene",
+    "src": "/assets/images/logos/innovision.png"
+  },
+  {
+    "organisation": "Vectair",
+    "src": "/assets/images/logos/vectair.png"
+  },
+  {
+    "organisation": "Saraya",
+    "src": "/assets/images/logos/saraya.png"
+  },
+  {
+    "organisation": "Rubbermaid",
+    "src": "/assets/images/logos/rubbermaid.png"
+  },
+  {
+    "organisation": "Kimberly Clark",
+    "src": "/assets/images/logos/kimberly-clark.png"
+  },
+  {
+    "organisation": "AP",
+    "src": "/assets/images/logos/ap.png"
+  }
+]
