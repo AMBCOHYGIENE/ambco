@@ -13,8 +13,7 @@
       {% if activePage === '/' %} aria-current="page" {% endif %}
       aria-label="{{ site.siteName }} Homepage"
     >
-      {# {% include "svg/site-logo.svg" %} #}
-      {{ site.siteName }}
+      {% include "svg/site-logo.svg" %}
     </a>
     {% include "partials/menu.njk" %}
   </div>

@@ -35,5 +35,11 @@
 }
 
 .site-head__brand {
-  translate: calc(-1 * var(--nav-link-padding-inline)) 0;
+  /* -2px is the magic number to vertically center all the items in the header */
+  translate: calc(-1 * var(--nav-link-padding-inline)) -2px;
+
+  .logo {
+    block-size: var(--space-m);
+    inline-size: auto;
+  }
 }
