@@ -1893,7 +1893,7 @@
               "title": "Kleenwave"
             },
             {
-              "title": "Innovision",
+              "title": "Ambco",
               "productTypes": [
                 {
                   "usageArea": {
@@ -1928,7 +1928,7 @@
           "title": "",
           "manufacturers": [
             {
-              "title": "Kleenal",
+              "title": "Alpha Chemicals",
               "productTypes": [
                 {
                   "productVariants": [
@@ -2022,10 +2022,6 @@
                         "alt": ""
                       },
                       "description": "Utensil Liquid Concentrate"
-                    },
-                    {
-                      "code": "Klinsport",
-                      "description": "Oven Grille Cleaner"
                     },
                     {
                       "code": "CLO",
