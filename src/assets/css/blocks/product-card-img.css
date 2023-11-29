@@ -1,7 +1,8 @@
-.product-item img {
+.product-card img {
   margin-inline: auto;
   inline-size: 80%;
-  max-block-size: 12rem;
+  /* max-block-size: 12rem; */
+  max-block-size: min(12rem, 20svh);
   object-fit: contain;
   mix-blend-mode: darken;
 }

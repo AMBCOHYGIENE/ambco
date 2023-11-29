@@ -1,5 +1,5 @@
-.product-item {
-  --stack-space: var(--space-l-xl);
+.product-card {
+  --stack-space: var(--space-m);
   --stack-vertical-alignment: space-between;
   --box-padding: var(--space-xs-s);
 

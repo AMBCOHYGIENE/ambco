@@ -12,7 +12,7 @@
   flex-shrink: 0;
   transition: color var(--transition-fade);
 
-  .product-item:hover & {
+  .product-card:hover & {
     color: var(--color-neutral-tertiary-text);
   }
 }
