@@ -10,7 +10,6 @@
   --box-border-color: var(--color-brand-primary-text);
   outline-width: var(--border-medium);
   outline-offset: calc(2 * var(--border-medium));
-  border-radius: 0;
 }
 
 .box *:focus-visible {
