@@ -26,12 +26,9 @@
 
 .site-head__inner {
   --repel-space: 0 var(--gutter);
+  --header-border-color: var(--color-neutral-border);
 
   border-block-end: var(--border-thin) solid var(--header-border-color);
-
-  @media (--md-n-below) {
-    --header-border-color: var(--color-neutral-border);
-  }
 }
 
 .site-head__brand {
