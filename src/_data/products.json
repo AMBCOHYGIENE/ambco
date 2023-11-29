@@ -77,7 +77,7 @@
                   "title": "Wet Mopping System - Kent Color Coded",
                   "usageArea": {
                     "label": "Area of Usage",
-                    "content": "General Area Cleaning - [Color Coded](#)"
+                    "content": "General Area Cleaning - Color Coded"
                   },
                   "advantages": {
                     "label": "Advantages",
@@ -102,6 +102,10 @@
                     },
                     {
                       "code": "MC-300",
+                      "image": {
+                        "src": "mc-300.jpg",
+                        "alt": ""
+                      },
                       "description": "Cotton refill 300 grams (250 grams/350 grams)"
                     },
                     {
@@ -114,6 +118,10 @@
                     },
                     {
                       "code": "YMR16",
+                      "image": {
+                        "src": "ymr16.jpg",
+                        "alt": ""
+                      },
                       "description": "Yellow mop refill - non-woven strips. (Pharmaceutical production disposable mop refill)"
                     }
                   ]
@@ -122,7 +130,7 @@
                   "title": "Wet Mops Round & Heavy Handles",
                   "usageArea": {
                     "label": "Area of Usage",
-                    "content": "General Area Cleaning - [Color Coded](#)"
+                    "content": "General Area Cleaning - Color Coded"
                   },
                   "advantages": {
                     "label": "Advantages",
@@ -215,7 +223,7 @@
                     {
                       "code": "CB-18",
                       "image": {
-                        "src": "cb-18.png",
+                        "src": "cb-18.jpg",
                         "alt": ""
                       },
                       "description": "Two in one hard plastic rubber squeegee with brush bristles 18” heavy duty"
@@ -333,6 +341,10 @@
                     },
                     {
                       "code": "CB-35",
+                      "image": {
+                        "src": "cb-35.jpg",
+                        "alt": ""
+                      },
                       "description": "Two-in-one combination glass tool set"
                     },
                     {
@@ -342,7 +354,7 @@
                     {
                       "code": "HS-10",
                       "image": {
-                        "src": "hs-10.png",
+                        "src": "hs-10.jpg",
                         "alt": ""
                       },
                       "description": "Handy Plastic glass or platform squeegee"
@@ -424,7 +436,7 @@
                     {
                       "code": "K-119A",
                       "image": {
-                        "src": "k-119a.png",
+                        "src": "k-119a.jpg",
                         "alt": ""
                       },
                       "description": "Double bucket with wringer trolley 34 litres"
@@ -444,13 +456,17 @@
                     {
                       "code": "CIP/CWF",
                       "image": {
-                        "src": "cip.png",
+                        "src": "cip-cwf.jpg",
                         "alt": ""
                       },
                       "description": "Caution Signage – 'Cleaning in Progress' and 'Caution Wet Floors' (Blank signage with stickers arranged on request)"
                     },
                     {
                       "code": "K-73",
+                      "image": {
+                        "src": "k-73.jpeg",
+                        "alt": ""
+                      },
                       "description": "Caddy basket - Blue/Red/Green/Yellow/Grey"
                     },
                     {
@@ -664,48 +680,37 @@
               "title": "3M",
               "productTypes": [
                 {
-                  "title": "Anti Skid/Slip Resistance Solutions",
+                  "title": "Anti Skid & Anti Fatigue Solutions",
                   "productVariants": [
                     {
-                      "code": "TKTK",
-                      "description": "Stair case"
+                      "code": "610",
+                      "description": "Black Anti Skid Tape - 2” x 6’",
+                      "additionalInfo": [
+                        {
+                          "label": "Case Count",
+                          "content": "2 rolls per case"
+                        }
+                      ]
                     },
                     {
-                      "code": "TKTK",
-                      "description": "Washrooms"
+                      "code": "620",
+                      "description": "Clear Anti Skid Tape - 2” x 6’",
+                      "additionalInfo": [
+                        {
+                          "label": "Case Count",
+                          "content": "2 rolls per case"
+                        }
+                      ]
                     },
                     {
-                      "code": "TKTK",
-                      "description": "Bath Tubs"
-                    },
-                    {
-                      "code": "TKTK",
-                      "description": "Health Clubs"
-                    },
-                    {
-                      "code": "TKTK",
-                      "description": "Kitchen"
-                    },
-                    {
-                      "code": "TKTK",
-                      "description": "Pools"
-                    }
-                  ]
-                },
-                {
-                  "title": "Anti Fatigue Rubber Matting",
-                  "productVariants": [
-                    {
-                      "code": "TKTK",
-                      "description": "Kitchen counters"
-                    },
-                    {
-                      "code": "TKTK",
-                      "description": "Cooking Area"
-                    },
-                    {
-                      "code": "TKTK",
-                      "description": "Machine Shop"
+                      "code": "613",
+                      "description": "Yellow/Black Anti Skid Tape - 2” x 6’",
+                      "additionalInfo": [
+                        {
+                          "label": "Case Count",
+                          "content": "2 rolls per case"
+                        }
+                      ]
                     }
                   ]
                 }
@@ -2109,43 +2114,83 @@
                   "productVariants": [
                     {
                       "code": "TKTK",
-                      "description": "3M scotch-brite General purpose pad green 6″ x 4″"
+                      "brand": "Scotch-Brite",
+                      "description": "Scotch-Brite Green General Purpose Pad - 6″ x 4″"
                     },
                     {
-                      "code": "TKTK",
-                      "description": "3M scotch-brite Heavy duty pad brown"
+                      "code": "SB-HD",
+                      "brand": "Scotch-Brite",
+                      "description": "Scotch-Brite Brown Heavy Duty Pad",
+                      "additionalInfo": [
+                        {
+                          "label": "Case Count",
+                          "content": "144 units per box"
+                        }
+                      ]
                     },
                     {
-                      "code": "TKTK",
-                      "description": "3M Power pad blue"
+                      "code": "PO-PAD",
+                      "description": "3M Blue Power Pad",
+                      "additionalInfo": [
+                        {
+                          "label": "Case Count",
+                          "content": "20 units per box"
+                        }
+                      ]
                     },
                     {
-                      "code": "TKTK",
-                      "description": "3M white light duty pad"
+                      "code": "SB-98LD",
+                      "description": "3M White Light Duty Pad",
+                      "additionalInfo": [
+                        {
+                          "label": "Case Count",
+                          "content": "20 units per box"
+                        }
+                      ]
                     },
                     {
-                      "code": "TKTK",
-                      "description": "3M scotch-brite sponge wipe – pink/yellow "
+                      "code": "SPW",
+                      "brand": "Scotch-Brite",
+                      "description": "Scotch-Brite Sponge Wipe - Pink/Yellow",
+                      "additionalInfo": [
+                        {
+                          "label": "Case Count",
+                          "content": "120 units per box"
+                        }
+                      ]
                     },
                     {
-                      "code": "TKTK",
-                      "description": "3M doodlebug cleaning system with handle"
+                      "code": "DLB-CL",
+                      "description": "3M Doodlebug Cleaning System with Handle"
                     },
                     {
-                      "code": "TKTK",
-                      "description": "3M scotch-brite High performance micro fiber cloth (Blue/Red/Green/Yellow)"
+                      "code": "MFC36*36",
+                      "brand": "Scotch-Brite",
+                      "description": "Scotch-Brite High Performance Micro Fiber Cloth - Blue/Red/Green/Yellow",
+                      "additionalInfo": [
+                        {
+                          "label": "Case Count",
+                          "content": "50 units per case"
+                        }
+                      ]
                     },
                     {
-                      "code": "TKTK",
-                      "description": "3M stainless steel cleaner-polisher"
+                      "code": "SSC600ML",
+                      "description": "3M Stainless Steel Cleaner-polisher",
+                      "additionalInfo": [
+                        {
+                          "label": "Case Count",
+                          "content": "12 units per case"
+                        }
+                      ]
                     },
                     {
-                      "code": "TKTK",
-                      "description": "3M High performance Floor Pad 17” - Blue/Red/Black/White"
+                      "code": "FLP-17",
+                      "description": "3M High Performance Floor Pad 17” - Blue/Red/Black/White"
                     },
                     {
-                      "code": "TKTK",
-                      "description": "3M Sharpshooter extra strength no-rinse mark remover"
+                      "code": "SHP-ST",
+                      "description": "3M Sharpshooter Extra Strength No-rinse Mark Remover"
                     }
                   ]
                 }
