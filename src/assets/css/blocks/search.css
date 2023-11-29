@@ -110,7 +110,7 @@
   --grid-gap: var(--space-xs);
 }
 
-:where(#search-results) .product-category-item {
+:where(#search-results) .product-category-card {
   --box-bg: initial;
 
   @media (hover: hover) {

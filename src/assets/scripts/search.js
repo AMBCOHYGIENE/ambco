@@ -6,7 +6,7 @@ class Search {
 
   addResult(result) {
     let listItem = document.createElement('li');
-    listItem.classList.add('product-category-item', 'stack', 'box', 'relative');
+    listItem.classList.add('product-category-card', 'stack', 'box', 'relative');
 
     listItem.innerHTML = `
       <a 
