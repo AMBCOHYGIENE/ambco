@@ -18,13 +18,13 @@
     
     <a
       class="underline-on-hover"
-      href="{{ page.url }}"
+      href="#top"
     >
       {{ title | safe }}
     </a>
     
-    <!-- subcategories navigation -->
     {% if numberOfSubCategories > 1 %}
+    <!-- subcategories navigation -->
     {{ 'chevron-right' | iconRef | safe }}
 
     <div class="subcategories">
