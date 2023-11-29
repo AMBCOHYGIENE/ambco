@@ -170,6 +170,7 @@
 /* Change color for the active page */
 .site-nav-list-container [aria-current='page'] {
   color: var(--color-brand-primary-text);
+  text-decoration-line: underline;
 }
 
 body:has(.site-nav-button[aria-expanded='true']) {
