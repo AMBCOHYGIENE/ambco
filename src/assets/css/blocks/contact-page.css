@@ -29,7 +29,8 @@
 
 .contact-info-box {
   --stack-space: var(--space-l-xl);
-  transition: scale var(--transition-bounce), outline-color var(--transition-bounce);
+  --box-padding: var(--space-xs-s);
+  transition: scale var(--transition-movement), outline-color var(--transition-movement);
 
   & a:after {
     content: '';
@@ -39,7 +40,7 @@
 
   &:hover {
     --box-border-color: var(--color-brand-border);
-    scale: 1.033;
+    scale: 1.02;
 
     /* .icon {
       fill: var(--color-blue-3);
