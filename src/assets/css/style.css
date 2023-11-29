@@ -6,7 +6,7 @@
 @import 'tailwindcss/components';
 
 @import 'global/variables.css';
-@import 'global/global-styles.css';
+@import 'global/global.css';
 
 @import-glob 'compositions/*.css';
 @import-glob 'utilities/*.css';

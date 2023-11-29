@@ -20,6 +20,7 @@ body {
   font-size: var(--step-0);
   font-family: var(--font-base);
   line-height: var(--leading-standard);
+  font-feature-settings: 'tnum', 'cv08'; /* cv08 - uppercase i with serif */
 }
 
 main {
@@ -45,9 +46,7 @@ h4,
 }
 
 h1,
-h2,
-.heading-1,
-.heading-2 {
+.heading-1 {
   letter-spacing: var(--tracking-s);
 }
 
@@ -69,6 +68,11 @@ h2,
   font-size: var(--step-3);
 }
 
+h2,
+.heading-2 {
+  letter-spacing: var(--tracking-m);
+}
+
 h3,
 .heading-3,
 .heading-wrapper:has(h3) {
@@ -78,11 +82,12 @@ h3,
 
 h3,
 .heading-3 {
-  letter-spacing: var(--tracking-m);
+  letter-spacing: normal;
 }
 
 h4,
 .heading-4 {
+  --font-weight: var(--weight-medium);
   font-size: var(--step-0);
   letter-spacing: normal;
 }
@@ -175,7 +180,7 @@ summary {
 }
 
 a {
-  text-underline-offset: 0.2ex;
+  text-underline-offset: 0.3ex;
 }
 
 /* a:hover {

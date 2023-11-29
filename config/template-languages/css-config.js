@@ -18,7 +18,7 @@ module.exports = eleventyConfig => {
   eleventyConfig.addExtension('css', {
     outputFileExtension: 'css',
     compile: async (content, path) => {
-      if (path !== './src/assets/css/global.css') {
+      if (path !== './src/assets/css/style.css') {
         return;
       }
 
