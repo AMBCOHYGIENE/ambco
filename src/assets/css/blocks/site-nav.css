@@ -169,7 +169,7 @@
 
 /* Change color for the active page */
 .site-nav-list-container [aria-current='page'] {
-  color: var(--color-brand-primary-text);
+  color: var(--color-brand-secondary-text);
   text-decoration-line: underline;
 }
 

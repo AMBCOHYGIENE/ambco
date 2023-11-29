@@ -7,7 +7,7 @@
 }
 
 .box:focus-within {
-  --box-border-color: var(--color-brand-primary-text);
+  --box-border-color: var(--color-brand-secondary-text);
   outline-width: var(--border-medium);
   outline-offset: calc(2 * var(--border-medium));
 }

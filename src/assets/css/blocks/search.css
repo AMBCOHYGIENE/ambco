@@ -18,7 +18,7 @@
   }
 
   &:focus-within {
-    outline-color: var(--color-brand-primary-text);
+    outline-color: var(--color-brand-secondary-text);
     outline-width: var(--border-medium);
     outline-offset: calc(-1 * var(--border-medium));
   }
@@ -55,7 +55,7 @@
 }
 
 :is(.search-btn, .clear-btn):focus-visible {
-  outline: var(--border-medium) solid var(--color-brand-primary-text);
+  outline: var(--border-medium) solid var(--color-brand-secondary-text);
   outline-offset: var(--border-medium);
 }
 

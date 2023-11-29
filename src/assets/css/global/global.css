@@ -37,7 +37,7 @@ h4,
 .heading-3,
 .heading-4,
 .heading-wrapper {
-  color: var(--color-neutral-primary-text);
+  color: var(--color-brand-primary-text);
   font-family: var(--font-display);
 
   @supports (font-variation-settings: 'wght' 400) {
@@ -167,7 +167,7 @@ label {
 
 a,
 button {
-  color: var(--color-brand-primary-text);
+  color: var(--color-brand-secondary-text);
 }
 
 button,
@@ -198,7 +198,7 @@ input::placeholder {
 }
 
 :focus-visible {
-  outline: var(--border-medium) solid var(--color-brand-primary-text);
+  outline: var(--border-medium) solid var(--color-brand-secondary-text);
   outline-offset: var(--border-medium);
   border-radius: 0;
   text-decoration-color: transparent;
