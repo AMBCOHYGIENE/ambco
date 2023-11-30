@@ -112,6 +112,7 @@
 
 :where(#search-results) .product-category-card {
   --box-bg: initial;
+  --box-border-color: var(--color-brand-border-subtle);
 
   @media (hover: hover) {
     &:hover {

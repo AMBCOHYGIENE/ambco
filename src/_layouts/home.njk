@@ -1,13 +1,42 @@
 ---
 layout: base
 ---
-<div class="cover center wrapper">
-  <h1 class="visually-hidden">{{ site.siteName }}</h1>
-  <h2 class="heading-1">{{ description }}</h2>
-</div>
+<div class="stack wrapper">
+  <!-- hero section -->
+  <section class="hero-container | cover repel">
+    <h1 class="visually-hidden">{{ site.siteName }}</h1>
+    {% include "svg/home-logo.svg" %}
+    <div class="hero-content | repel">
+      <!-- site description -->
+      <h2>{{ site.siteDescription }}</h2>
+      <!-- connector -->
+      <div class="connector" aria-hidden="true"></div>
+      <!-- hero section actions -->
+      <div class="hero-actions-container | cluster">
+        {% include "partials/view-products.njk" %}
+        {% include "partials/cta.njk" %}
+      </div>
+    </div>
+  </section>
+  
+  <!-- product categories section -->
+  <section class="product-categories-container | flow">
+    <h2 id="product-categories" class="heading-1">
+      {{ productCategoriesInfo.title }}
+    </h2>
+    <p class="page-desc">
+      {{ productCategoriesInfo.description }}
+    </p>
+    <!-- category list -->
+    {% include "partials/product-category-list.njk" %}
+  </section>
 
-<div class="wrapper">
-  {{ content | safe }}
+  <!-- brands section -->
+  <section class="brands-container | flow">
+    <h2>{{ brandsInfo.title }}</h2>
+    <p class="page-desc">{{ brandsInfo.description }}</p>
+    {% include "partials/brands-marquee.njk" %}
+  </section>
 </div>
 
 

@@ -1,0 +1,46 @@
+.logo {
+  --fill-color: #043d8b; /* original */
+  --fill-color: var(--color-blue-11);
+
+  & path {
+    fill: var(--fill-color);
+  }
+
+  .cutout {
+    fill: #127e36; /* original */
+    fill: var(--color-green-8);
+  }
+}
+
+[data-variant='home'] {
+  inline-size: 100%;
+  block-size: auto;
+}
+
+[data-variant='home'] > * {
+  animation-name: slide-in;
+  animation-duration: var(--animation-duration);
+  animation-fill-mode: forwards;
+  animation-delay: calc(var(--letter-index) * (var(--animation-duration) / 10));
+  transform: translateY(25ex);
+}
+
+[data-letter='a'] {
+  --letter-index: 0;
+}
+
+[data-letter='m'] {
+  --letter-index: 1;
+}
+
+[data-letter='b'] {
+  --letter-index: 2;
+}
+
+[data-letter='c'] {
+  --letter-index: 3;
+}
+
+[data-letter='o'] {
+  --letter-index: 4;
+}

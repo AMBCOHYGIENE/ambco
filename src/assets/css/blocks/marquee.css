@@ -1,0 +1,59 @@
+.marquee {
+  --_logo-size: var(--space-3xl-4xl);
+  --_marquee-gap: var(--space-l-xl);
+  --_duration: 52.5s;
+  --_scroll-start: 0;
+  --_scroll-end: calc(-100% - var(--_marquee-gap));
+  display: flex;
+  overflow: hidden;
+  user-select: none;
+  gap: var(--_marquee-gap);
+  -webkit-mask-image: linear-gradient(
+    var(--mask-direction, to right),
+    hsl(0 0% 0% / 0),
+    hsl(0 0% 0% / 1) 20%,
+    hsl(0 0% 0% / 1) 80%,
+    hsl(0 0% 0% / 0)
+  );
+  mask-image: linear-gradient(
+    var(--mask-direction, to right),
+    hsl(0 0% 0% / 0),
+    hsl(0 0% 0% / 1) 20%,
+    hsl(0 0% 0% / 1) 80%,
+    hsl(0 0% 0% / 0)
+  );
+
+  @media (hover: hover) {
+    &:hover .marquee-group {
+      animation-play-state: paused;
+    }
+  }
+}
+
+.marquee + .marquee {
+  --flow-space: var(--_marquee-gap);
+}
+
+.marquee-group {
+  flex-shrink: 0;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  gap: var(--_marquee-gap);
+  min-inline-size: 100%;
+  animation: scroll-x var(--_duration) linear infinite;
+
+  & img {
+    display: grid;
+    place-items: center;
+    inline-size: var(--_logo-size);
+    aspect-ratio: 16/9;
+    object-fit: contain;
+    border-radius: var(--border-radius);
+  }
+}
+
+[data-type='reverse'] .marquee-group {
+  animation-direction: reverse;
+  animation-delay: -3s;
+}

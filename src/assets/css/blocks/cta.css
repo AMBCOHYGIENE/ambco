@@ -37,7 +37,7 @@
 .cta:after {
   content: '';
   position: absolute;
-  inset: calc((-1 * var(--gutter)));
+  inset: 0 calc(-1 * var(--gutter)) calc(-1 * var(--gutter)) 0;
 }
 
 .pulse-css {

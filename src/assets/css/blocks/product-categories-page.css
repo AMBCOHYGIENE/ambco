@@ -12,6 +12,10 @@
     --header-border-color: var(--color-neutral-border-dark);
   }
 
+  .logo path {
+    --fill-color: var(--color-neutral-inverted-text);
+  }
+
   & main {
     padding-block-start: 0;
     padding-block-end: calc(
