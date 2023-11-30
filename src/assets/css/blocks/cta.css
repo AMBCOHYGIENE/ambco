@@ -1,33 +1,36 @@
 .cta {
-  --cluster-space: 1ch;
-  --circle-color: 142deg 70% 49%;
-  --circle-size: 0.66rem;
+  --cluster-space: 1.25ch;
+  --circle-color: var(--color-green-6);
+  --circle-size: 0.5rem;
 
   position: fixed;
   inset-block-end: var(--gutter);
   inset-inline-end: var(--gutter);
 
   padding: 0.75ex 1em;
-  outline: var(--border-regular) solid var(--color-neutral-border-subtle);
-  border-radius: var(--border-radius);
-  background-color: var(--color-slate-0);
-  box-shadow: var(--button-shadow);
+  background-color: var(--color-green-1);
+  outline: var(--border-regular) solid #d9eee0;
+  outline-offset: calc(-1 * var(--border-regular));
+  border-radius: 9999px;
 
-  color: var(--color-neutral-primary-text);
+  color: var(--color-green-10);
   text-decoration-line: none;
 
   transition: transform var(--transition-bounce), box-shadow var(--transition-bounce);
   transition-duration: 250ms;
 
   &:focus-visible {
-    outline: var(--border-medium) solid var(--color-brand-primary-text);
-    box-shadow: var(--button-hover-shadow);
+    outline: var(--border-medium) solid var(--color-green-6);
+    outline-offset: calc(-1 * var(--border-medium));
+    border-radius: 9999px;
     z-index: 2;
   }
 
   &:hover {
-    box-shadow: var(--button-hover-shadow);
-    transform: translateY(2%);
+    --circle-color: var(--color-green-1);
+    background-color: var(--color-green-8);
+    outline-color: var(--color-green-8);
+    color: var(--color-green-1);
   }
 }
 
@@ -42,7 +45,7 @@
   inline-size: var(--circle-size);
   block-size: var(--circle-size);
   border-radius: calc(0.5 * var(--circle-size));
-  background-color: hsl(var(--circle-color));
+  background-color: var(--circle-color);
 }
 
 .pulse-css:before,
@@ -53,29 +56,12 @@
   inline-size: var(--circle-size);
   block-size: var(--circle-size);
   border-radius: calc(0.5 * var(--circle-size));
-  background-color: hsl(var(--circle-color));
+  background-color: var(--circle-color);
   transform: scale(0.5);
   transform-origin: center center;
   animation: pulse-me 3s linear infinite;
 }
 
 .pulse-css:after {
-  animation-delay: 2s;
-}
-
-@keyframes pulse-me {
-  0% {
-    transform: scale(0.5);
-    opacity: 0;
-  }
-  50% {
-    opacity: 0.1;
-  }
-  70% {
-    opacity: 0.09;
-  }
-  100% {
-    transform: scale(5);
-    opacity: 0;
-  }
+  animation-delay: 1.5s;
 }
