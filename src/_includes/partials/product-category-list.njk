@@ -1,0 +1,51 @@
+<ul
+  class="product-category-list | auto-grid"
+  role="list"
+>
+  {% for category in manufacturersData.categories %}
+  <li
+    class="product-category-card | box | relative inverted"
+    data-sticky="true"
+    style="--data-index: {{ loop.index0 }};"
+  >
+    
+    <!-- background image -->
+    <div
+      class="bg-image"
+      style="--img-position: {{ category.backgroundImage.imgPosition or "center" }}"
+    >
+      {% image category.backgroundImage.src, "", "", "(min-width: 65.1875rem) 33vw, (min-width: 43.6875rem) 50vw, 100vw", "eager" %}
+    </div>
+    
+    <!-- content -->
+    <div class="product-category-content | stack">
+      <!-- category title -->
+      <a
+        href="/products/{{ category.title | slugify }}"
+        class="product-category-title | heading-4 no-underline"
+      >
+        {{ category.title }}
+      </a>
+      <!-- manufacturers -->
+      <div class="manufacturers-container | step-min-1">
+        {% lucide "badge-check",
+          { "stroke": "var(--color-neutral-quinary-text)" }
+        %}
+        <ul
+          class="product-manufacturer-list | cluster | text-color-quinary"
+          role="list"
+        >
+          {% for manufacturer in category.manufacturers %}
+            <li>
+              {{ manufacturer }}
+              {%- if not loop.last -%}
+                ,
+              {%- endif -%}
+            </li>
+          {% endfor %}
+        </ul>
+      </div>
+    </div>
+  </li>
+  {% endfor %}
+</ul>
