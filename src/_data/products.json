@@ -2055,19 +2055,35 @@
                   "productVariants": [
                     {
                       "code": "C1104",
-                      "description": "TKTK"
+                      "image": {
+                        "src": "c1104.jpg",
+                        "alt": ""
+                      },
+                      "description": "Ultra Guard Premium Liquid Wash"
                     },
                     {
                       "code": "C1504",
-                      "description": "TKTK"
+                      "image": {
+                        "src": "c1504.jpg",
+                        "alt": ""
+                      },
+                      "description": "Ultra Guard Premium Liquid Wash"
                     },
                     {
                       "code": "C8104",
-                      "description": "TKTK"
+                      "image": {
+                        "src": "c8104.jpg",
+                        "alt": ""
+                      },
+                      "description": "Magic Surface 5 Litre Toilet Bowl Cleaner"
                     },
                     {
                       "code": "C4104",
-                      "description": "TKTK"
+                      "image": {
+                        "src": "c4104.jpg",
+                        "alt": ""
+                      },
+                      "description": "Floor Cleaner Concentrate"
                     },
                     {
                       "code": "C7104",
@@ -2075,7 +2091,11 @@
                     },
                     {
                       "code": "C14104",
-                      "description": "TKTK"
+                      "image": {
+                        "src": "c14104.jpg",
+                        "alt": ""
+                      },
+                      "description": "Air Freshener"
                     },
                     {
                       "code": "C11212",
