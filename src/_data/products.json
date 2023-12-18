@@ -684,6 +684,10 @@
                   "productVariants": [
                     {
                       "code": "610",
+                      "image": {
+                        "src": "610.jpeg",
+                        "alt": ""
+                      },
                       "description": "Black Anti Skid Tape - 2” x 6’",
                       "additionalInfo": [
                         {
@@ -694,6 +698,10 @@
                     },
                     {
                       "code": "620",
+                      "image": {
+                        "src": "620.jpeg",
+                        "alt": ""
+                      },
                       "description": "Clear Anti Skid Tape - 2” x 6’",
                       "additionalInfo": [
                         {
@@ -704,6 +712,10 @@
                     },
                     {
                       "code": "613",
+                      "image": {
+                        "src": "613.jpeg",
+                        "alt": ""
+                      },
                       "description": "Yellow/Black Anti Skid Tape - 2” x 6’",
                       "additionalInfo": [
                         {
@@ -1772,10 +1784,18 @@
                   "productVariants": [
                     {
                       "code": "69530",
+                      "image": {
+                        "src": "69530.jpeg",
+                        "alt": ""
+                      },
                       "description": "Slimroll Hand Towel Dispenser"
                     },
                     {
                       "code": "69590",
+                      "image": {
+                        "src": "69590.jpeg",
+                        "alt": ""
+                      },
                       "description": "Hand Roll Towel (HRT Roll) Dispenser"
                     }
                   ]
@@ -1785,6 +1805,10 @@
                   "productVariants": [
                     {
                       "code": "70220",
+                      "image": {
+                        "src": "70220.jpeg",
+                        "alt": ""
+                      },
                       "description": "Multifold Towel Tissue Dispenser"
                     }
                   ]
@@ -1794,6 +1818,10 @@
                   "productVariants": [
                     {
                       "code": "69480",
+                      "image": {
+                        "src": "69480.jpeg",
+                        "alt": ""
+                      },
                       "description": "Skincare Dispenser Manual"
                     }
                   ]
@@ -1803,6 +1831,10 @@
                   "productVariants": [
                     {
                       "code": "70260",
+                      "image": {
+                        "src": "70260.jpeg",
+                        "alt": ""
+                      },
                       "description": "Bathroom Tissue Jumbo Roll Dispenser"
                     }
                   ]
@@ -1837,6 +1869,75 @@
         {
           "title": "",
           "manufacturers": [
+            {
+              "title": "Ambco Hygiene Care",
+              "productTypes": [
+                {
+                  "usageArea": {
+                    "label": "Area of Usage",
+                    "content": "Wash Room"
+                  },
+                  "productVariants": [
+                    {
+                      "code": "TKTK",
+                      "description": "Stainless Steel Hand Dryers"
+                    },
+                    {
+                      "code": "TKTK",
+                      "description": "Plastic Body Hand Dryers"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "title": "Kleenwave",
+              "productTypes": [
+                {
+                  "productVariants": [
+                    {
+                      "code": "MB-3000",
+                      "description": "TKTK",
+                      "additionalInfo": [
+                        {
+                          "label": "Installation",
+                          "content": "2 screws/2.2 m height"
+                        },
+                        {
+                          "label": "Setting",
+                          "content": "(MB-3000) 30/60/90 days, 8/12/16/24 hours, 5 day/week, (MB-3045) 30/45/60/90 days, 8 to 24 hours, 5 day/week"
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "title": "Vectair Systems",
+              "productTypes": [
+                {
+                  "productVariants": [
+                    {
+                      "code": "UK",
+                      "image": {
+                        "src": "uk.jpeg",
+                        "alt": ""
+                      },
+                      "description": "Urinal Screens – UK made"
+                    },
+                    {
+                      "code": "China",
+                      "image": {
+                        "src": "china.jpeg",
+                        "alt": ""
+                      },
+                      "description": "Urinal Screens – China make"
+                    }
+                  ]
+                }
+              ]
+            },
             {
               "title": "Hygiene Fresh",
               "productTypes": [
@@ -1881,38 +1982,6 @@
                           "content": "Free To Use dispensers no key to be given to clients"
                         }
                       ]
-                    },
-                    {
-                      "code": "TKTK",
-                      "description": "Urinal Screens – UK made"
-                    },
-                    {
-                      "code": "TKTK",
-                      "description": "Urinal Screens – China made"
-                    }
-                  ]
-                }
-              ]
-            },
-            {
-              "title": "Kleenwave"
-            },
-            {
-              "title": "Ambco",
-              "productTypes": [
-                {
-                  "usageArea": {
-                    "label": "Area of Usage",
-                    "content": "Wash Room"
-                  },
-                  "productVariants": [
-                    {
-                      "code": "TKTK",
-                      "description": "Stainless Steel Hand Dryers"
-                    },
-                    {
-                      "code": "TKTK",
-                      "description": "Plastic Body Hand Dryers"
                     }
                   ]
                 }
