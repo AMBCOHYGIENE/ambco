@@ -6,7 +6,7 @@
   --main-padding-block-start: var(--space-s-m);
   --main-padding-block-end: var(--space-l-xl);
 
-  & header {
+  /* & header {
     opacity: 0;
     animation-name: fade-in;
     animation-duration: calc(1.5 * var(--animation-duration));
@@ -16,7 +16,7 @@
     &:focus-within {
       opacity: 1;
     }
-  }
+  } */
 }
 
 .hero-container {
@@ -45,7 +45,7 @@
 
   & .cta {
     position: static;
-    max-inline-size: fit-content;
+    box-shadow: none;
     animation-delay: calc(
       var(--animation-duration) + calc(var(--animation-duration) / 2) +
         calc(var(--animation-duration) / 2)
@@ -62,6 +62,10 @@
   --repel-vertical-alignment: last baseline;
   min-inline-size: 100%;
   overflow: hidden;
+
+  &:focus-within {
+    overflow: revert;
+  }
 }
 
 .hero-actions-container {
@@ -81,15 +85,16 @@
       (var(--animation-duration) / 10)
   );
 
-  &:hover {
+  &:where(:hover, :focus-visible) {
     background-color: var(--color-brand-secondary-text);
     outline-color: var(--color-brand-secondary-text);
     color: var(--color-brand-primary-bg);
+    border-radius: 9999px;
   }
 
   &:focus-visible {
     outline: var(--border-medium) solid var(--color-brand-secondary-text);
-    outline-offset: calc(-1 * var(--border-medium));
+    border-radius: 9999px;
   }
 }
 

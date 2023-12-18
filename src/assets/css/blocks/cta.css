@@ -24,13 +24,13 @@
   transition-duration: 250ms;
 
   &:focus-visible {
-    outline: var(--border-medium) solid var(--color-green-6);
-    outline-offset: calc(-1 * var(--border-medium));
+    outline-width: var(--border-medium);
+    box-shadow: none;
     border-radius: 9999px;
     z-index: 2;
   }
 
-  &:hover {
+  &:where(:hover, :focus-visible) {
     --circle-color: var(--color-green-1);
     background-color: var(--color-green-8);
     outline-color: var(--color-green-8);

@@ -48,7 +48,7 @@
 
   .auto-grid {
     --grid-gap: 0 var(--space-s);
-    --grid-min-item-size: 13rem;
+    --grid-min-item-size: 14rem;
   }
 
   > :nth-child(2) {

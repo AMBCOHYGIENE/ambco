@@ -10,6 +10,7 @@
 
   padding: calc(1 / 2 * var(--nav-link-padding-block)) var(--gutter);
 
+  border-radius: 9999px;
   outline-offset: 1px;
   box-shadow: var(--button-shadow);
 
@@ -21,5 +22,6 @@
 
 .skip-link:focus {
   opacity: 1;
+  border-radius: 9999px;
   translate: 0 calc(1 / 2 * var(--nav-link-padding-block));
 }
