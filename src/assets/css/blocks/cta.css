@@ -1,10 +1,13 @@
 .cta {
+  --_cta-inset-block-end: calc(
+    var(--gutter) - var(--border-regular) - var(--border-regular)
+  );
   --cluster-space: 1.25ch;
   --circle-color: var(--color-green-6);
   --circle-size: 0.5rem;
 
   position: fixed;
-  inset-block-end: var(--gutter);
+  inset-block-end: var(--_cta-inset-block-end);
   inset-inline-end: var(--gutter);
 
   padding: 0.75ex 1em;
@@ -12,11 +15,12 @@
   outline: var(--border-regular) solid #d9eee0;
   outline-offset: calc(-1 * var(--border-regular));
   border-radius: 9999px;
+  box-shadow: var(--button-hover-shadow);
 
   color: var(--color-green-10);
   text-decoration-line: none;
 
-  transition: transform var(--transition-bounce), box-shadow var(--transition-bounce);
+  transition: transform var(--transition-bounce);
   transition-duration: 250ms;
 
   &:focus-visible {
@@ -37,7 +41,7 @@
 .cta:after {
   content: '';
   position: absolute;
-  inset: 0 calc(-1 * var(--gutter)) calc(-1 * var(--gutter)) 0;
+  inset: 0 calc(-1 * var(--gutter)) calc(-1 * var(--_cta-inset-block-end)) 0;
 }
 
 .pulse-css {
