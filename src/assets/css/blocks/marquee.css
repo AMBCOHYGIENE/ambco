@@ -23,11 +23,11 @@
     hsl(0 0% 0% / 0)
   );
 
-  @media (hover: hover) {
+  /* @media (hover: hover) {
     &:hover .marquee-group {
       animation-play-state: paused;
     }
-  }
+  } */
 }
 
 .marquee + .marquee {
