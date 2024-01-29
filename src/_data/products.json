@@ -3,8 +3,7 @@
     {
       "title": "Housekeeping",
       "backgroundImage": {
-        "src": "./src/assets/images/housekeeping-bg.jpeg",
-        "imgPosition": "0 70%"
+        "src": "./src/assets/images/housekeeping-bg.jpeg"
       },
       "subCategories": [
         {
@@ -538,8 +537,7 @@
     {
       "title": "Floor Matting & Safety",
       "backgroundImage": {
-        "src": "./src/assets/images/floor-matting-bg.jpeg",
-        "imgPosition": "0 42%"
+        "src": "./src/assets/images/floor-matting-bg.jpeg"
       },
       "subCategories": [
         {
@@ -770,8 +768,7 @@
     {
       "title": "Tissues",
       "backgroundImage": {
-        "src": "./src/assets/images/tissue-bg.jpg",
-        "imgPosition": "0 33%"
+        "src": "./src/assets/images/tissue-bg.jpg"
       },
       "subCategories": [
         {
@@ -1880,8 +1877,7 @@
     {
       "title": "Dispensers",
       "backgroundImage": {
-        "src": "./src/assets/images/dispenser-bg.jpg",
-        "imgPosition": "0 33%"
+        "src": "./src/assets/images/dispenser-bg.jpg"
       },
       "subCategories": [
         {
@@ -1897,7 +1893,8 @@
                       "code": "69530",
                       "image": {
                         "src": "69530.jpeg",
-                        "alt": ""
+                        "alt": "",
+                        "loading": "eager"
                       },
                       "description": "Slimroll Hand Towel Dispenser"
                     },
@@ -1905,7 +1902,8 @@
                       "code": "69590",
                       "image": {
                         "src": "69590.jpeg",
-                        "alt": ""
+                        "alt": "",
+                        "loading": "eager"
                       },
                       "description": "Hand Roll Towel (HRT Roll) Dispenser"
                     }
@@ -1978,8 +1976,7 @@
     {
       "title": "Air & Surface Care",
       "backgroundImage": {
-        "src": "./src/assets/images/air-surface-bg.jpeg",
-        "imgPosition": "0 33%"
+        "src": "./src/assets/images/air-surface-bg.jpeg"
       },
       "subCategories": [
         {
@@ -2144,8 +2141,7 @@
     {
       "title": "Chemicals",
       "backgroundImage": {
-        "src": "./src/assets/images/chemicals-bg.jpeg",
-        "imgPosition": "0 33%"
+        "src": "./src/assets/images/chemicals-bg.jpeg"
       },
       "subCategories": [
         {
@@ -2332,8 +2328,7 @@
     {
       "title": "3M Cleaning & Maintenance",
       "backgroundImage": {
-        "src": "./src/assets/images/3m-bg.jpg",
-        "imgPosition": "0 33%"
+        "src": "./src/assets/images/3m-bg.jpg"
       },
       "subCategories": [
         {
@@ -2493,8 +2488,7 @@
     {
       "title": "Industrial Cleaning Machines",
       "backgroundImage": {
-        "src": "./src/assets/images/industrial-cleaning-machines-bg.jpeg",
-        "imgPosition": "0 33%"
+        "src": "./src/assets/images/industrial-cleaning-machines-bg.jpeg"
       },
       "subCategories": [
         {
