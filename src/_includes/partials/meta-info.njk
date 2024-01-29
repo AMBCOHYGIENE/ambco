@@ -25,14 +25,8 @@
 <meta name="format-detection" content="telephone=no" />
 <!-- Helps prevent duplicate content issues -->
 <link rel="canonical" href="{{ site.url }}{{ page.url }}" />
-
 <!-- Links to information about the author(s) of the document -->
 <link rel="author" href="humans.txt" />
-
-{% if site.meta_data.mastodonProfile %}
-<!-- Mastodon verified site -->
-<link rel="me" href="{{ site.meta_data.mastodonProfile }}" />
-{% endif %}
 
 <!-- Open Graph meta  -->
 {# <meta property="og:url" content="{{ site.url }}{{ page.url }}" />
@@ -64,25 +58,11 @@
   {% endif %}"
 />
 <meta property="og:site_name" content="{{ site.siteName }}" />
-<meta property="og:locale" content="{{ site.locale }}" />
-<meta property="article:author" content="{{ site.author }}" /> #}
-
-<!-- Twitter meta -->
-{# <meta name="twitter:card" content="summary_large_image" />
-{% if site.meta_data.twitterSite %}
-<meta name="twitter:site" content="{{ site.meta_data.twitterSite }}" />
-{% endif %} {% if site.meta_data.twitterCreator %}
-<meta name="twitter:creator" content="{{ site.meta_data.twitterCreator }}" />
-{% endif %}
-<meta name="twitter:dnt" content="on" /> #}
+<meta property="og:locale" content="{{ site.locale }}" /> #}
 
 <!-- favicon -->
-{%- if env.eleventy === "development" -%}
-  <link rel="icon" href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><text y=%22.9em%22 font-size=%2290%22>🚨</text></svg>">  
-{% else %}
-  <link rel="icon" href="/favicon.ico" sizes="any">
-  <link rel="icon" href="/icon.svg" type="image/svg+xml">
-  <link rel="apple-touch-icon" href="/apple-touch-icon.png">
-  <link rel="manifest" href="/site.webmanifest">
-{%- endif -%}
+<link rel="icon" href="/favicon.ico" sizes="any">
+<link rel="icon" href="/icon.svg" type="image/svg+xml">
+<link rel="apple-touch-icon" href="/apple-touch-icon.png">
+<link rel="manifest" href="/site.webmanifest">
 
