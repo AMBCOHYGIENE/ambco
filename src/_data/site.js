@@ -17,10 +17,10 @@ module.exports = {
     city: 'Mumbai',
     state: 'Maharashtra',
     zip: '400097',
-    landlineDisplay: '022 28406012',
-    landlineCall: '912228406012',
     mobileDisplay: '+91 9820816415',
     mobileCall: '919820816415',
+    altMobileDisplay: '+91 9324963541',
+    altMobileCall: '919324963541',
     email: 'ambcohygiene@gmail.com',
     cif: '',
     googleMap:
