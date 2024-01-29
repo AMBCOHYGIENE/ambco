@@ -3,7 +3,7 @@
     {
       "title": "Housekeeping",
       "backgroundImage": {
-        "src": "./src/assets/images/housekeeping-bg.jpeg"
+        "src": "./src/assets/images/categories/housekeeping-bg.jpeg"
       },
       "subCategories": [
         {
@@ -537,7 +537,7 @@
     {
       "title": "Floor Matting & Safety",
       "backgroundImage": {
-        "src": "./src/assets/images/floor-matting-bg.jpeg"
+        "src": "./src/assets/images/categories/floor-matting-bg.jpeg"
       },
       "subCategories": [
         {
@@ -768,7 +768,7 @@
     {
       "title": "Tissues",
       "backgroundImage": {
-        "src": "./src/assets/images/tissue-bg.jpg"
+        "src": "./src/assets/images/categories/tissue-bg.jpg"
       },
       "subCategories": [
         {
@@ -1877,7 +1877,7 @@
     {
       "title": "Dispensers",
       "backgroundImage": {
-        "src": "./src/assets/images/dispenser-bg.jpg"
+        "src": "./src/assets/images/categories/dispenser-bg.jpg"
       },
       "subCategories": [
         {
@@ -1976,7 +1976,7 @@
     {
       "title": "Air & Surface Care",
       "backgroundImage": {
-        "src": "./src/assets/images/air-surface-bg.jpeg"
+        "src": "./src/assets/images/categories/air-surface-bg.jpeg"
       },
       "subCategories": [
         {
@@ -2141,7 +2141,7 @@
     {
       "title": "Chemicals",
       "backgroundImage": {
-        "src": "./src/assets/images/chemicals-bg.jpeg"
+        "src": "./src/assets/images/categories/chemicals-bg.jpeg"
       },
       "subCategories": [
         {
@@ -2328,7 +2328,7 @@
     {
       "title": "3M Cleaning & Maintenance",
       "backgroundImage": {
-        "src": "./src/assets/images/3m-bg.jpg"
+        "src": "./src/assets/images/categories/3m-bg.jpg"
       },
       "subCategories": [
         {
@@ -2488,7 +2488,7 @@
     {
       "title": "Industrial Cleaning Machines",
       "backgroundImage": {
-        "src": "./src/assets/images/industrial-cleaning-machines-bg.jpeg"
+        "src": "./src/assets/images/categories/industrial-cleaning-machines-bg.jpeg"
       },
       "subCategories": [
         {
