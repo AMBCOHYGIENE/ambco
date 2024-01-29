@@ -8,7 +8,7 @@
     <!-- title -->
     <title>
       {% if seo.title %}{{ seo.title }}
-      {% elif title %}{{ title }}
+      {% elif title %}{{ title }} - {{ site.siteName }}
       {% else %}{{ site.siteName }}{% endif %}
     </title>
 

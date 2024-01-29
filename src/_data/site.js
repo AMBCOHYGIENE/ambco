@@ -9,7 +9,7 @@ module.exports = {
   meta_data: {
     opengraph_default: '/assets/images/opengraph-default.jpg', // fallback/default meta image
     opengraph_default_alt:
-      'Visible content: Eleventy starter based on workflow for Cube CSS, Every Layout, Design Tokens and Tailwind for uitility, based on the concepts explained in buildexcellentwebsit.es ' // alt text for default meta image
+      'Visible content:  Ambco Hygiene Care - Professional & Innovative Cleaning Tools & Accessories' // alt text for default meta image
   },
   address: {
     firm: 'Ambco Hygiene Care',
