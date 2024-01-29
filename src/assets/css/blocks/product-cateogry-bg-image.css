@@ -1,8 +1,10 @@
 .bg-image {
+  --duotone: url(#duotone-default);
+
   position: absolute;
   inset: 0;
   pointer-events: none;
-  background-image: radial-gradient(transparent 50%, var(--color-slate-11));
+  background-image: radial-gradient(transparent 0%, var(--color-slate-11));
   border-radius: inherit;
   overflow: hidden;
 
@@ -14,11 +16,9 @@
   }
 
   & img {
-    mix-blend-mode: overlay;
+    filter: var(--duotone);
     object-fit: cover;
-    object-position: var(--img-position);
-    opacity: 0.5;
-    filter: blur(calc(1 * var(--space-3xs)));
+    opacity: 0.2;
   }
 }
 

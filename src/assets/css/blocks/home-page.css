@@ -4,7 +4,8 @@
     var(--full-vh) - var(--site-header-height) - var(--main-padding-block-end)
   );
   --main-padding-block-start: var(--space-s-m);
-  --main-padding-block-end: var(--space-l-xl);
+  /* --main-padding-block-end: var(--space-l-xl); */
+  --main-padding-block-end: var(--space-xl-2xl);
 
   /* & header {
     opacity: 0;

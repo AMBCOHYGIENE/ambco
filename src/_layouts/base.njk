@@ -48,9 +48,6 @@
     />
     {% endif %}
 
-    <!-- view-transition -->
-    <meta name="view-transition" content="same-origin">
-
     <!-- everything else: meta tags, icons, open graph etc.  -->
     {% include "partials/meta-info.njk" %}
   </head>
@@ -71,6 +68,11 @@
 
     <!-- footer -->
     {% include "partials/site-footer.njk" %}
+
+    {% set mainLayouts = "home" or "product-categories" or "products" %}
+    {% if layout == mainLayouts %}
+    {% include "svg/duotone.svg" %}
+    {% endif %}
 
     <!-- svg icon nodes -->
     {% if layout == "product-categories" %}
