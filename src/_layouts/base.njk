@@ -69,10 +69,11 @@
     <!-- footer -->
     {% include "partials/site-footer.njk" %}
 
-    {% set mainLayouts = "home" or "product-categories" or "products" %}
+    <!-- duotone filter -->
+    {# {% set mainLayouts = "home" or "product-categories" or "products" %}
     {% if layout == mainLayouts %}
     {% include "svg/duotone.svg" %}
-    {% endif %}
+    {% endif %} #}
 
     <!-- svg icon nodes -->
     {% if layout == "product-categories" %}

@@ -16,9 +16,10 @@
   }
 
   & img {
-    filter: var(--duotone);
     object-fit: cover;
     opacity: 0.2;
+    mix-blend-mode: luminosity;
+    /* filter: var(--duotone); */
   }
 }
 
