@@ -3,7 +3,7 @@
     {
       "title": "Housekeeping",
       "backgroundImage": {
-        "src": "./src/assets/images/photo-1437326300822-01d8f13c024f.avif",
+        "src": "./src/assets/images/housekeeping-bg.jpeg",
         "imgPosition": "0 70%"
       },
       "subCategories": [
@@ -34,7 +34,7 @@
                       "description": "Metal frame 40 cm/60 cm with cotton refill/acrylic blue refill"
                     },
                     {
-                      "code": "TPFS-40/PFS-60",
+                      "code": "PFS-40/PFS-60",
                       "image": {
                         "src": "pfs-40-pfs-60.jpg",
                         "alt": "",
@@ -85,7 +85,7 @@
                   },
                   "productVariants": [
                     {
-                      "code": "PMH-300",
+                      "code": "PMH-6",
                       "image": {
                         "src": "pmh-6.jpg",
                         "alt": ""
@@ -169,14 +169,6 @@
                         "loading": ""
                       },
                       "description": "Stainless steel Handle 4.5’, 22 mm. (All Kleenal handle are international sizes and fits to all products)"
-                    },
-                    {
-                      "code": "PH-5/6",
-                      "image": {
-                        "src": "ph-5-6.png",
-                        "alt": ""
-                      },
-                      "description": "Mop Hanger (for all international handles)"
                     }
                   ]
                 }
@@ -261,6 +253,14 @@
                         "alt": ""
                       },
                       "description": "Hard plastic scrubbing brush 12”/18” heavy duty (Color Red/Blue)"
+                    },
+                    {
+                      "code": "NSW-12/NSW-18",
+                      "image": {
+                        "src": "nsw-12-nsw-18.jpg",
+                        "alt": ""
+                      },
+                      "description": "Hard plastic sweeping brush 12”/18” heavy duty (Color Red/Blue)"
                     }
                   ]
                 }
@@ -310,9 +310,9 @@
                       "description": "Plastic body with rubber blade 20 cm/35 cm"
                     },
                     {
-                      "code": "K-43/K-55",
+                      "code": "K-53/K-55",
                       "image": {
-                        "src": "k-43-k-55.jpg",
+                        "src": "k-43.jpeg",
                         "alt": ""
                       },
                       "description": "Plastic glass washer holder with micro cloth sleeve 35 cm/45 cm"
@@ -375,13 +375,9 @@
                       "description": "Handy Plastic glass or platform squeegee"
                     },
                     {
-                      "code": "KCH",
-                      "description": "Special cone handle taking all glass tools"
-                    },
-                    {
                       "code": "K-113",
                       "image": {
-                        "src": "k-113.png",
+                        "src": "k-113.jpg",
                         "alt": ""
                       },
                       "description": "Glass cleaning utility bucket on castors"
@@ -432,7 +428,7 @@
                         "alt": "",
                         "loading": ""
                       },
-                      "description": "TKTK"
+                      "description": "Mop Hanger (for all international handles and tools)"
                     },
                     {
                       "code": "K-6",
@@ -468,7 +464,27 @@
                     },
                     {
                       "code": "K-119M",
+                      "image": {
+                        "src": "k-119m.webp",
+                        "alt": ""
+                      },
                       "description": "Double bucket wringer trolley 50 litres. with Caddy basket"
+                    },
+                    {
+                      "code": "MFT-W",
+                      "image": {
+                        "src": "mft-w.jpeg",
+                        "alt": ""
+                      },
+                      "description": "Multi Function Trolley With Wringer"
+                    },
+                    {
+                      "code": "K-74",
+                      "image": {
+                        "src": "k-74.png",
+                        "alt": ""
+                      },
+                      "description": "Pro multi trolley for utility service products"
                     },
                     {
                       "code": "K-34",
@@ -495,14 +511,6 @@
                       "description": "Caddy basket - Blue/Red/Green/Yellow/Grey"
                     },
                     {
-                      "code": "K-74",
-                      "image": {
-                        "src": "k-74.png",
-                        "alt": ""
-                      },
-                      "description": "Pro multi trolley for utility service products"
-                    },
-                    {
                       "code": "MGB-120/MGB-240",
                       "image": {
                         "src": "mgb-120.png",
@@ -512,6 +520,11 @@
                     },
                     {
                       "code": "Campus Bin",
+                      "image": {
+                        "src": "campus-bin.jpg",
+                        "alt": "",
+                        "loading": ""
+                      },
                       "description": "Two Slot & Three Slot, Two Slot Stainless Steel"
                     }
                   ]
@@ -525,7 +538,7 @@
     {
       "title": "Floor Matting & Safety",
       "backgroundImage": {
-        "src": "./src/assets/images/gil-ribeiro-3hO8igCybds-unsplash.jpg",
+        "src": "./src/assets/images/floor-matting-bg.jpeg",
         "imgPosition": "0 42%"
       },
       "subCategories": [
@@ -710,7 +723,7 @@
                         "src": "610.jpeg",
                         "alt": ""
                       },
-                      "description": "Black Anti Skid Tape - 2” x 6’",
+                      "description": "Black Anti Skid Tape - 2” x 60 feet",
                       "additionalInfo": [
                         {
                           "label": "Case Count",
@@ -724,7 +737,7 @@
                         "src": "620.jpeg",
                         "alt": ""
                       },
-                      "description": "Clear Anti Skid Tape - 2” x 6’",
+                      "description": "Clear Anti Skid Tape - 2” x 60 feet",
                       "additionalInfo": [
                         {
                           "label": "Case Count",
@@ -738,7 +751,7 @@
                         "src": "613.jpeg",
                         "alt": ""
                       },
-                      "description": "Yellow/Black Anti Skid Tape - 2” x 6’",
+                      "description": "Yellow/Black Anti Skid Tape - 2” x 60 feet",
                       "additionalInfo": [
                         {
                           "label": "Case Count",
@@ -757,7 +770,7 @@
     {
       "title": "Tissues",
       "backgroundImage": {
-        "src": "./src/assets/images/cdc-VRpjDw3WqqI-unsplash.jpg",
+        "src": "./src/assets/images/tissue-bg.jpg",
         "imgPosition": "0 33%"
       },
       "subCategories": [
@@ -1230,7 +1243,7 @@
                       "additionalInfo": [
                         {
                           "label": "Case Count",
-                          "content": "100 rolls x 130 grams"
+                          "content": "80 rolls x 130 grams"
                         }
                       ]
                     }
@@ -1850,7 +1863,11 @@
                   "productVariants": [
                     {
                       "code": "W0324",
-                      "description": "TKTK"
+                      "image": {
+                        "src": "w0324.png",
+                        "alt": ""
+                      },
+                      "description": "Disposable Industrial Wipers (Blue)"
                     }
                   ]
                 }
@@ -1863,7 +1880,7 @@
     {
       "title": "Dispensers",
       "backgroundImage": {
-        "src": "./src/assets/images/cdc-VRpjDw3WqqI-unsplash.jpg",
+        "src": "./src/assets/images/dispenser-bg.jpg",
         "imgPosition": "0 33%"
       },
       "subCategories": [
@@ -1961,7 +1978,7 @@
     {
       "title": "Air & Surface Care",
       "backgroundImage": {
-        "src": "./src/assets/images/cdc-VRpjDw3WqqI-unsplash.jpg",
+        "src": "./src/assets/images/air-surface-bg.jpeg",
         "imgPosition": "0 33%"
       },
       "subCategories": [
@@ -2042,20 +2059,20 @@
                 {
                   "productVariants": [
                     {
-                      "code": "UK",
+                      "code": "V-Screen",
                       "image": {
                         "src": "uk.jpeg",
                         "alt": ""
                       },
-                      "description": "Urinal Screens – UK made"
+                      "description": "Urinal Screen"
                     },
                     {
-                      "code": "China",
+                      "code": "Urinal Screen",
                       "image": {
                         "src": "china.jpeg",
                         "alt": ""
                       },
-                      "description": "Urinal Screens – China make"
+                      "description": "Urinal Screen"
                     }
                   ]
                 }
@@ -2108,7 +2125,7 @@
                         },
                         {
                           "label": "Refill",
-                          "content": "Clean machine/remove old refill, new refill spray for 3 to 5 times, check batteries/replace new wick TKTK"
+                          "content": "Clean machine/remove old refill, new refill spray for 3 to 5 times, check batteries/replace new wick"
                         },
                         {
                           "label": "FTU",
@@ -2127,7 +2144,7 @@
     {
       "title": "Chemicals",
       "backgroundImage": {
-        "src": "./src/assets/images/cdc-VRpjDw3WqqI-unsplash.jpg",
+        "src": "./src/assets/images/chemicals-bg.jpeg",
         "imgPosition": "0 33%"
       },
       "subCategories": [
@@ -2315,7 +2332,7 @@
     {
       "title": "3M Cleaning & Maintenance",
       "backgroundImage": {
-        "src": "./src/assets/images/cdc-VRpjDw3WqqI-unsplash.jpg",
+        "src": "./src/assets/images/3m-bg.jpg",
         "imgPosition": "0 33%"
       },
       "subCategories": [
@@ -2476,7 +2493,7 @@
     {
       "title": "Industrial Cleaning Machines",
       "backgroundImage": {
-        "src": "./src/assets/images/cdc-VRpjDw3WqqI-unsplash.jpg",
+        "src": "./src/assets/images/industrial-cleaning-machines-bg.jpeg",
         "imgPosition": "0 33%"
       },
       "subCategories": [
@@ -2498,6 +2515,11 @@
                   "productVariants": [
                     {
                       "code": "K-15",
+                      "image": {
+                        "src": "k-15.jpg",
+                        "alt": "",
+                        "loading": "eager"
+                      },
                       "description": "Wet & Dry Vacuum cleaner, 1000 W, 220 V, 15 litres SS body with standard accessories"
                     },
                     {
@@ -2520,22 +2542,38 @@
                     },
                     {
                       "code": "K-360",
+                      "image": {
+                        "src": "k-260.jpg",
+                        "alt": "",
+                        "loading": ""
+                      },
                       "description": "Wet & Dry Vacuum cleaner, 3000 W, 220 V, 60 litres SS body with standard accessories"
                     },
                     {
                       "code": "K-14",
+                      "image": {
+                        "src": "k-14.jpg",
+                        "alt": "",
+                        "loading": "eager"
+                      },
                       "description": "Single Disc Floor machine 1100 W, 220 V, 17” with standard accessories"
                     },
                     {
-                      "code": "K-S3",
-                      "description": "Three brush floor machine 1000 W, 220 V, 480 mm, 10 litres. tank"
-                    },
-                    {
                       "code": "C-EX 35",
+                      "image": {
+                        "src": "c-ex-35.png",
+                        "alt": "",
+                        "loading": ""
+                      },
                       "description": "Carpet extractor 35 litres with accessories"
                     },
                     {
                       "code": "ASD-B",
+                      "image": {
+                        "src": "asd-b.png",
+                        "alt": "",
+                        "loading": ""
+                      },
                       "description": "Electric Scrubber Dryer 40/30 litres."
                     }
                   ]
