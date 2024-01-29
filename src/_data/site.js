@@ -4,11 +4,10 @@ module.exports = {
   siteShortName: 'Ambco',
   siteDescription:
     'Ambco Hygiene Care is your trusted partner for professional and innovative cleaning tools and accessories.',
-  locale: 'en',
   lang: 'en',
   meta_data: {
-    opengraph_default: '/assets/images/opengraph-default.jpg', // fallback/default meta image
-    opengraph_default_alt:
+    og_default: '/assets/images/og-default.jpg', // fallback/default meta image
+    og_default_alt:
       'Visible content:  Ambco Hygiene Care - Professional & Innovative Cleaning Tools & Accessories' // alt text for default meta image
   },
   address: {
