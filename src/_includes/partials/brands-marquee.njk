@@ -6,11 +6,7 @@
     {% for item in brands %}
     {% if loop.index < 7 %}
     <li>
-      <img
-        src="{{ item.src }}"
-        alt="{{ item.org }}"
-        loading="lazy"
-      >
+      {% image "./src" + item.src, item.organisation, "", "140px", "lazy" %}
     </li>
     {% endif %}
     {% endfor %}
@@ -24,11 +20,7 @@
     {% for item in brands %}
     {% if loop.index < 7 %}
     <li>
-      <img
-        src="{{ item.src }}"
-        alt="{{ item.org }}"
-        loading="lazy"
-      >
+      {% image "./src" + item.src, item.organisation, "", "140px", "lazy" %}
     </li>
     {% endif %}
     {% endfor %}
@@ -43,11 +35,7 @@
     {% for item in brands %}
     {% if loop.revindex < 7 %}
     <li>
-      <img
-        src="{{ item.src }}"
-        alt="{{ item.org }}"
-        loading="lazy"
-      >
+      {% image "./src" + item.src, item.organisation, "", "140px", "lazy" %}
     </li>
     {% endif %}
     {% endfor %}
@@ -61,11 +49,7 @@
     {% for item in brands %}
     {% if loop.revindex < 7 %}
     <li>
-      <img
-        src="{{ item.src }}"
-        alt="{{ item.org }}"
-        loading="lazy"
-      >
+      {% image "./src" + item.src, item.organisation, "", "140px", "lazy" %}
     </li>
     {% endif %}
     {% endfor %}
