@@ -1,6 +1,10 @@
 .product-card img {
   margin-inline: auto;
-  max-block-size: min(12rem, 20svh);
+  max-block-size: min(12rem, 20vh);
   object-fit: contain;
   mix-blend-mode: darken;
+
+  @supports (height: 100svh) {
+    max-block-size: min(12rem, 20svh);
+  }
 }

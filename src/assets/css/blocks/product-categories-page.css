@@ -4,6 +4,10 @@
   --site-head-text: var(--color-neutral-inverted-text);
   --scroll-shadow-affordance-color: rgba(0, 0, 0, 1);
 
+  @supports (height: 100svh) {
+    --cover-size: min(400px, 50svh);
+  }
+
   .site-head {
     -webkit-font-smoothing: antialiased;
   }
